@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.UnitCardDatabase = exports.AllUnitCards = exports.UnitCard = exports.AllDivisions = void 0;
+exports.findUnitCard = exports.AllUnitCards = exports.UnitCard = exports.AllDivisions = void 0;
 var DivisionData_1 = require("./DivisionData");
 Object.defineProperty(exports, "AllDivisions", { enumerable: true, get: function () { return DivisionData_1.AllDivisions; } });
 var UnitCard_1 = require("./UnitCard");
@@ -8,4 +8,4 @@ Object.defineProperty(exports, "UnitCard", { enumerable: true, get: function () 
 var UnitCardData_1 = require("./UnitCardData");
 Object.defineProperty(exports, "AllUnitCards", { enumerable: true, get: function () { return UnitCardData_1.AllUnitCards; } });
 var UnitCardDatabase_1 = require("./UnitCardDatabase");
-Object.defineProperty(exports, "UnitCardDatabase", { enumerable: true, get: function () { return UnitCardDatabase_1.UnitCardDatabase; } });
+Object.defineProperty(exports, "findUnitCard", { enumerable: true, get: function () { return UnitCardDatabase_1.findUnitCard; } });
