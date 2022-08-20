@@ -3,11 +3,11 @@ This library contains unit and division definitions for Warno.
 
 # Install
 ```sh
-    npm install @izohek/warno-db
+    npm install izohek/warno-db
 ```
 
 # Build
-npm build
+npm run build
 
 # Lint
-npm lint
+npm run lint
