@@ -1,5 +1,5 @@
 import {UnitCard} from "./UnitCard";
-import {AllUnitCardsRaw} from "./UnitCardData";
+import {AllUnitCards} from "./UnitCardData";
 
 class UnitCardDatabase {
     /**
@@ -9,7 +9,7 @@ class UnitCardDatabase {
      * @returns 
      */
     static findCard(id: string | number): UnitCard | null {
-        const found = AllUnitCardsRaw.filter(function(item) {
+        const found = AllUnitCards.filter(function(item) {
             return item[0] === id;
         })
         

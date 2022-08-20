@@ -1,14 +1,11 @@
 import {UnitCard} from "./UnitCard";
 
-/// Warno Unit Definitions
-const AllUnitCards : UnitCard[] = [];
-
 type UnitCardRawData = [
     number, string, string
 ];
 
-/// 
-const AllUnitCardsRaw: UnitCardRawData[] = [
+/// Warno Unit Definitions
+const AllUnitCards: UnitCardRawData[] = [
     
     [13, "HEMTT", "log"],
     
@@ -646,4 +643,4 @@ const AllUnitCardsRaw: UnitCardRawData[] = [
 
 ];
 
-export {AllUnitCards, AllUnitCardsRaw};
+export {AllUnitCards};

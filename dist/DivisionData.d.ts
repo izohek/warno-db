@@ -1,3 +1,3 @@
 import Division from './Division';
-declare const Divisions: Division[];
-export { Divisions };
+declare const AllDivisions: Division[];
+export { AllDivisions };

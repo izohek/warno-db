@@ -1,7 +1,7 @@
 import Division from './Division';
 
 /// Warno Division data
-const Divisions: Division[] = [
+const AllDivisions: Division[] = [
     {
         name: '35th',
         country: 'SOV',
@@ -77,4 +77,4 @@ const Divisions: Division[] = [
     },
 ]
 
-export {Divisions};
+export {AllDivisions};

@@ -1,4 +1,5 @@
 export { Division } from "./Division"
+export { AllDivisions } from "./DivisionData"
 export { UnitCard } from "./UnitCard"
-export { AllUnitCards, AllUnitCardsRaw } from "./UnitCardData"
+export { AllUnitCards } from "./UnitCardData"
 export { UnitCardDatabase } from "./UnitCardDatabase"

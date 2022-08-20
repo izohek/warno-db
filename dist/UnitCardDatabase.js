@@ -11,7 +11,7 @@ class UnitCardDatabase {
      * @returns
      */
     static findCard(id) {
-        const found = UnitCardData_1.AllUnitCardsRaw.filter(function (item) {
+        const found = UnitCardData_1.AllUnitCards.filter(function (item) {
             return item[0] === id;
         });
         if (found.length > 0) {

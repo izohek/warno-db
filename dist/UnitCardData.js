@@ -1,11 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.AllUnitCardsRaw = exports.AllUnitCards = void 0;
+exports.AllUnitCards = void 0;
 /// Warno Unit Definitions
-const AllUnitCards = [];
-exports.AllUnitCards = AllUnitCards;
-/// 
-const AllUnitCardsRaw = [
+const AllUnitCards = [
     [13, "HEMTT", "log"],
     [15, "M106A2 MORTAR", "art"],
     [16, "M109A2", "art"],
@@ -495,4 +492,4 @@ const AllUnitCardsRaw = [
     [915, "SCHWIM.PZ. PT-76B", "tank"],
     [916, "F-111F [LGB2]", "air"],
 ];
-exports.AllUnitCardsRaw = AllUnitCardsRaw;
+exports.AllUnitCards = AllUnitCards;
