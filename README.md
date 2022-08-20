@@ -3,7 +3,7 @@ This library contains unit and division definitions for Warno.
 
 # Install
 ```sh
-    npm install izohek/warno-db
+    npm install @izohek/warno-db
 ```
 
 # Build

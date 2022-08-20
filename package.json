@@ -12,9 +12,7 @@
   "version": "0.0.1",
   "description": "Warno Unit Database",
   "main": "dist/index.js",
-  "dependencies": {
-    
-  },
+  "dependencies": {},
   "scripts": {
     "build": "npx tsc",
     "lint": "npx eslint src/*",
