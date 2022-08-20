@@ -1,0 +1,40 @@
+{
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "eslint": "^8.22.0",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "typescript": "^4.7.4"
+  },
+  "name": "@izohek/warno-db",
+  "version": "0.0.1",
+  "description": "Warno Unit Database",
+  "main": "dist/index.js",
+  "dependencies": {
+    
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "lint": "npx eslint src/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/izohek/warno-db.git"
+  },
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "keywords": [
+    "warno"
+  ],
+  "author": "izohek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/izohek/warno-db/issues"
+  },
+  "homepage": "https://github.com/izohek/warno-db#readme"
+}
