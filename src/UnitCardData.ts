@@ -102,7 +102,7 @@ const AllUnitCards: UnitCardRawData[] = [
 
     [142, 'MIG-23ML [AA]', 'air'],
 
-    [164, 'T-80BV', 'tnk'],
+    [164, 'T-80BV IZD. 39', 'tank'],
     [165, 'M2A2 BRADLEY IFV', 'trans'],
     [166, 'ZSU-23-4M3 BIRYUSA', 'aa'],
     [167, 'BM-21 GRAD', 'art'],
