@@ -42,12 +42,16 @@ const AllUnitCards: UnitCardRawData[] = [
     [49, 'CH-47C CHINOOK', 'trans'],
     [50, 'CH-47C SUPPLY', 'log'],
 
+    // TODO: (Descriptor_Unit_OH58D_Combat_Scout_US, 52),
+
     [54, 'OH-58D KIOWA WR.', 'rec'],
     [55, 'OH-58C/S', 'aa'],
 
     [58, 'UH-60A BLACKHAWK', 'trans'],
 
     [61, 'EF-111A RAVEN [SEAD]', 'air'],
+    
+    // TODO: (Descriptor_Unit_T64BV_SOV, 77),
 
     [80, 'T-80B', 'tank'],
     [81, 'T-80U', 'tank'],
@@ -59,23 +63,23 @@ const AllUnitCards: UnitCardRawData[] = [
     [87, 'TOS-1 BURATINO', 'art'],
     [88, '2S1 GVOZDIKA', 'art'],
     [89, '2S3M AKATSIYA', 'art'],
-
     [90, '2S7M MALKA', 'art'],
-
+    // TODO: (Descriptor_Unit_UAZ_469_CMD_SOV, 90),
     [92, 'BMP-1P', 'trans'],
     [93, 'BMP-2', 'trans'],
     [94, 'BMP-3', 'trans'],
-
     [95, 'BRDM-2 KONKURS', 'tank'],
 
     [97, 'BTR-80', 'trans'],
+    // TODO: (Descriptor_Unit_MTLB_Shturm_SOV, 97),
 
     [100, 'DESANT. UAZ-3151 AGS-17', 'inf'],
+    // TODO: (Descriptor_Unit_UAZ_469_Konkurs_SOV, 100),
     [102, 'URAL-4320 SNAB.', 'log'],
     [103, 'KA-50 AKULA [AT]', 'hel'],
 
     [105, 'MI-24VP', 'hel'],
-
+    // TODO: (Descriptor_Unit_Mi_24V_SOV, 105),
     [107, 'MI-26 GRUZOVDI', 'log'],
 
     [110, 'MIG-23MLD [AA]', 'air'],
@@ -127,6 +131,7 @@ const AllUnitCards: UnitCardRawData[] = [
     [190, 'M1A1 ABRAMS CP', 'tank'],
     [191, 'M35 SUPPLY', 'log'],
     [192, 'M728 CEV', 'tank'],
+    // TODO: (Descriptor_Unit_M981_FISTV_US, 192),
 
     [195, 'MILITARY POLICE (M67)', 'inf'],
     [196, 'MILITARY POLICE', 'inf'],
@@ -138,7 +143,6 @@ const AllUnitCards: UnitCardRawData[] = [
     [202, 'UH-60A CO', 'log'],
     [203, 'UH-60A SUPPLY', 'log'],
     [204, 'ENGINEERS', 'inf'],
-
     [205, 'S21 GWOSDIKA', 'art'],
     [206, '2S3M AKATSIYA', 'art'],
     [207, 'SPz BMP-1 SP2', 'trans'],
@@ -163,16 +167,44 @@ const AllUnitCards: UnitCardRawData[] = [
     [227, 'SPETSNAZ', 'inf'],
     [228, 'UAZ-469 FUH.', 'log'],
 
+    // TODO: (Descriptor_Unit_UAZ_469_Reco_DDR, 229),
+    // TODO: (Descriptor_Unit_Faun_kraka_RFA, 230)
+
     [232, 'LARS 2', 'art'],
     [233, 'UNIMOG S404 MUN.', 'log'],
     [234, 'LUCHS A1', 'rec'],
     [235, 'TPz FUCHS', 'trans'],
     [236, 'LEOPARD 1A1A1', 'tank'],
     [237, 'JAGUAR 2', 'tank'],
+    // TODO: (Descriptor_Unit_Tornado_IDS_RFA, 237),
+    
+    // TODO: (Descriptor_Unit_M109A2_UK, 239),
+    // TODO: (Descriptor_Unit_Gazelle_UK, 240),
+    // TODO: (Descriptor_Unit_Puma_UK, 241),
+
+    // TODO: (Descriptor_Unit_FV107_Scimitar_UK, 243),
+    // TODO: (Descriptor_Unit_MCV_80_Warrior_UK, 244),
+    // TODO: (Descriptor_Unit_FV432_Mortar_UK, 246),
+    // TODO: (Descriptor_Unit_FV432_UK, 248),
+    // TODO: (Descriptor_Unit_81mm_mortar_UK, 249),
+    // TODO: (Descriptor_Unit_Challenger_1_Mk1_UK, 250),
+    // TODO: (Descriptor_Unit_Tracked_Rapier_UK, 251),
+    // TODO: (Descriptor_Unit_Lynx_AH_Mk1_UK, 252),
+    // TODO: (Descriptor_Unit_Ferret_Mk2_UK, 253),
+    // TODO: (Descriptor_Unit_FV433_Abbot_UK, 254),
+    // TODO: (Descriptor_Unit_FV105_Sultan_UK, 255),
+    // TODO: (Descriptor_Unit_FV103_Spartan_UK, 256),
+    // TODO: (Descriptor_Unit_FV101_Scorpion_UK, 257),
+    // TODO: (Descriptor_Unit_FH70_155mm_UK, 258),
+    // TODO: (Descriptor_Unit_FV721_Fox_UK, 260),
 
     [264, 'HARRIER GR.3 [AA]', 'air'],
 
     [266, 'SK12M3 KUB-M3', 'aa'],
+
+    // TODO: (Descriptor_Unit_AMX_30_AuF1_FR, 267),
+    // TODO: (Descriptor_Unit_AMX_13_DCA_FR, 271),
+    // TODO: (Descriptor_Unit_Alouette_III_FR, 272),
 
     [274, 'GAZELLE CANON', 'hel'],
     [275, 'GAZELLE HOT', 'hel'],
@@ -182,12 +214,17 @@ const AllUnitCards: UnitCardRawData[] = [
     [279, 'AUFKL.PZ BRM-1', 'rec'],
     [280, 'SPW-40P2 KONKURS', 'tank'],
     [281, 'SPW-40P2 MALYUTKA-P', 'tank'],
-
+    // TODO: (Descriptor_Unit_BRDM_Strela_1_DDR, 281),
     [283, 'MIG-21BIS [RKT1]', 'air'],
+    // TODO: (Descriptor_Unit_Mirage_III_E_FR, 283),
 
     [288, 'KPZ. T-72', 'tank'],
+    // TODO: (Descriptor_Unit_TRM_2000_FR, 288),
 
     [291, 'MIRAGE 2000C RDI', 'air'],
+
+    // TODO: (Descriptor_Unit_Mirage_F1_C_FR, 293),
+    // TODO: (Descriptor_Unit_Puma_FR, 294),
 
     [297, 'STINGER', 'aa'],
 
@@ -200,10 +237,19 @@ const AllUnitCards: UnitCardRawData[] = [
     [307, 'M151A2 M2HB', 'trans'],
 
     [309, 'SPW-152K', 'trans'],
+    // TODO: (Descriptor_Unit_VLTT_P4_FR, 309),
+
+    // TODO: (Descriptor_Unit_Roland_2_FR, 312),
 
     [314, 'SUPER PUMA', 'trans'],
     [315, 'MIG-23MF [HE]', 'air'],
     [316, 'SU-22M4 [HE]', 'air'],
+
+    // TODO: (Descriptor_Unit_AMX_13_VCI_12_7mm_FR, 317),
+    // TODO: (Descriptor_Unit_AMX_13_VCI_20mm_FR, 318),
+    // TODO: (Descriptor_Unit_VAB_FR, 320),
+    // TODO: (Descriptor_Unit_VAB_HOT_FR, 321),
+    // TODO: (Descriptor_Unit_VAB_MILAN_FR, 322),
 
     [325, 'PANZERJAGER', 'inf'],
 
@@ -213,8 +259,15 @@ const AllUnitCards: UnitCardRawData[] = [
     [330, 'FERNSPAHER', 'rec'],
     [331, 'JAGER', 'inf'],
     [332, 'PZ.GRENADIER (CARLG)', 'inf'],
-
+    // TODO: (Descriptor_Unit_AMX_10_P_FR, 332),
+    // TODO: (Descriptor_Unit_AMX_10_P_MILAN_FR, 333),
     [335, 'AMX-10 RC', 'rec'],
+    // TODO: (Descriptor_Unit_AMX_10_HOT_FR, 335),
+    // TODO: (Descriptor_Unit_AMX_30_B2_FR, 336),
+    // TODO: (Descriptor_Unit_AMX_30_B_FR, 337),
+    // TODO: (Descriptor_Unit_Rifles_FR, 338),
+    // TODO: (Descriptor_Unit_RMP_UK, 340),
+    // TODO: (Descriptor_Unit_Rifles_UK, 341),
 
     [350, 'PIONIER', 'inf'],
     [351, 'PIONIER (FLAM)', 'inf'],
@@ -240,7 +293,6 @@ const AllUnitCards: UnitCardRawData[] = [
 
     [375, 'PZ.GRENADIER (M113)', 'inf'],
     [376, 'PZ.GRENADIER (MARDER)', 'inf'],
-
     [377, 'AUFKLARER', 'rec'],
 
     [380, 'AUFKLARER', 'rec'],
@@ -253,15 +305,18 @@ const AllUnitCards: UnitCardRawData[] = [
 
     [389, 'M113A3 ACAV', 'trans'],
     [390, 'M113A3 DRAGON', 'trans'],
-
+    // TODO: (Descriptor_Unit_M1IP_Abrams_CMD_US, 390),
     [392, 'M35', 'trans'],
     [393, 'M60A3 (TTS)', 'tank'] /* COMMAND VERSION */,
     [394, 'AB FIRE TEAM (DRAGON)', 'inf'],
     [395, 'AB FIRE TEAM (AT4)', 'inf'],
 
+    // TODO: (Descriptor_Unit_Rangers_CMD_US, 397),
     [399, 'M151', 'trans'],
-
+    // TODO: (Descriptor_Unit_AeroRifles_CMD_US, 399),
     [401, 'GREEN BERETS LDR.', 'inf'],
+    
+    // TODO: (Descriptor_Unit_AMX_10_RCR_FR, 404),
 
     [407, '2K12M3 KUB-M3', 'aa'],
     [408, 'RAZV. BMP-1P', 'trans'],
@@ -279,15 +334,15 @@ const AllUnitCards: UnitCardRawData[] = [
     [420, 'SPETSNAZ KOM.', 'inf'],
 
     [422, 'T-80BVK', 'tank'],
-
+    // TODO: (Descriptor_Unit_T80B_CMD_SOV, 422),
     [424, 'T-80UK', 'tank'],
-
+    // TODO: (Descriptor_Unit_TO_55_SOV, 424),
     [426, 'WARNOBUG-RAZVEDKA TRANSPORT?', 'trans'],
     [427, 'UAZ-3151', 'trans'],
-
+    // TODO: (Descriptor_Unit_UAZ_469_SPG9_SOV, 427),
+    // TODO: (Descriptor_Unit_UAZ_469_supply_SOV, 428),
     [430, 'DESANT. KOM.', 'inf'],
     [431, 'DESANT. SAPERI KOM.', 'inf'],
-
     [432, 'AH-64A APACHE [ATGM]', 'hel'],
     [433, 'AH-64A APACHE [RKT]', 'hel'],
 
@@ -325,23 +380,21 @@ const AllUnitCards: UnitCardRawData[] = [
     [482, 'SU-24M [CLU]', 'air'],
     [483, 'SU-24M [NPLM]', 'air'],
     [484, 'SU-25 [CLU]', 'air'],
-
     [485, 'SU-25 [HE]', 'air'],
     [486, 'SU-25 [NPLM]', 'air'],
     [487, 'SU-25 [RKT]', 'air'],
     [488, 'Mi-8T', 'trans'],
-
+    // TODO: (Descriptor_Unit_MTLB_CMD_SOV, 488),
     [490, 'MI-8MT GRUZOVDI', 'log'],
     [491, 'MI-9', 'log'],
     [492, 'MI-8MTA', 'rec'],
     [493, 'F-4E PHANTOM II [HE]', 'air'],
     [494, 'GAZ-66', 'trans'],
-
+    // TODO: (Descriptor_Unit_M1A1HA_Abrams_CMD_US, 494),
     [496, 'JAGER FUH.', 'inf'],
     [497, 'KANJPZ', 'tank'],
     [498, 'M1 ABRAMS CP', 'tank'],
     [499, 'UNIMOG S404', 'trans'],
-
     [500, 'ILTIS', 'trans'],
     [501, 'MTW M113A1G', 'trans'],
     [502, 'UAZ-469 SPG9', 'inf'],
@@ -349,7 +402,7 @@ const AllUnitCards: UnitCardRawData[] = [
     [504, 'W50 LA/A', 'trans'],
 
     [507, 'BM-27 URAGAN', 'art'],
-
+    // TODO: (Descriptor_Unit_Alpha_Jet_A_clu_RFA, 507),
     [509, 'ALPHA JET A [HE]', 'air'],
     [510, 'ALPHA JET A [NPLM]', 'air'],
 
@@ -360,17 +413,20 @@ const AllUnitCards: UnitCardRawData[] = [
     [516, 'PIONIER FUH.', 'inf'],
     [517, 'FS-JAGER FUH.', 'inf'],
     [518, 'FS-JAGER FUH.', 'inf'],
-
+    // TODO: (Descriptor_Unit_Fallschirmjager_FalseFlag_CMD_DDR, 518),
     [520, 'FS-SPRENGTAUCHER', 'rec'],
     [521, 'FS-JAGER AUFK.', 'rec'],
-
+    // TODO: (Descriptor_Unit_KSM_CMD_RFA, 521),
     [523, 'K.D.A. FUH.', 'inf'],
     [524, 'K.D.A. SCHUTZEN.', 'inf'],
     [525, 'MOT.-SCHUTZEN FUH.', 'inf'],
     [526, 'PZ.GREN. FUH.', 'inf'],
-
+    // TODO: (Descriptor_Unit_Scout_CMD_DDR, 526),
+    // TODO: (Descriptor_Unit_Scout_CMD_RFA, 527),
     [529, 'SPEZIALAUFKLARER', 'rec'],
-
+    // TODO: (Descriptor_Unit_Wachregiment_CMD_DDR, 529),
+    // TODO: (Descriptor_Unit_Wachregiment_DDR, 530),
+    // TODO: (Descriptor_Unit_Wachregiment_SMG_DDR, 531),
     [533, 'MI-24V [AA]', 'hel'],
     [534, 'MI-24V [RKT]', 'hel'],
     [535, 'SU-22M4 [CLU]', 'air'],
@@ -382,17 +438,17 @@ const AllUnitCards: UnitCardRawData[] = [
     [541, 'BRDM-2', 'rec'],
     [542, 'BTR-50PU', 'log'],
     [543, 'BTR-50PK', 'trans'],
-
+    // TODO: (Descriptor_Unit_BTR_60_CMD_DDR, 543),
     [546, 'PIONIER FUH.', 'inf'],
     [547, 'OTDELENIE PODDERZHKI', 'inf'],
-
+    // TODO: (Descriptor_Unit_Iltis_MILAN_RFA, 547),
+    // TODO: (Descriptor_Unit_Iltis_reco_RFA, 548),
     [550, 'LRS', 'rec'],
-
+    // TODO: (Descriptor_Unit_Leopard_1A1_CMD_RFA, 550),
     [552, 'LEOPARD 1A5 FUH.', 'tank'],
     [553, 'LEOPARD 1A5', 'tank'],
     [554, 'LEOPARD 2A3 FUH.', 'tank'],
     [555, 'LEOPARD 2A3', 'tank'],
-
     [556, 'M109A3GA1', 'art'],
     [557, 'M110A2G', 'art'],
     [558, 'M113A1G AUFKL.', 'trans'],
@@ -403,7 +459,6 @@ const AllUnitCards: UnitCardRawData[] = [
     [563, 'MT-LB STRELA-10M', 'aa'],
     [564, 'MT-LB MUN.', 'log'],
     [565, 'MT-LB', 'trans'],
-
     [566, 'MARDER 1A2 MILAN', 'trans'],
     [567, 'MARDER 1A2', 'trans'],
     [568, 'MARDER 1A3 MILAN', 'trans'],
@@ -429,11 +484,12 @@ const AllUnitCards: UnitCardRawData[] = [
     [618, 'G.91R/3 GINA [HE]', 'air'],
     [619, 'G.91R/3 GINA [NPLM]', 'air'],
     [620, 'G.91R/3 GINA [RKT]', 'air'],
-
+    // TODO: (Descriptor_Unit_Su_22_RKT_DDR, 620),
     [622, 'SPz BMP-1 SP1', 'trans'],
     [623, 'PIONIER (ARMBRUST)', 'inf'],
     [624, 'PIONIER (FLAM)', 'inf'],
     [625, 'CVR(T) STRIKER', 'tank'],
+    // TODO: (Descriptor_Unit_FV102_Striker_UK, 625),
 
     [628, 'JAGUAR 1', 'tank'],
     [629, 'MARS', 'art'],
@@ -442,7 +498,9 @@ const AllUnitCards: UnitCardRawData[] = [
     [632, 'ECLAIREURS', 'rec'],
     [633, 'KPZ. T-72GM1', 'tank'],
     [634, 'FLAMPZ. TO-55', 'tank'],
-
+    // TODO: (Descriptor_Unit_Wiesel_20mm_RFA, 634),
+    // TODO: (Descriptor_Unit_Wiesel_RFA, 635),
+    // TODO: (Descriptor_Unit_Wiesel_TOW_RFA, 636),
     [638, 'ALOUETTE II', 'rec'],
     [639, 'BO-105 PAH-1A1', 'hel'],
     [640, 'BO-105 PAH-1', 'hel'],
@@ -461,7 +519,8 @@ const AllUnitCards: UnitCardRawData[] = [
     [653, 'F-4F [AT]', 'air'],
     [654, 'F-4F [HE2]', 'air'],
     [655, 'F-4F [HE2]', 'air'],
-
+    // TODO: (Descriptor_Unit_F4F_Phantom_II_RKT1_RFA, 655),
+    // TODO: (Descriptor_Unit_F4F_Phantom_II_RKT2_RFA, 656),
     [658, 'MIG-21BIS [AA]', 'air'],
     [659, 'MIG-21BIS [HE]', 'air'],
     [660, 'MIG-23MF [AT]', 'air'],
@@ -478,16 +537,16 @@ const AllUnitCards: UnitCardRawData[] = [
     [708, 'TORNADO GR.1 [SEAD]', 'air'],
 
     [710, 'TPZ FUCHS RASIT', 'rec'],
-
+    // TODO: (Descriptor_Unit_T72B_DDR, 710),
     [712, 'TPZ GREEN ARCHER', 'rec'],
-
+    // TODO: (Descriptor_Unit_M113_GreenArcher_UK, 712),
     [714, 'T813', 'trans'],
     [715, 'AH-1F ATAS', 'aa'],
     [716, 'F-104G [AT]', 'air'],
-
     [717, 'MIG-21BIS [AA2]', 'air'],
     [718, 'Mi-2T', 'trans'],
     [719, 'FS-PALR FAGOT', 'inf'],
+    // TODO: (Descriptor_Unit_ATteam_TOW_US, 719),
 
     [722, 'BMP-1PG', 'trans'],
 
@@ -498,7 +557,7 @@ const AllUnitCards: UnitCardRawData[] = [
     [757, 'I-TOW', 'inf'],
     [758, 'PALR KONKURS', 'inf'],
     [759, 'KONKURS', 'inf'],
-
+    // TODO: (Descriptor_Unit_ATteam_Milan_1_FR, 759),
     [761, 'PALR MILAN 1', 'inf'],
     [762, 'PALR MILAN 2', 'inf'],
     [763, 'FS-PALR MILAN 2', 'inf'],
@@ -507,7 +566,7 @@ const AllUnitCards: UnitCardRawData[] = [
     [766, 'FS-SPG-9', 'inf'],
     [767, 'TOW-2', 'inf'],
     [768, 'AB TOW-2', 'inf'],
-
+    // TODO: (Descriptor_Unit_BMP_1P_DDR, 768),
     [770, 'CVR(T) SCORPION', 'rec'],
     [771, 'CVR(T) SPARTAN', 'trans'],
     [772, 'CVR(T) SULTAN', 'log'],
@@ -518,23 +577,26 @@ const AllUnitCards: UnitCardRawData[] = [
     [777, 'AUFKL. PT-76B', 'rec'],
     [778, 'GUNNERS', 'inf'],
 
+    // TODO: (Descriptor_Unit_VAB_RASIT_FR, 780),
     [782, 'AH-1F HEAVY HOG', 'hel'],
-
+    // TODO: (Descriptor_Unit_Alouette_II_CMD_RFA, 782),
+    // TODO: (Descriptor_Unit_Bo_105_CMD_RFA, 783),
     [785, 'B0-105M VBH', 'rec'],
     [786, 'B0-105M', 'trans'],
-
+    // TODO: (Descriptor_Unit_CH53G_trans_RFA, 786),
     [788, 'MI-24D [AA]', 'hel'],
     [789, 'MI-24D [AT 2]', 'hel'],
     [790, 'MI-24P [AT 2]', 'hel'],
-
+    // TODO: (Descriptor_Unit_Mi_2_reco_SOV, 790),
     [792, 'MI-8TB', 'hel'],
     [793, 'MI-8T MUN.', 'log'],
     [794, 'MI-9', 'log'],
-
+    // TODO: (Descriptor_Unit_UH1D_Supply_RFA, 794),
     [796, 'MIG-23MF [AA]', 'air'],
     [797, 'MIG-23ML [AA]', 'air'],
-
+    // TODO: (Descriptor_Unit_ATteam_Milan_1_UK, 797),
     [799, 'MILAN 2', 'inf'],
+    // TODO: (Descriptor_Unit_ATteam_Milan_2_UK, 799),
 
     [803, 'DESANT. SPG-9', 'inf'],
     [804, 'AB ENGINEERS LDR.', 'inf'],
@@ -553,7 +615,7 @@ const AllUnitCards: UnitCardRawData[] = [
     [817, 'A-10A [RKT]', 'air'],
     [818, '2S9 NONA', 'art'],
     [819, 'PAK D-44 85MM', 'tank'],
-
+    // TODO: (Descriptor_Unit_AT_D44_85mm_SOV, 819),
     [821, 'DESANT. D-44 85MM', 'tank'],
     [822, 'PAK MT-12 100M', 'tank'],
     [823, 'MT-12 RAPIRA 100M', 'tank'],
@@ -563,7 +625,6 @@ const AllUnitCards: UnitCardRawData[] = [
     [827, 'AIRBORNE SCOUTS', 'rec'],
     [828, 'AIRBORNE', 'inf'],
     [829, 'BMD-1KSH SOROKA', 'log'],
-
     [830, 'BMD-1', 'trans'],
     [831, 'BMD-2', 'trans'],
     [832, 'BTR-RD ROBOT', 'trans'],
@@ -574,11 +635,10 @@ const AllUnitCards: UnitCardRawData[] = [
     [837, 'I-HAWK', 'aa'],
     [838, 'M167 VULCAN 20MM', 'aa'],
     [839, 'ZU-23-2', 'aa'],
-
+    // TODO: (Descriptor_Unit_Fallschirmjager_HMG_DDR, 839),
     [841, 'GAZ-66B', 'trans'],
-
     [842, 'GAZ-66 ZU-23-2', 'aa'],
-
+    // TODO: (Descriptor_Unit_Howz_D20_152mm_DDR, 842),
     [844, 'D-20 152MM', 'art'],
     [845, 'D-30 122MM', 'art'],
     [846, 'D-30 122MM', 'art'],
@@ -610,22 +670,37 @@ const AllUnitCards: UnitCardRawData[] = [
     [872, 'FH M1A2 (A2) 105MM', 'art'],
     [873, 'M48A2GA2 FUH.', 'tank'],
     [874, 'PT-76B FUH.', 'tank'],
+    // TODO: (Descriptor_Unit_Bedford_MJ_4t_UK, 874),
 
     [877, 'FLAK ZU-23-2', 'aa'],
 
     [879, 'AIRBORNE ENGINEERS (FLASH)', 'inf'],
     [880, 'RESERVE PIONIER', 'inf'],
-
+    // TODO: (Descriptor_Unit_M151_MUTT_RCL_DDR, 880),
+    
+    // TODO: (Descriptor_Unit_UAZ_469_SPG9_FJ_DDR, 882),
+    // TODO: (Descriptor_Unit_Tornado_ADV_HE_UK, 883),
+    // TODO: (Descriptor_Unit_Tornado_ADV_clu_UK, 884),
     [886, 'FLAK L/70 BOFORS', 'aa'],
     [887, 'FK20-2 20MM', 'aa'],
-
+    // TODO: (Descriptor_Unit_HMGteam_AANF1_FR, 887),
+    // TODO: (Descriptor_Unit_HMGteam_AGS17_SOV, 888),
+    // TODO: (Descriptor_Unit_HMGteam_KPVT_SOV, 889),
+    // TODO: (Descriptor_Unit_HMGteam_M2HB_US, 890),
+    // TODO: (Descriptor_Unit_HMGteam_M60_US, 891),
+    // TODO: (Descriptor_Unit_HMGteam_MAG_UK, 892),
+    // TODO: (Descriptor_Unit_HMGteam_MG3_RFA, 893),
+    // TODO: (Descriptor_Unit_HMGteam_Mk19_US, 894),
+    // TODO: (Descriptor_Unit_HMGteam_PKM_DDR, 895),
+    // TODO: (Descriptor_Unit_HMGteam_PKM_SOV, 896),
+    // TODO: (Descriptor_Unit_Howz_M46_130mm_SOV, 897),
     [899, 'CMDT AEROMOBILES', 'inf'],
     [900, 'AEROMOBILES', 'inf'],
-
+    // TODO: (Descriptor_Unit_Rifles_CMD_FR, 900),
     [902, 'KPZ. T-34/85M', 'tank'],
     [903, 'UAZ-469 FAGOT', 'tank'],
     [904, 'P4 MILAN', 'tank'],
-
+    // TODO: (Descriptor_Unit_VLTT_P4_MILAN_para_FR, 904),
     [906, 'VPV FUH.', 'inf'],
     [907, 'VPB', 'inf'],
     [908, 'GAZELLE CANON', 'rec'],
@@ -637,6 +712,14 @@ const AllUnitCards: UnitCardRawData[] = [
     [914, 'FS-JAGER B1', 'rec'],
     [915, 'SCHWIM.PZ. PT-76B', 'tank'],
     [916, 'F-111F [LGB2]', 'air']
+    // TODO: (Descriptor_Unit_F111F_Aardvark_LGB_US, 916),
+    // TODO: (Descriptor_Unit_F15C_Eagle_AA2_US, 1036),
+    // TODO: (Descriptor_Unit_2S5_GiatsintS_SOV, 1037),
+    // TODO: (Descriptor_Unit_BRDM_2_Konkurs_DDR, 1038),
+    // TODO: (Descriptor_Unit_M1038_Humvee_US, 1039),
+    // TODO: (Descriptor_Unit_MFRW_RM70_cluster_DDR, 1040),
+    // TODO: (Descriptor_Unit_T72M1_CMD_DDR, 1041),
+    // TODO: (Descriptor_Unit_T80UD_SOV, 1043),
 ]
 
 export { AllUnitCards }
