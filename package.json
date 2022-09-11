@@ -6,13 +6,12 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.2.4",
     "eslint-plugin-promise": "^6.0.0",
-    "typescript": "^4.7.4"
+    "typescript": "^4.8.2"
   },
   "name": "@izohek/warno-db",
   "version": "0.1.2",
   "description": "Warno Unit Database",
   "main": "dist/index.js",
-  "dependencies": {},
   "scripts": {
     "build": "npx tsc",
     "lint": "npx eslint src/*",
