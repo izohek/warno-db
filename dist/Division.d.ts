@@ -3,5 +3,6 @@ export interface Division {
     country: string;
     alliance: string;
     id: number;
+    descriptor: string;
 }
 export default Division;
