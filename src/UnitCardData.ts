@@ -1,5 +1,7 @@
+import { UnitCategory } from './UnitData'
+
 type UnitCardRawData = [
-    number, string, string
+    number, string, UnitCategory
 ]
 
 /// Warno Unit Definitions

@@ -1,11 +1,13 @@
+export type UnitCategory = 'log' | 'inf' | 'art' | 'tank' | 'aa' | 'rec' | 'hel' | 'air' | 'trans'
+
 export type UnitDefinition = {
     id: number
     name: string
     descriptor: string
-    category: string
+    category: UnitCategory
 };
 
-export const AllUnits = [  
+export const AllUnits: UnitDefinition[] = [  
     {
         id: 12,
         name: 'HEMTT',
