@@ -102,7 +102,7 @@ const AllDivisions: Division[] = [
         alliance: 'allies',
         descriptor: 'Descriptor_Deck_Division_UK_1st_Armoured_multi'
     }
-    
+
     // TODO: SOLO - (Descriptor_Deck_Division_RDA_11MSD_solo, 62),
     // TODO: SOLO - (Descriptor_Deck_Division_RDA_4MSD_solo, 63),
     // TODO: SOLO - (Descriptor_Deck_Division_RDA_7PzD_solo, 64),

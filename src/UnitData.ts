@@ -1,13 +1,16 @@
+/// Armory category for a unit
 export type UnitCategory = 'log' | 'inf' | 'art' | 'tank' | 'aa' | 'rec' | 'hel' | 'air' | 'trans'
 
-export type UnitDefinition = {
+/// Unit information
+export interface UnitDefinition {
     id: number
     name: string
     descriptor: string
     category: UnitCategory
-};
+}
 
-export const AllUnits: UnitDefinition[] = [  
+/// Definition of all units
+export const AllUnits: UnitDefinition[] = [
     {
         id: 12,
         name: 'HEMTT',
@@ -3775,5 +3778,5 @@ export const AllUnits: UnitDefinition[] = [
         name: 'JAGUAR [ATGM]',
         descriptor: 'Descriptor_Unit_Jaguar_ATGM_FR',
         category: 'air'
-    },
-];
+    }
+]

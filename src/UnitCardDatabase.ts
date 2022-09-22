@@ -29,14 +29,14 @@ export function findUnitCard (id: string | number): UnitCard | null {
 
 /**
  * Find a card by descriptor
- * 
- * @param descriptor 
- * @returns 
+ *
+ * @param descriptor
+ * @returns
  */
 export function findUnitCardByDescriptor (descriptor: string): UnitCard | null {
-    const found = AllUnits.filter( function (unit) { 
-        return unit.descriptor === descriptor 
-    });
+    const found = AllUnits.filter(function (unit) {
+        return unit.descriptor === descriptor
+    })
 
     if (found.length > 0) {
         const foundUnit = found[0]

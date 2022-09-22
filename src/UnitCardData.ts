@@ -1,5 +1,6 @@
 import { UnitCategory } from './UnitData'
 
+/// Rudimentary unit definition
 type UnitCardRawData = [
     number, string, UnitCategory
 ]
@@ -51,7 +52,7 @@ const AllUnitCards: UnitCardRawData[] = [
     [58, 'UH-60A BLACKHAWK', 'trans'],
 
     [61, 'EF-111A RAVEN [SEAD]', 'air'],
-    
+
     // TODO: (Descriptor_Unit_T64BV_SOV, 77),
 
     [80, 'T-80B', 'tank'],
@@ -186,7 +187,7 @@ const AllUnitCards: UnitCardRawData[] = [
 
     [244, 'FV107 SCIMITAR', 'rec'],
     [245, 'FV510 WARRIOR', 'trans'],
-    
+
     [247, 'FV432 MORTAR', 'art'],
 
     [249, 'FV432', 'trans'],
@@ -251,7 +252,7 @@ const AllUnitCards: UnitCardRawData[] = [
 
     [318, 'AMX-13 VCI 12,7MM', 'trans'],
     [319, 'AMX-13 VCI 20MM', 'trans'],
-    
+
     [321, 'VAB', 'trans'],
     [322, 'VAB MEPHISTO', 'tank'],
     [323, 'VAB MILAN', 'trans'],
@@ -323,7 +324,7 @@ const AllUnitCards: UnitCardRawData[] = [
     [399, 'M151', 'trans'],
     [400, 'AERO-RIFLE LDR.', 'inf'],
     [401, 'GREEN BERETS LDR.', 'inf'],
-    
+
     [405, 'AMX-10 RC SURBLINDE', 'rec'],
 
     [407, '2K12M3 KUB-M3', 'aa'],
@@ -687,7 +688,7 @@ const AllUnitCards: UnitCardRawData[] = [
     [879, 'AIRBORNE ENGINEERS (FLASH)', 'inf'],
     [880, 'RESERVE PIONIER', 'inf'],
     // TODO: (Descriptor_Unit_M151_MUTT_RCL_DDR, 880),
-    
+
     // TODO: (Descriptor_Unit_UAZ_469_SPG9_FJ_DDR, 882),
     [884, 'TORNADO GR.1 [HE]', 'air'],
     [885, 'TORNADO GR.1 [CLU]', 'air'],
@@ -731,7 +732,7 @@ const AllUnitCards: UnitCardRawData[] = [
     [1041, 'MFRW RM-70 [CLU]', 'art'],
     // TODO: (Descriptor_Unit_T72M1_CMD_DDR, 1041),
     // TODO: (Descriptor_Unit_T80UD_SOV, 1043),
-    
+
     [1044, 'T-80UD', 'tank'],
     [1045, 'AMX-10 PC', 'log'],
     [1046, 'AMX-10 VOA', 'rec'],
@@ -745,7 +746,7 @@ const AllUnitCards: UnitCardRawData[] = [
     [1053, 'ESCORTE PC', 'inf'],
     [1054, 'PREVOTE', 'inf'],
     [1055, 'GROUPE ANTICHAR', 'inf'],
-    
+
     [1071, 'LEOPARD 2A4', 'tank'],
     [1072, 'MISTRAL', 'aa'],
     [1073, 'MO-120-RT61', 'art'],
@@ -803,7 +804,7 @@ const AllUnitCards: UnitCardRawData[] = [
     [1124, 'HARRIER GR.3 [HE2]', 'air'],
     [1125, 'HARRIER GR.1A [HE2]', 'air'],
     [1126, 'HARRIER GR.1A [RKT]', 'air'],
-    [1127, 'JAGUAR [ATGM]', 'air'],
+    [1127, 'JAGUAR [ATGM]', 'air']
 ]
 
 export { AllUnitCards }
