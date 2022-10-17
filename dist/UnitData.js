@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AllUnits = void 0;
+/// Definition of all units
 exports.AllUnits = [
     {
         id: 12,
@@ -3769,5 +3770,5 @@ exports.AllUnits = [
         name: 'JAGUAR [ATGM]',
         descriptor: 'Descriptor_Unit_Jaguar_ATGM_FR',
         category: 'air'
-    },
+    }
 ];

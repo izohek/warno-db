@@ -1,8 +1,8 @@
 export declare type UnitCategory = 'log' | 'inf' | 'art' | 'tank' | 'aa' | 'rec' | 'hel' | 'air' | 'trans';
-export declare type UnitDefinition = {
+export interface UnitDefinition {
     id: number;
     name: string;
     descriptor: string;
     category: UnitCategory;
-};
+}
 export declare const AllUnits: UnitDefinition[];

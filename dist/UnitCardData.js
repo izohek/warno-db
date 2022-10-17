@@ -681,6 +681,6 @@ const AllUnitCards = [
     [1124, 'HARRIER GR.3 [HE2]', 'air'],
     [1125, 'HARRIER GR.1A [HE2]', 'air'],
     [1126, 'HARRIER GR.1A [RKT]', 'air'],
-    [1127, 'JAGUAR [ATGM]', 'air'],
+    [1127, 'JAGUAR [ATGM]', 'air']
 ];
 exports.AllUnitCards = AllUnitCards;
