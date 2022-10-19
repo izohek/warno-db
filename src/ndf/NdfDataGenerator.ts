@@ -14,17 +14,14 @@ interface NdfDivisionDetail {
     country: string
 }
 
-const DeckNdfFile = './ndf/suchet/DeckSerializer.ndf'
-const DivisionNdfFile = './ndf/suchet/Divisions.ndf'
-
-function generateDivisions() {
+export function generateDivisions(deckFile: string, divisionsFile: string) {
     // Deck data
-    const deckNdfData = parseNdfFile(DeckNdfFile)[0]
+    const deckNdfData = parseNdfFile(deckFile)[0]
     const divisionDataMap = findDivisionDeckData(deckNdfData)
     const divisionData = findDivisionDeckDataFromTuple(divisionDataMap)
 
     // Division detail data
-    const divisionNdfData = parseNdfFile(DivisionNdfFile)
+    const divisionNdfData = parseNdfFile(divisionsFile)
     const divisionDetailData = findDivisionDetailData(divisionNdfData)
 
     // Merge and return
@@ -104,7 +101,3 @@ function mergeDataIntoDivision(deck: NdfDivision[], detail: NdfDivisionDetail[])
         }
     })
 }
-
-const divisionData = generateDivisions()
-
-console.log(JSON.stringify(divisionData, null, 4))

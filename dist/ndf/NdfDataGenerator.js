@@ -3,15 +3,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.generateDivisions = void 0;
 const ndf_parser_1 = require("ndf-parser");
 const fs_1 = require("fs");
-const DeckNdfFile = './ndf/suchet/DeckSerializer.ndf';
-const DivisionNdfFile = './ndf/suchet/Divisions.ndf';
-function generateDivisions() {
+function generateDivisions(deckFile, divisionsFile) {
     // Deck data
-    const deckNdfData = parseNdfFile(DeckNdfFile)[0];
+    const deckNdfData = parseNdfFile(deckFile)[0];
     const divisionDataMap = findDivisionDeckData(deckNdfData);
     const divisionData = findDivisionDeckDataFromTuple(divisionDataMap);
     // Division detail data
-    const divisionNdfData = parseNdfFile(DivisionNdfFile);
+    const divisionNdfData = parseNdfFile(divisionsFile);
     const divisionDetailData = findDivisionDetailData(divisionNdfData);
     // Merge and return
     return mergeDataIntoDivision(divisionData, divisionDetailData);

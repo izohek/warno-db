@@ -15,7 +15,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "npx tsc",
-    "divisions": "npx tsc && node ./dist/data/NdfDataGenerator.js",
+    "divisions": "npx tsc && node ./dist/commands/ParseDivisionsFile.js",
     "lint": "npx eslint src/*",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
