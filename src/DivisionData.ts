@@ -139,5 +139,3 @@ const AllDivisions: Division[] = [
     // TODO: SOLO - (Descriptor_Deck_Division_SOV_35GvDSHB_solo, 75),
     // TODO: SOLO - (Descriptor_Deck_Division_SOV_390ArtBr_solo, 76),
 ]
-
-export { AllDivisions }

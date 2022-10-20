@@ -1,5 +1,5 @@
 import { UnitCard } from './UnitCard'
-import { AllUnits } from './UnitData'
+import AllUnits from './json/units.json'
 
 /**
  * Find specifc card by id
@@ -8,23 +8,20 @@ import { AllUnits } from './UnitData'
  * @returns
  */
 export function findUnitCard (id: string | number): UnitCard | null {
-    const found = AllUnits.filter(function (item) {
+    const foundCard = AllUnits.find(function (item) {
         return item.id === id
     })
 
-    if (found.length > 0) {
-        const foundCard = found[0]
-        const newCard = new UnitCard(
-            foundCard.name,
-            foundCard.id,
-            0,
-            foundCard.category
-        )
-        newCard.descriptor = foundCard.descriptor
-        return newCard
-    }
+    if (! foundCard) { return null }
 
-    return null
+    const newCard = new UnitCard(
+        foundCard.name,
+        foundCard.id,
+        0,
+        foundCard.category
+    )
+    newCard.descriptor = foundCard.descriptor
+    return newCard
 }
 
 /**
@@ -34,21 +31,18 @@ export function findUnitCard (id: string | number): UnitCard | null {
  * @returns
  */
 export function findUnitCardByDescriptor (descriptor: string): UnitCard | null {
-    const found = AllUnits.filter(function (unit) {
+    const foundUnit = AllUnits.find(function (unit) {
         return unit.descriptor === descriptor
     })
 
-    if (found.length > 0) {
-        const foundUnit = found[0]
-        const card = new UnitCard(
-            foundUnit.name,
-            foundUnit.id,
-            0,
-            foundUnit.category
-        )
-        card.descriptor = foundUnit.descriptor
-        return card
-    }
+    if (! foundUnit) { return null }
 
-    return null
+    const card = new UnitCard(
+        foundUnit.name,
+        foundUnit.id,
+        0,
+        foundUnit.category
+    )
+    card.descriptor = foundUnit.descriptor
+    return card
 }

@@ -6,7 +6,7 @@ export interface UnitDefinition {
     id: number
     name: string
     descriptor: string
-    category: UnitCategory
+    category: string
 }
 
 /// Definition of all units

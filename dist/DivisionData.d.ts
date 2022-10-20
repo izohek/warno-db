@@ -1,4 +1,3 @@
-import Division from './Division';
 export declare const Divisions: {
     readonly RDA_7_Panzer: "Descriptor_Deck_Division_RDA_7_Panzer_multi";
     readonly RFA_5_Panzer: "Descriptor_Deck_Division_RFA_5_Panzer_multi";
@@ -17,5 +16,3 @@ export declare const Divisions: {
     readonly UK_1st_Armoured: "Descriptor_Deck_Division_UK_1st_Armoured_multi";
     readonly UK_2nd_Infantry: "Descriptor_Deck_Division_UK_2nd_Infantry_multi";
 };
-declare const AllDivisions: Division[];
-export { AllDivisions };

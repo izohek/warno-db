@@ -806,5 +806,3 @@ const AllUnitCards: UnitCardRawData[] = [
     [1126, 'HARRIER GR.1A [RKT]', 'air'],
     [1127, 'JAGUAR [ATGM]', 'air']
 ]
-
-export { AllUnitCards }

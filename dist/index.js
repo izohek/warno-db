@@ -1,13 +1,15 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.AllUnits = exports.findUnitCard = exports.AllUnitCards = exports.UnitCard = exports.AllDivisions = void 0;
-var DivisionData_1 = require("./DivisionData");
-Object.defineProperty(exports, "AllDivisions", { enumerable: true, get: function () { return DivisionData_1.AllDivisions; } });
+exports.AllDivisions = exports.AllUnits = exports.findUnitCardByDescriptor = exports.findUnitCard = exports.UnitCard = void 0;
 var UnitCard_1 = require("./UnitCard");
 Object.defineProperty(exports, "UnitCard", { enumerable: true, get: function () { return UnitCard_1.UnitCard; } });
-var UnitCardData_1 = require("./UnitCardData");
-Object.defineProperty(exports, "AllUnitCards", { enumerable: true, get: function () { return UnitCardData_1.AllUnitCards; } });
 var UnitCardDatabase_1 = require("./UnitCardDatabase");
 Object.defineProperty(exports, "findUnitCard", { enumerable: true, get: function () { return UnitCardDatabase_1.findUnitCard; } });
-var UnitData_1 = require("./UnitData");
-Object.defineProperty(exports, "AllUnits", { enumerable: true, get: function () { return UnitData_1.AllUnits; } });
+Object.defineProperty(exports, "findUnitCardByDescriptor", { enumerable: true, get: function () { return UnitCardDatabase_1.findUnitCardByDescriptor; } });
+const units_json_1 = __importDefault(require("./json/units.json"));
+exports.AllUnits = units_json_1.default;
+const divisions_json_1 = __importDefault(require("./json/divisions.json"));
+exports.AllDivisions = divisions_json_1.default;

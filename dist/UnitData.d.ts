@@ -3,6 +3,6 @@ export interface UnitDefinition {
     id: number;
     name: string;
     descriptor: string;
-    category: UnitCategory;
+    category: string;
 }
 export declare const AllUnits: UnitDefinition[];

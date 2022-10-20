@@ -1,6 +1,8 @@
 export { Division } from './Division';
-export { AllDivisions } from './DivisionData';
 export { UnitCard } from './UnitCard';
-export { AllUnitCards } from './UnitCardData';
-export { findUnitCard } from './UnitCardDatabase';
-export { AllUnits, UnitDefinition, UnitCategory } from './UnitData';
+export { findUnitCard, findUnitCardByDescriptor } from './UnitCardDatabase';
+export { UnitDefinition, UnitCategory } from './UnitData';
+import { UnitDefinition } from './UnitData';
+export declare const AllUnits: UnitDefinition[];
+import Division from './Division';
+export declare const AllDivisions: Division[];

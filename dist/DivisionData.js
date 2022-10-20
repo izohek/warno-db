@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.AllDivisions = exports.Divisions = void 0;
+exports.Divisions = void 0;
 /// All Division Descriptors
 exports.Divisions = {
     RDA_7_Panzer: 'Descriptor_Deck_Division_RDA_7_Panzer_multi',
@@ -138,4 +138,3 @@ const AllDivisions = [
     // TODO: SOLO - (Descriptor_Deck_Division_SOV_35GvDSHB_solo, 75),
     // TODO: SOLO - (Descriptor_Deck_Division_SOV_390ArtBr_solo, 76),
 ];
-exports.AllDivisions = AllDivisions;

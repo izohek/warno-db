@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.AllUnitCards = void 0;
 /// Warno Unit Definitions
 const AllUnitCards = [
     [13, 'HEMTT', 'log'],
@@ -683,4 +682,3 @@ const AllUnitCards = [
     [1126, 'HARRIER GR.1A [RKT]', 'air'],
     [1127, 'JAGUAR [ATGM]', 'air']
 ];
-exports.AllUnitCards = AllUnitCards;

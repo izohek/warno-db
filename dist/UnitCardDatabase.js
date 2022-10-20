@@ -1,8 +1,11 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.findUnitCardByDescriptor = exports.findUnitCard = void 0;
 const UnitCard_1 = require("./UnitCard");
-const UnitData_1 = require("./UnitData");
+const units_json_1 = __importDefault(require("./json/units.json"));
 /**
  * Find specifc card by id
  *
@@ -10,16 +13,15 @@ const UnitData_1 = require("./UnitData");
  * @returns
  */
 function findUnitCard(id) {
-    const found = UnitData_1.AllUnits.filter(function (item) {
+    const foundCard = units_json_1.default.find(function (item) {
         return item.id === id;
     });
-    if (found.length > 0) {
-        const foundCard = found[0];
-        const newCard = new UnitCard_1.UnitCard(foundCard.name, foundCard.id, 0, foundCard.category);
-        newCard.descriptor = foundCard.descriptor;
-        return newCard;
+    if (!foundCard) {
+        return null;
     }
-    return null;
+    const newCard = new UnitCard_1.UnitCard(foundCard.name, foundCard.id, 0, foundCard.category);
+    newCard.descriptor = foundCard.descriptor;
+    return newCard;
 }
 exports.findUnitCard = findUnitCard;
 /**
@@ -29,15 +31,14 @@ exports.findUnitCard = findUnitCard;
  * @returns
  */
 function findUnitCardByDescriptor(descriptor) {
-    const found = UnitData_1.AllUnits.filter(function (unit) {
+    const foundUnit = units_json_1.default.find(function (unit) {
         return unit.descriptor === descriptor;
     });
-    if (found.length > 0) {
-        const foundUnit = found[0];
-        const card = new UnitCard_1.UnitCard(foundUnit.name, foundUnit.id, 0, foundUnit.category);
-        card.descriptor = foundUnit.descriptor;
-        return card;
+    if (!foundUnit) {
+        return null;
     }
-    return null;
+    const card = new UnitCard_1.UnitCard(foundUnit.name, foundUnit.id, 0, foundUnit.category);
+    card.descriptor = foundUnit.descriptor;
+    return card;
 }
 exports.findUnitCardByDescriptor = findUnitCardByDescriptor;
