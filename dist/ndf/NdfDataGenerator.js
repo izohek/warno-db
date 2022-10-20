@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.generateDivisions = void 0;
+exports.generateUnits = exports.generateDivisions = void 0;
 const ndf_parser_1 = require("ndf-parser");
 const fs_1 = require("fs");
 function generateDivisions(deckFile, divisionsFile) {
@@ -15,6 +15,14 @@ function generateDivisions(deckFile, divisionsFile) {
     return mergeDataIntoDivision(divisionData, divisionDetailData);
 }
 exports.generateDivisions = generateDivisions;
+function generateUnits(unitsFile) {
+    // 
+    const unitsNdfData = parseNdfFile(unitsFile)[0];
+    const unitsIdObject = (0, ndf_parser_1.search)(unitsNdfData, 'UnitIds')[0].value;
+    const unitData = findDivisionDeckDataFromTuple(unitsIdObject);
+    return unitData;
+}
+exports.generateUnits = generateUnits;
 /**
  * Parse an ndf file at a given path.
  *
@@ -46,7 +54,7 @@ function findDivisionDeckDataFromTuple(data) {
     return data.value.map((v) => {
         return {
             descriptor: v.value[0],
-            id: v.value[1].value
+            id: parseInt(v.value[1].value, 10)
         };
     });
 }

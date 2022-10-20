@@ -7,6 +7,8 @@ interface NdfDivision {
     descriptor: string
 }
 
+interface NdfUnit extends NdfDivision {}
+
 interface NdfDivisionDetail {
     descriptor: string
     alliance: string
@@ -26,6 +28,15 @@ export function generateDivisions(deckFile: string, divisionsFile: string) {
 
     // Merge and return
     return mergeDataIntoDivision(divisionData, divisionDetailData)
+}
+
+export function generateUnits(unitsFile: string) {
+    // 
+    const unitsNdfData = parseNdfFile(unitsFile)[0]
+    const unitsIdObject = search(unitsNdfData, 'UnitIds')[0].value
+    const unitData = findDivisionDeckDataFromTuple(unitsIdObject) as NdfUnit[]
+
+    return unitData
 }
 
 /**
@@ -61,7 +72,7 @@ function findDivisionDeckData(data: any) {
 function findDivisionDeckDataFromTuple(data: any): NdfDivision[] {
     return data.value.map( (v: any) => { return { 
         descriptor: v.value[0],
-        id: v.value[1].value
+        id: parseInt(v.value[1].value, 10)
      }})
 }
 
