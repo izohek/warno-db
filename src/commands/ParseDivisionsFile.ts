@@ -1,5 +1,6 @@
 import { generateDivisions } from "../ndf/NdfDataGenerator"
 import localization_En from '../lang/en/Divisions'
+import allianceLoc_En from '../lang/en/Alliances'
 
 const deckNdfFile = './ndf/suchet/DeckSerializer.ndf'
 const divisionNdfFile = './ndf/suchet/Divisions.ndf'
@@ -17,6 +18,7 @@ const localizedDivisionData = mpDivisionDat.map( (division) => {
     return {
         ...division,
         name: localization_En[division.descriptor as keyof typeof localization_En] ?? "",
+        alliance: allianceLoc_En[division.alliance as keyof typeof allianceLoc_En] ?? ""
     }
 })
 
