@@ -9,7 +9,7 @@ const unitData = (0, NdfDataGenerator_1.generateUnits)(deckNdfFile);
 const unitDataPlus = unitData.map((unit) => {
     var _a, _b;
     const extraInfo = UnitData_1.AllUnits.find(u => u.descriptor === unit.descriptor);
-    return Object.assign(Object.assign({}, unit), { name: (_a = extraInfo === null || extraInfo === void 0 ? void 0 : extraInfo.name) !== null && _a !== void 0 ? _a : "", category: (_b = extraInfo === null || extraInfo === void 0 ? void 0 : extraInfo.category) !== null && _b !== void 0 ? _b : "" });
+    return Object.assign(Object.assign({}, unit), { id: unit.id + 1, name: (_a = extraInfo === null || extraInfo === void 0 ? void 0 : extraInfo.name) !== null && _a !== void 0 ? _a : "", category: (_b = extraInfo === null || extraInfo === void 0 ? void 0 : extraInfo.category) !== null && _b !== void 0 ? _b : "" });
 });
 // Print
 console.log(JSON.stringify(unitDataPlus, null, 4));

@@ -11,6 +11,7 @@ const unitDataPlus = unitData.map( (unit) => {
     const extraInfo = AllUnits.find( u => u.descriptor === unit.descriptor )
     return {
         ...unit,
+        id: unit.id + 1,
         name: extraInfo?.name ?? "",
         category: extraInfo?.category ?? ""
     } as UnitDefinition
