@@ -858,6 +858,18 @@ export const AllUnits: UnitDefinition[] = [
         category: 'art'
     },
     {
+        id: 269,
+        name: 'AML-60-12',
+        descriptor: 'Descriptor_Unit_AML_60_FR',
+        category: 'rec'
+    },
+    {
+        id: 270,
+        name: 'AML-90 LYNX',
+        descriptor: 'Descriptor_Unit_AML_90_FR',
+        category: 'rec'
+    },
+    {
         id: 271,
         name: 'AMX-13 DCA',
         descriptor: 'Descriptor_Unit_AMX_13_DCA_FR',
@@ -880,6 +892,12 @@ export const AllUnits: UnitDefinition[] = [
         name: 'GAZELLE HOT',
         descriptor: 'Descriptor_Unit_Gazelle_HOT_FR',
         category: 'hel'
+    },
+    {
+        id: 275,
+        name: 'GAZELLE CELTIC',
+        descriptor: 'Descriptor_Unit_Gazelle_Mistral_FR',
+        category: 'aa'
     },
     {
         id: 276,
@@ -945,6 +963,18 @@ export const AllUnits: UnitDefinition[] = [
         id: 290,
         name: 'MIRAGE 2000C RDI',
         descriptor: 'Descriptor_Unit_Mirage_2000_C_FR',
+        category: 'air'
+    },
+    {
+        id: 291,
+        name: 'MIRAGE 5 F [HE]',
+        descriptor: 'Descriptor_Unit_Mirage_5_F_FR',
+        category: 'air'
+    },
+    {
+        id: 292,
+        name: 'MIRAGE F1 CT',
+        descriptor: 'Descriptor_Unit_Mirage_F1_CT_FR',
         category: 'air'
     },
     {
@@ -2202,6 +2232,12 @@ export const AllUnits: UnitDefinition[] = [
         category: 'air'
     },
     {
+        id: 611,
+        name: 'ERC-90 SAGAIE',
+        descriptor: 'Descriptor_Unit_ERC_90_Sagaie_FR',
+        category: 'tank'
+    },
+    {
         id: 612,
         name: 'FLA-SFL 57-2',
         descriptor: 'Descriptor_Unit_ZSU_57_2_DDR',
@@ -2814,6 +2850,12 @@ export const AllUnits: UnitDefinition[] = [
         category: 'inf'
     },
     {
+        id: 800,
+        name: 'MILAN 2 PARA.',
+        descriptor: 'Descriptor_Unit_ATteam_Milan_2_para_FR',
+        category: 'inf'
+    },
+    {
         id: 802,
         name: 'DESANT. SPG-9',
         descriptor: 'Descriptor_Unit_ATteam_RCL_SPG9_VDV_SOV',
@@ -3252,6 +3294,12 @@ export const AllUnits: UnitDefinition[] = [
         category: 'aa'
     },
     {
+        id: 877,
+        name: 'MILAN 1 PARAS',
+        descriptor: 'Descriptor_Unit_ATteam_Milan_1_para_FR',
+        category: 'inf'
+    },
+    {
         id: 878,
         name: 'AIRBORNE ENGINEERS (FLASH)',
         descriptor: 'Descriptor_Unit_Airborne_Engineers_Flash_US',
@@ -3321,6 +3369,12 @@ export const AllUnits: UnitDefinition[] = [
         id: 903,
         name: 'P4 MILAN',
         descriptor: 'Descriptor_Unit_VLTT_P4_MILAN_FR',
+        category: 'tank'
+    },
+    {
+        id: 904,
+        name: 'P4 MILAN PARAS',
+        descriptor: 'Descriptor_Unit_VLTT_P4_MILAN_para_FR',
         category: 'tank'
     },
     {
@@ -3573,7 +3627,7 @@ export const AllUnits: UnitDefinition[] = [
         id: 1085,
         name: 'VLRA .50',
         descriptor: 'Descriptor_Unit_VLRA_HMG_FR',
-        category: 'log'
+        category: 'trans'
     },
     {
         id: 1086,
@@ -3882,6 +3936,18 @@ export const AllUnits: UnitDefinition[] = [
         category: 'inf'
     },
     {
+        id: 1142,
+        name: 'PUMA PC',
+        descriptor: 'Descriptor_Unit_Puma_PC_FR',
+        category: 'log'
+    },
+    {
+        id: 1143,
+        name: 'PUMA PIRATE',
+        descriptor: 'Descriptor_Unit_Puma_Pirate_FR',
+        category: 'hel'
+    },
+    {
         id: 1144,
         name: 'PHANTOM F.3 [AA]',
         descriptor: 'Descriptor_Unit_F4_Phantom_AA_F3',
@@ -3912,6 +3978,30 @@ export const AllUnits: UnitDefinition[] = [
         category: 'air'
     },
     {
+        id: 1149,
+        name: 'JAGUAR [RKT]',
+        descriptor: 'Descriptor_Unit_Jaguar_RKT_FR',
+        category: 'air'
+    },
+    {
+        id: 1150,
+        name: 'JAGUAR [SEAD2]',
+        descriptor: 'Descriptor_Unit_Jaguar_SEAD2_FR',
+        category: 'air'
+    },
+    {
+        id: 1151,
+        name: 'JAGUAR [CLUS]',
+        descriptor: 'Descriptor_Unit_Jaguar_clu_FR',
+        category: 'air'
+    },
+    {
+        id: 1152,
+        name: 'JAGUAR [NPLM]',
+        descriptor: 'Descriptor_Unit_Jaguar_nplm_FR',
+        category: 'air'
+    },
+    {
         id: 1153,
         name: 'AIRMOBILE SCOUTS',
         descriptor: 'Descriptor_Unit_Scout_Airmobile_UK',
@@ -3922,5 +4012,125 @@ export const AllUnits: UnitDefinition[] = [
         name: 'BLOWPIPE',
         descriptor: 'Descriptor_Unit_MANPAD_Blowpipe_UK',
         category: 'aa'
+    },
+    {
+        id: 1155,
+        name: '53T2 PARAS 20MM',
+        descriptor: 'Descriptor_Unit_DCA_53T2_20mm_Para_FR',
+        category: 'aa'
+    },
+    {
+        id: 1156,
+        name: 'GROUPE ANTICHAR PARAS',
+        descriptor: 'Descriptor_Unit_Groupe_AT_para_FR',
+        category: 'inf'
+    },
+    {
+        id: 1157,
+        name: 'HM2A1 105MM',
+        descriptor: 'Descriptor_Unit_Howz_M101_105mm_FR',
+        category: 'art'
+    },
+    {
+        id: 1158,
+        name: 'MISTRAL PARAS',
+        descriptor: 'Descriptor_Unit_MANPAD_Mistral_para_FR',
+        category: 'aa'
+    },
+    {
+        id: 1159,
+        name: 'MO-120-RT61 PARAS',
+        descriptor: 'Descriptor_Unit_Mortier_MORT61_120mm_para_FR',
+        category: 'art'
+    },
+    {
+        id: 1162,
+        name: 'CMDT PARAS',
+        descriptor: 'Descriptor_Unit_Para_CMD_FR',
+        category: 'inf'
+    },
+    {
+        id: 1163,
+        name: 'CHASSEURS PARAS',
+        descriptor: 'Descriptor_Unit_Para_FR',
+        category: 'inf'
+    },
+    {
+        id: 1164,
+        name: 'LEGIONNAIRES PARAS',
+        descriptor: 'Descriptor_Unit_Para_Legion_FR',
+        category: 'inf'
+    },
+    {
+        id: 1165,
+        name: 'CMDT SAPEURS PARAS',
+        descriptor: 'Descriptor_Unit_Para_Sapeurs_CMD_FR',
+        category: 'inf'
+    },
+    {
+        id: 1166,
+        name: 'SAPEURS PARAS',
+        descriptor: 'Descriptor_Unit_Para_Sapeurs_FR',
+        category: 'inf'
+    },
+    {
+        id: 1167,
+        name: 'SAPEURS PARAS (FLAM.)',
+        descriptor: 'Descriptor_Unit_Para_Sapeurs_Flam_FR',
+        category: 'inf'
+    },
+    {
+        id: 1168,
+        name: 'PARAS SAS',
+        descriptor: 'Descriptor_Unit_SAS_FR',
+        category: 'rec'
+    },
+    {
+        id: 1169,
+        name: 'ECLAIREURS PARAS',
+        descriptor: 'Descriptor_Unit_Scout_para_FR',
+        category: 'rec'
+    },
+    {
+        id: 1171,
+        name: 'VBL PC',
+        descriptor: 'Descriptor_Unit_VBL_PC_FR',
+        category: 'log'
+    },
+    {
+        id: 1172,
+        name: 'VLRA 20MM',
+        descriptor: 'Descriptor_Unit_VLRA_20mm_FR',
+        category: 'aa'
+    },
+    {
+        id: 1173,
+        name: 'VLRA MILAN',
+        descriptor: 'Descriptor_Unit_VLRA_MILAN_FR',
+        category: 'tank'
+    },
+    {
+        id: 1174,
+        name: 'VLRA PAMELA',
+        descriptor: 'Descriptor_Unit_VLRA_Mistral_FR',
+        category: 'aa'
+    },
+    {
+        id: 1175,
+        name: 'VLRA PMB',
+        descriptor: 'Descriptor_Unit_VLRA_Mortier81_FR',
+        category: 'art'
+    },
+    {
+        id: 1176,
+        name: 'VLRA LOG.',
+        descriptor: 'Descriptor_Unit_VLRA_supply_FR',
+        category: 'log'
+    },
+    {
+        id: 1177,
+        name: 'VLRA',
+        descriptor: 'Descriptor_Unit_VLRA_trans_FR',
+        category: 'trans'
     },
 ]

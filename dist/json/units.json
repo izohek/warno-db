@@ -896,14 +896,14 @@
     {
         "descriptor": "Descriptor_Unit_AML_60_FR",
         "id": 270,
-        "name": "",
-        "category": ""
+        "name": "AML-60-12",
+        "category": "rec"
     },
     {
         "descriptor": "Descriptor_Unit_AML_90_FR",
         "id": 271,
-        "name": "",
-        "category": ""
+        "name": "AML-90 LYNX",
+        "category": "rec"
     },
     {
         "descriptor": "Descriptor_Unit_AMX_13_DCA_FR",
@@ -932,8 +932,8 @@
     {
         "descriptor": "Descriptor_Unit_Gazelle_Mistral_FR",
         "id": 276,
-        "name": "",
-        "category": ""
+        "name": "GAZELLE CELTIC",
+        "category": "aa"
     },
     {
         "descriptor": "Descriptor_Unit_T813_DDR",
@@ -1004,14 +1004,14 @@
     {
         "descriptor": "Descriptor_Unit_Mirage_5_F_FR",
         "id": 292,
-        "name": "",
-        "category": ""
+        "name": "MIRAGE 5 F [HE]",
+        "category": "air"
     },
     {
         "descriptor": "Descriptor_Unit_Mirage_F1_CT_FR",
         "id": 293,
-        "name": "",
-        "category": ""
+        "name": "MIRAGE F1 CT",
+        "category": "air"
     },
     {
         "descriptor": "Descriptor_Unit_Mirage_F1_C_FR",
@@ -2354,8 +2354,8 @@
     {
         "descriptor": "Descriptor_Unit_ERC_90_Sagaie_FR",
         "id": 612,
-        "name": "",
-        "category": ""
+        "name": "ERC-90 SAGAIE",
+        "category": "tank"
     },
     {
         "descriptor": "Descriptor_Unit_ZSU_57_2_DDR",
@@ -3038,8 +3038,8 @@
     {
         "descriptor": "Descriptor_Unit_ATteam_Milan_2_para_FR",
         "id": 801,
-        "name": "",
-        "category": ""
+        "name": "MILAN 2 PARA.",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_ATteam_RCL_SPG9_VDV_SOV",
@@ -3488,8 +3488,8 @@
     {
         "descriptor": "Descriptor_Unit_ATteam_Milan_1_para_FR",
         "id": 878,
-        "name": "",
-        "category": ""
+        "name": "MILAN 1 PARAS",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_Airborne_Engineers_Flash_US",
@@ -3644,8 +3644,8 @@
     {
         "descriptor": "Descriptor_Unit_VLTT_P4_MILAN_para_FR",
         "id": 905,
-        "name": "",
-        "category": ""
+        "name": "P4 MILAN PARAS",
+        "category": "tank"
     },
     {
         "descriptor": "Descriptor_Unit_Volkspolizei_CMD_DDR",
@@ -4011,7 +4011,7 @@
         "descriptor": "Descriptor_Unit_VLRA_HMG_FR",
         "id": 1086,
         "name": "VLRA .50",
-        "category": "log"
+        "category": "trans"
     },
     {
         "descriptor": "Descriptor_Unit_VLTT_P4_PC_FR",
@@ -4352,14 +4352,14 @@
     {
         "descriptor": "Descriptor_Unit_Puma_PC_FR",
         "id": 1143,
-        "name": "",
-        "category": ""
+        "name": "PUMA PC",
+        "category": "log"
     },
     {
         "descriptor": "Descriptor_Unit_Puma_Pirate_FR",
         "id": 1144,
-        "name": "",
-        "category": ""
+        "name": "PUMA PIRATE",
+        "category": "hel"
     },
     {
         "descriptor": "Descriptor_Unit_F4_Phantom_AA_F3",
@@ -4394,26 +4394,26 @@
     {
         "descriptor": "Descriptor_Unit_Jaguar_RKT_FR",
         "id": 1150,
-        "name": "",
-        "category": ""
+        "name": "JAGUAR [RKT]",
+        "category": "air"
     },
     {
         "descriptor": "Descriptor_Unit_Jaguar_SEAD2_FR",
         "id": 1151,
-        "name": "",
-        "category": ""
+        "name": "JAGUAR [SEAD2]",
+        "category": "air"
     },
     {
         "descriptor": "Descriptor_Unit_Jaguar_clu_FR",
         "id": 1152,
-        "name": "",
-        "category": ""
+        "name": "JAGUAR [CLUS]",
+        "category": "air"
     },
     {
         "descriptor": "Descriptor_Unit_Jaguar_nplm_FR",
         "id": 1153,
-        "name": "",
-        "category": ""
+        "name": "JAGUAR [NPLM]",
+        "category": "air"
     },
     {
         "descriptor": "Descriptor_Unit_Scout_Airmobile_UK",
@@ -4430,32 +4430,32 @@
     {
         "descriptor": "Descriptor_Unit_DCA_53T2_20mm_Para_FR",
         "id": 1156,
-        "name": "",
-        "category": ""
+        "name": "53T2 PARAS 20MM",
+        "category": "aa"
     },
     {
         "descriptor": "Descriptor_Unit_Groupe_AT_para_FR",
         "id": 1157,
-        "name": "",
-        "category": ""
+        "name": "GROUPE ANTICHAR PARAS",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_Howz_M101_105mm_FR",
         "id": 1158,
-        "name": "",
-        "category": ""
+        "name": "HM2A1 105MM",
+        "category": "art"
     },
     {
         "descriptor": "Descriptor_Unit_MANPAD_Mistral_para_FR",
         "id": 1159,
-        "name": "",
-        "category": ""
+        "name": "MISTRAL PARAS",
+        "category": "aa"
     },
     {
         "descriptor": "Descriptor_Unit_Mortier_MORT61_120mm_para_FR",
         "id": 1160,
-        "name": "",
-        "category": ""
+        "name": "MO-120-RT61 PARAS",
+        "category": "art"
     },
     {
         "descriptor": "Descriptor_Unit_OT_62_TOPAS_JOD_POL",
@@ -4472,50 +4472,50 @@
     {
         "descriptor": "Descriptor_Unit_Para_CMD_FR",
         "id": 1163,
-        "name": "",
-        "category": ""
+        "name": "CMDT PARAS",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_Para_FR",
         "id": 1164,
-        "name": "",
-        "category": ""
+        "name": "CHASSEURS PARAS",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_Para_Legion_FR",
         "id": 1165,
-        "name": "",
-        "category": ""
+        "name": "LEGIONNAIRES PARAS",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_Para_Sapeurs_CMD_FR",
         "id": 1166,
-        "name": "",
-        "category": ""
+        "name": "CMDT SAPEURS PARAS",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_Para_Sapeurs_FR",
         "id": 1167,
-        "name": "",
-        "category": ""
+        "name": "SAPEURS PARAS",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_Para_Sapeurs_Flam_FR",
         "id": 1168,
-        "name": "",
-        "category": ""
+        "name": "SAPEURS PARAS (FLAM.)",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_SAS_FR",
         "id": 1169,
-        "name": "",
-        "category": ""
+        "name": "PARAS SAS",
+        "category": "rec"
     },
     {
         "descriptor": "Descriptor_Unit_Scout_para_FR",
         "id": 1170,
-        "name": "",
-        "category": ""
+        "name": "ECLAIREURS PARAS",
+        "category": "rec"
     },
     {
         "descriptor": "Descriptor_Unit_Spetsnaz_FireSupport_SOV",
@@ -4526,44 +4526,44 @@
     {
         "descriptor": "Descriptor_Unit_VBL_PC_FR",
         "id": 1172,
-        "name": "",
-        "category": ""
+        "name": "VBL PC",
+        "category": "log"
     },
     {
         "descriptor": "Descriptor_Unit_VLRA_20mm_FR",
         "id": 1173,
-        "name": "",
-        "category": ""
+        "name": "VLRA 20MM",
+        "category": "aa"
     },
     {
         "descriptor": "Descriptor_Unit_VLRA_MILAN_FR",
         "id": 1174,
-        "name": "",
-        "category": ""
+        "name": "VLRA MILAN",
+        "category": "tank"
     },
     {
         "descriptor": "Descriptor_Unit_VLRA_Mistral_FR",
         "id": 1175,
-        "name": "",
-        "category": ""
+        "name": "VLRA PAMELA",
+        "category": "aa"
     },
     {
         "descriptor": "Descriptor_Unit_VLRA_Mortier81_FR",
         "id": 1176,
-        "name": "",
-        "category": ""
+        "name": "VLRA PMB",
+        "category": "art"
     },
     {
         "descriptor": "Descriptor_Unit_VLRA_supply_FR",
         "id": 1177,
-        "name": "",
-        "category": ""
+        "name": "VLRA LOG.",
+        "category": "log"
     },
     {
         "descriptor": "Descriptor_Unit_VLRA_trans_FR",
         "id": 1178,
-        "name": "",
-        "category": ""
+        "name": "VLRA",
+        "category": "trans"
     },
     {
         "descriptor": "Descriptor_Unit_ZSU_23_Shilka_Afghan_SOV",
