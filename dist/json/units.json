@@ -788,8 +788,8 @@
     {
         "descriptor": "Descriptor_Unit_M107A2_175mm_UK",
         "id": 246,
-        "name": "",
-        "category": ""
+        "name": "M107A2 175MM",
+        "category": "art"
     },
     {
         "descriptor": "Descriptor_Unit_FV432_Mortar_UK",
@@ -812,7 +812,7 @@
     {
         "descriptor": "Descriptor_Unit_Challenger_1_Mk1_UK",
         "id": 251,
-        "name": "CHALLENGER 1 MK1",
+        "name": "CHALLENGER MK.2",
         "category": "tank"
     },
     {
@@ -860,7 +860,7 @@
     {
         "descriptor": "Descriptor_Unit_FH70_155mm_UK",
         "id": 259,
-        "name": "FH70 155MM",
+        "name": "L121 155MM",
         "category": "art"
     },
     {
@@ -872,8 +872,8 @@
     {
         "descriptor": "Descriptor_Unit_Saxon_UK",
         "id": 262,
-        "name": "",
-        "category": ""
+        "name": "SAXON",
+        "category": "trans"
     },
     {
         "descriptor": "Descriptor_Unit_Harrier_UK",
@@ -1220,14 +1220,14 @@
     {
         "descriptor": "Descriptor_Unit_SAS_UK",
         "id": 343,
-        "name": "",
-        "category": ""
+        "name": "SAS",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_Territorial_UK",
         "id": 344,
-        "name": "",
-        "category": ""
+        "name": "TERRIERS",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_Engineers_DDR",
@@ -2684,8 +2684,8 @@
     {
         "descriptor": "Descriptor_Unit_Harrier_RKT2_UK",
         "id": 709,
-        "name": "",
-        "category": ""
+        "name": "HARRIER GR.3 [RKT2]",
+        "category": "air"
     },
     {
         "descriptor": "Descriptor_Unit_TPZ_Fuchs_RASIT_RFA",
@@ -3470,14 +3470,14 @@
     {
         "descriptor": "Descriptor_Unit_Bedford_MJ_4t_UK",
         "id": 875,
-        "name": "BEDFORD SUPPLY",
+        "name": "BEDFORD MJ SUPPLY",
         "category": "log"
     },
     {
         "descriptor": "Descriptor_Unit_Howz_L118_105mm_UK",
         "id": 876,
-        "name": "",
-        "category": ""
+        "name": "L118 105MM",
+        "category": "art"
     },
     {
         "descriptor": "Descriptor_Unit_DCA_ZU_23_2_DDR",
@@ -4046,13 +4046,13 @@
     {
         "descriptor": "Descriptor_Unit_Bedford_MJ_4t_trans_UK",
         "id": 1092,
-        "name": "BEDFORD Mk.4t",
+        "name": "BEDFORD MJ",
         "category": "trans"
     },
     {
         "descriptor": "Descriptor_Unit_Challenger_1_Mk1_CMD_UK",
         "id": 1093,
-        "name": "CHALLENGER 1 MK1",
+        "name": "CHALLENGER MK.2",
         "category": "tank"
     },
     {
@@ -4244,7 +4244,7 @@
     {
         "descriptor": "Descriptor_Unit_Jaguar_HE2_UK",
         "id": 1125,
-        "name": "HARRIER GR.1A [HE2]",
+        "name": "JAGUAR GR.1A [HE2]",
         "category": "air"
     },
     {
@@ -4262,38 +4262,38 @@
     {
         "descriptor": "Descriptor_Unit_AT_Group_TA_UK",
         "id": 1128,
-        "name": "",
-        "category": ""
+        "name": "TERRIERS AT GROUP",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_Airmobile_CMD_UK",
         "id": 1129,
-        "name": "",
-        "category": ""
+        "name": "AIRMOBILE LDR.",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_Airmobile_MILAN_UK",
         "id": 1130,
-        "name": "",
-        "category": ""
+        "name": "AIRMOBILE",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_Airmobile_UK",
         "id": 1131,
-        "name": "",
-        "category": ""
+        "name": "AIRMOBILE GUN GROUP",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_DCA_Rapier_UK",
         "id": 1132,
-        "name": "",
-        "category": ""
+        "name": "RAPIER",
+        "category": "aa"
     },
     {
         "descriptor": "Descriptor_Unit_Engineers_TA_UK",
         "id": 1133,
-        "name": "",
-        "category": ""
+        "name": "TERRIERS PIONIERS",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_Faun_Kraka_20mm_RFA",
@@ -4316,20 +4316,20 @@
     {
         "descriptor": "Descriptor_Unit_Gun_Group_TA_UK",
         "id": 1137,
-        "name": "",
-        "category": ""
+        "name": "TERRIERS GUN GROUP",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_LandRover_MILAN_UK",
         "id": 1138,
-        "name": "",
-        "category": ""
+        "name": "ROVER MILAN",
+        "category": "tank"
     },
     {
         "descriptor": "Descriptor_Unit_RCL_L6_Wombat_UK",
         "id": 1139,
-        "name": "",
-        "category": ""
+        "name": "L6 WOMBAT",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_SAS_CMD_FR",
@@ -4340,14 +4340,14 @@
     {
         "descriptor": "Descriptor_Unit_Scout_TA_UK",
         "id": 1141,
-        "name": "",
-        "category": ""
+        "name": "TERRIERS SCOUTS",
+        "category": "rec"
     },
     {
         "descriptor": "Descriptor_Unit_Territorial_CMD_UK",
         "id": 1142,
-        "name": "",
-        "category": ""
+        "name": "TERRIERS LDR.",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_Puma_PC_FR",
@@ -4364,32 +4364,32 @@
     {
         "descriptor": "Descriptor_Unit_F4_Phantom_AA_F3",
         "id": 1145,
-        "name": "",
-        "category": ""
+        "name": "PHANTOM F.3 [AA]",
+        "category": "air"
     },
     {
         "descriptor": "Descriptor_Unit_Harrier_HE1_UK",
         "id": 1146,
-        "name": "",
-        "category": ""
+        "name": "HARRIER GR.3 [HE1]",
+        "category": "air"
     },
     {
         "descriptor": "Descriptor_Unit_Harrier_RKT1_UK",
         "id": 1147,
-        "name": "",
-        "category": ""
+        "name": "HARRIER GR.3 [RKT1]",
+        "category": "air"
     },
     {
         "descriptor": "Descriptor_Unit_Jaguar_CLU_UK",
         "id": 1148,
-        "name": "",
-        "category": ""
+        "name": "JAGUAR GR.1A [CLU]",
+        "category": "air"
     },
     {
         "descriptor": "Descriptor_Unit_Jaguar_HE1_UK",
         "id": 1149,
-        "name": "",
-        "category": ""
+        "name": "JAGUAR GR.1A [HE1]",
+        "category": "air"
     },
     {
         "descriptor": "Descriptor_Unit_Jaguar_RKT_FR",
@@ -4418,14 +4418,14 @@
     {
         "descriptor": "Descriptor_Unit_Scout_Airmobile_UK",
         "id": 1154,
-        "name": "",
-        "category": ""
+        "name": "AIRMOBILE SCOUTS",
+        "category": "rec"
     },
     {
         "descriptor": "Descriptor_Unit_MANPAD_Blowpipe_UK",
         "id": 1155,
-        "name": "",
-        "category": ""
+        "name": "BLOWPIPE",
+        "category": "aa"
     },
     {
         "descriptor": "Descriptor_Unit_DCA_53T2_20mm_Para_FR",
