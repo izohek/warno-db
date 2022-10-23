@@ -37,7 +37,7 @@ exports.AllUnits = [
         id: 21,
         name: 'M113A3',
         descriptor: 'Descriptor_Unit_M113A3_US',
-        category: 'log'
+        category: 'trans'
     },
     {
         id: 24,
@@ -176,6 +176,18 @@ exports.AllUnits = [
         name: 'EF-111A RAVEN [SEAD]',
         descriptor: 'Descriptor_Unit_EF111_Raven',
         category: 'air'
+    },
+    {
+        id: 77,
+        name: 'T-64BV',
+        descriptor: 'Descriptor_Unit_T64BV_SOV',
+        category: 'tank'
+    },
+    {
+        id: 78,
+        name: 'T-64B',
+        descriptor: 'Descriptor_Unit_T64B_SOV',
+        category: 'tank'
     },
     {
         id: 79,
@@ -583,7 +595,7 @@ exports.AllUnits = [
         id: 208,
         name: 'SPW-70',
         descriptor: 'Descriptor_Unit_BTR_70_DDR',
-        category: 'log'
+        category: 'trans'
     },
     {
         id: 209,
@@ -839,7 +851,7 @@ exports.AllUnits = [
     },
     {
         id: 265,
-        name: 'SK12M3 KUB-M3',
+        name: '2K12M3 KUB-M3',
         descriptor: 'Descriptor_Unit_2K12_KUB_DDR',
         category: 'aa'
     },
@@ -1235,7 +1247,7 @@ exports.AllUnits = [
     },
     {
         id: 358,
-        name: 'FeldJager',
+        name: 'FELDJAGER',
         descriptor: 'Descriptor_Unit_Feldgendarmerie_RFA',
         category: 'inf'
     },
@@ -1247,13 +1259,13 @@ exports.AllUnits = [
     },
     {
         id: 360,
-        name: 'AUFKLARER (HVY)',
+        name: 'MOT. AUFKLARER',
         descriptor: 'Descriptor_Unit_HvyScout_DDR',
         category: 'rec'
     },
     {
         id: 361,
-        name: 'RAZVEDKA (HVY)',
+        name: 'MOT. RAZVEDKA',
         descriptor: 'Descriptor_Unit_HvyScout_SOV',
         category: 'rec'
     },
@@ -1459,7 +1471,7 @@ exports.AllUnits = [
         id: 414,
         name: 'BTR-60PB',
         descriptor: 'Descriptor_Unit_BTR_60_SOV',
-        category: 'log'
+        category: 'trans'
     },
     {
         id: 415,
@@ -1477,7 +1489,7 @@ exports.AllUnits = [
         id: 417,
         name: 'MT-LB',
         descriptor: 'Descriptor_Unit_MTLB_transp_SOV',
-        category: 'log'
+        category: 'trans'
     },
     {
         id: 418,
@@ -1490,6 +1502,12 @@ exports.AllUnits = [
         name: 'SPETSNAZ KOM.',
         descriptor: 'Descriptor_Unit_Spetsnaz_CMD_SOV',
         category: 'inf'
+    },
+    {
+        id: 420,
+        name: 'T-64BVK',
+        descriptor: 'Descriptor_Unit_T64BV_CMD_SOV',
+        category: 'tank'
     },
     {
         id: 421,
@@ -1637,7 +1655,7 @@ exports.AllUnits = [
     },
     {
         id: 456,
-        name: 'F-16C [HE]',
+        name: 'F-16C [LGB]',
         descriptor: 'Descriptor_Unit_F16E_HE_US',
         category: 'air'
     },
@@ -1739,7 +1757,7 @@ exports.AllUnits = [
     },
     {
         id: 487,
-        name: 'Mi-8T',
+        name: 'Mi-8T [RKT]',
         descriptor: 'Descriptor_Unit_Mi_8TV_SOV',
         category: 'trans'
     },
@@ -1975,7 +1993,7 @@ exports.AllUnits = [
         id: 537,
         name: 'AUFKL. BMP-1',
         descriptor: 'Descriptor_Unit_BMP_1P_reco_DDR',
-        category: 'rec'
+        category: 'trans'
     },
     {
         id: 538,
@@ -2201,7 +2219,7 @@ exports.AllUnits = [
     },
     {
         id: 577,
-        name: 'FUCHS FÜ.FU.',
+        name: 'FUCHS FU.FU.',
         descriptor: 'Descriptor_Unit_TPZ_Fuchs_CMD_RFA',
         category: 'log'
     },
@@ -2411,7 +2429,7 @@ exports.AllUnits = [
     },
     {
         id: 648,
-        name: 'Mi-8T',
+        name: 'Mi-8T [RKT]',
         descriptor: 'Descriptor_Unit_Mi_8T_DDR',
         category: 'trans'
     },
@@ -3613,7 +3631,7 @@ exports.AllUnits = [
         id: 1084,
         name: 'VAB T20/13',
         descriptor: 'Descriptor_Unit_VAB_T20_FR',
-        category: 'log'
+        category: 'trans'
     },
     {
         id: 1085,
@@ -4084,6 +4102,12 @@ exports.AllUnits = [
         category: 'rec'
     },
     {
+        id: 1170,
+        name: 'SPETSNAZ (O.P.)',
+        descriptor: 'Descriptor_Unit_Spetsnaz_FireSupport_SOV',
+        category: 'inf'
+    },
+    {
         id: 1171,
         name: 'VBL PC',
         descriptor: 'Descriptor_Unit_VBL_PC_FR',
@@ -4123,6 +4147,24 @@ exports.AllUnits = [
         id: 1177,
         name: 'VLRA',
         descriptor: 'Descriptor_Unit_VLRA_trans_FR',
+        category: 'trans'
+    },
+    {
+        id: 1178,
+        name: 'ZSU-23-4M2 AFGHANSKII',
+        descriptor: 'Descriptor_Unit_ZSU_23_Shilka_Afghan_SOV',
+        category: 'aa'
+    },
+    {
+        id: 1180,
+        name: 'Mi-8T',
+        descriptor: 'Descriptor_Unit_Mi_8TV_non_arme_SOV',
+        category: 'trans'
+    },
+    {
+        id: 1181,
+        name: 'Mi-8T',
+        descriptor: 'Descriptor_Unit_Mi_8T_non_arme_DDR',
         category: 'trans'
     },
 ];

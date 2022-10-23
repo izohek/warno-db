@@ -33,7 +33,7 @@
         "descriptor": "Descriptor_Unit_M113A3_US",
         "id": 22,
         "name": "M113A3",
-        "category": "log"
+        "category": "trans"
     },
     {
         "descriptor": "Descriptor_Unit_M163_PIVADS_US",
@@ -176,14 +176,14 @@
     {
         "descriptor": "Descriptor_Unit_T64BV_SOV",
         "id": 78,
-        "name": "",
-        "category": ""
+        "name": "T-64BV",
+        "category": "tank"
     },
     {
         "descriptor": "Descriptor_Unit_T64B_SOV",
         "id": 79,
-        "name": "",
-        "category": ""
+        "name": "T-64B",
+        "category": "tank"
     },
     {
         "descriptor": "Descriptor_Unit_T80B_SOV",
@@ -609,7 +609,7 @@
         "descriptor": "Descriptor_Unit_BTR_70_DDR",
         "id": 209,
         "name": "SPW-70",
-        "category": "log"
+        "category": "trans"
     },
     {
         "descriptor": "Descriptor_Unit_Osa_9K33M3_DDR",
@@ -884,7 +884,7 @@
     {
         "descriptor": "Descriptor_Unit_2K12_KUB_DDR",
         "id": 266,
-        "name": "SK12M3 KUB-M3",
+        "name": "2K12M3 KUB-M3",
         "category": "aa"
     },
     {
@@ -1280,7 +1280,7 @@
     {
         "descriptor": "Descriptor_Unit_Feldgendarmerie_RFA",
         "id": 359,
-        "name": "FeldJager",
+        "name": "FELDJAGER",
         "category": "inf"
     },
     {
@@ -1292,13 +1292,13 @@
     {
         "descriptor": "Descriptor_Unit_HvyScout_DDR",
         "id": 361,
-        "name": "AUFKLARER (HVY)",
+        "name": "MOT. AUFKLARER",
         "category": "rec"
     },
     {
         "descriptor": "Descriptor_Unit_HvyScout_SOV",
         "id": 362,
-        "name": "RAZVEDKA (HVY)",
+        "name": "MOT. RAZVEDKA",
         "category": "rec"
     },
     {
@@ -1515,7 +1515,7 @@
         "descriptor": "Descriptor_Unit_BTR_60_SOV",
         "id": 415,
         "name": "BTR-60PB",
-        "category": "log"
+        "category": "trans"
     },
     {
         "descriptor": "Descriptor_Unit_Engineers_CMD_SOV",
@@ -1533,7 +1533,7 @@
         "descriptor": "Descriptor_Unit_MTLB_transp_SOV",
         "id": 418,
         "name": "MT-LB",
-        "category": "log"
+        "category": "trans"
     },
     {
         "descriptor": "Descriptor_Unit_MotRifles_CMD_SOV",
@@ -1550,8 +1550,8 @@
     {
         "descriptor": "Descriptor_Unit_T64BV_CMD_SOV",
         "id": 421,
-        "name": "",
-        "category": ""
+        "name": "T-64BVK",
+        "category": "tank"
     },
     {
         "descriptor": "Descriptor_Unit_T80BV_CMD_SOV",
@@ -1712,7 +1712,7 @@
     {
         "descriptor": "Descriptor_Unit_F16E_HE_US",
         "id": 457,
-        "name": "F-16C [HE]",
+        "name": "F-16C [LGB]",
         "category": "air"
     },
     {
@@ -1814,7 +1814,7 @@
     {
         "descriptor": "Descriptor_Unit_Mi_8TV_SOV",
         "id": 488,
-        "name": "Mi-8T",
+        "name": "Mi-8T [RKT]",
         "category": "trans"
     },
     {
@@ -2097,7 +2097,7 @@
         "descriptor": "Descriptor_Unit_BMP_1P_reco_DDR",
         "id": 538,
         "name": "AUFKL. BMP-1",
-        "category": "rec"
+        "category": "trans"
     },
     {
         "descriptor": "Descriptor_Unit_BMP_1_CMD_DDR",
@@ -2330,7 +2330,7 @@
     {
         "descriptor": "Descriptor_Unit_TPZ_Fuchs_CMD_RFA",
         "id": 578,
-        "name": "FUCHS F├£.FU.",
+        "name": "FUCHS FU.FU.",
         "category": "log"
     },
     {
@@ -2564,7 +2564,7 @@
     {
         "descriptor": "Descriptor_Unit_Mi_8T_DDR",
         "id": 649,
-        "name": "Mi-8T",
+        "name": "Mi-8T [RKT]",
         "category": "trans"
     },
     {
@@ -4005,7 +4005,7 @@
         "descriptor": "Descriptor_Unit_VAB_T20_FR",
         "id": 1085,
         "name": "VAB T20/13",
-        "category": "log"
+        "category": "trans"
     },
     {
         "descriptor": "Descriptor_Unit_VLRA_HMG_FR",
@@ -4520,8 +4520,8 @@
     {
         "descriptor": "Descriptor_Unit_Spetsnaz_FireSupport_SOV",
         "id": 1171,
-        "name": "",
-        "category": ""
+        "name": "SPETSNAZ (O.P.)",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_VBL_PC_FR",
@@ -4568,8 +4568,8 @@
     {
         "descriptor": "Descriptor_Unit_ZSU_23_Shilka_Afghan_SOV",
         "id": 1179,
-        "name": "",
-        "category": ""
+        "name": "ZSU-23-4M2 AFGHANSKII",
+        "category": "aa"
     },
     {
         "descriptor": "Descriptor_Unit_Mi_8TV_UPK_DDR",
@@ -4580,13 +4580,13 @@
     {
         "descriptor": "Descriptor_Unit_Mi_8TV_non_arme_SOV",
         "id": 1181,
-        "name": "",
-        "category": ""
+        "name": "Mi-8T",
+        "category": "trans"
     },
     {
         "descriptor": "Descriptor_Unit_Mi_8T_non_arme_DDR",
         "id": 1182,
-        "name": "",
-        "category": ""
+        "name": "Mi-8T",
+        "category": "trans"
     }
 ]
