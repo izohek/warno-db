@@ -12,7 +12,7 @@ export function findUnitCard (id: string | number): UnitCard | null {
         return item.id === id
     })
 
-    if (! foundCard) { return null }
+    if (foundCard === undefined) { return null }
 
     const newCard = new UnitCard(
         foundCard.name,
@@ -35,7 +35,7 @@ export function findUnitCardByDescriptor (descriptor: string): UnitCard | null {
         return unit.descriptor === descriptor
     })
 
-    if (! foundUnit) { return null }
+    if (foundUnit === undefined) { return null }
 
     const card = new UnitCard(
         foundUnit.name,

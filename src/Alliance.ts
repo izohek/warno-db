@@ -6,4 +6,4 @@ export interface Alliance {
 export const Alliances = {
     Axis: 'ENationalite/Axis',
     Allies: 'ENationalite/Allied'
-} as const;
+} as const

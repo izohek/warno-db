@@ -4174,5 +4174,5 @@ export const AllUnits: UnitDefinition[] = [
         name: 'Mi-8T',
         descriptor: 'Descriptor_Unit_Mi_8T_non_arme_DDR',
         category: 'trans'
-    },
+    }
 ]

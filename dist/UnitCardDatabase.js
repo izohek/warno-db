@@ -16,7 +16,7 @@ function findUnitCard(id) {
     const foundCard = units_json_1.default.find(function (item) {
         return item.id === id;
     });
-    if (!foundCard) {
+    if (foundCard === undefined) {
         return null;
     }
     const newCard = new UnitCard_1.UnitCard(foundCard.name, foundCard.id, 0, foundCard.category);
@@ -34,7 +34,7 @@ function findUnitCardByDescriptor(descriptor) {
     const foundUnit = units_json_1.default.find(function (unit) {
         return unit.descriptor === descriptor;
     });
-    if (!foundUnit) {
+    if (foundUnit === undefined) {
         return null;
     }
     const card = new UnitCard_1.UnitCard(foundUnit.name, foundUnit.id, 0, foundUnit.category);

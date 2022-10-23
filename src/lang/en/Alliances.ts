@@ -1,4 +1,4 @@
-import { Alliances } from "../../Alliance";
+import { Alliances } from "../../Alliance"
 
 /// Alliance name localization
 /// English
