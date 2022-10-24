@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.generateUnits = exports.generateDivisions = void 0;
+exports.generatePacks = exports.generateUnits = exports.generateDivisions = void 0;
 const ndf_parser_1 = require("ndf-parser");
 const fs_1 = require("fs");
 function generateDivisions(deckFile, divisionsFile) {
@@ -23,6 +23,22 @@ function generateUnits(unitsFile) {
     return unitData;
 }
 exports.generateUnits = generateUnits;
+function generatePacks(packsFile) {
+    const packsNdfData = parseNdfFile(packsFile);
+    const packs = packsNdfData.map((p) => {
+        const units = (0, ndf_parser_1.search)(p, 'UnitDescriptorList');
+        return {
+            name: p.name,
+            units: units.flatMap((u) => {
+                return u.value.values.map((u2) => {
+                    return u2.value;
+                });
+            })
+        };
+    });
+    return packs;
+}
+exports.generatePacks = generatePacks;
 /**
  * Parse an ndf file at a given path.
  *

@@ -1,7 +1,9 @@
-import { generateUnits } from "../ndf/NdfDataGenerator";
+import { generatePacks, generateUnits } from "../ndf/NdfDataGenerator";
 import { AllUnits, UnitDefinition } from "../UnitData";
+import { writeFileSync } from 'fs'
 
 const deckNdfFile = './ndf/suchet/DeckSerializer.ndf'
+const packsNdfFile = './ndf/suchet/Packs.ndf'
 
 // From ndf
 const unitData = generateUnits(deckNdfFile)
@@ -17,5 +19,9 @@ const unitDataPlus = unitData.map( (unit) => {
     } as UnitDefinition
 })
 
-// Print
-console.log(JSON.stringify(unitDataPlus, null, 4))
+const packs = generatePacks(packsNdfFile)
+
+// Write units
+writeFileSync('./src/json/units.json', JSON.stringify(unitDataPlus, null, 4))
+// Write packs
+writeFileSync('./src/json/packs.json', JSON.stringify(packs, null, 4))

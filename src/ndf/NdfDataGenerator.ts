@@ -1,6 +1,7 @@
 import { NdfParser, search } from 'ndf-parser';
 import { readFileSync } from 'fs';
 import Division from '../Division';
+import { NdfObject } from 'ndf-parser/dist/src/types';
 
 interface NdfDivision {
     id: number
@@ -37,6 +38,22 @@ export function generateUnits(unitsFile: string) {
     const unitData = findDivisionDeckDataFromTuple(unitsIdObject) as NdfUnit[]
 
     return unitData
+}
+
+export function generatePacks(packsFile: string) {
+    const packsNdfData = parseNdfFile(packsFile)
+    const packs = packsNdfData.map( (p) => {
+        const units = search(p, 'UnitDescriptorList')
+        return {
+            name: (p as NdfObject).name,
+            units: units.flatMap( (u: any) => {
+                return u.value.values.map( (u2: any) => {
+                    return u2.value
+                })
+            })
+        }
+    })
+    return packs
 }
 
 /**

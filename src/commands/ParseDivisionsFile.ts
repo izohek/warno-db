@@ -1,6 +1,7 @@
 import { generateDivisions } from "../ndf/NdfDataGenerator"
 import localization_En from '../lang/en/Divisions'
 import allianceLoc_En from '../lang/en/Alliances'
+import { writeFileSync } from 'fs'
 
 const deckNdfFile = './ndf/suchet/DeckSerializer.ndf'
 const divisionNdfFile = './ndf/suchet/Divisions.ndf'
@@ -23,4 +24,4 @@ const localizedDivisionData = mpDivisionDat.map( (division) => {
 })
 
 // Print
-console.log(JSON.stringify(localizedDivisionData, null, 4))
+writeFileSync('./src/json/divisions.json', JSON.stringify(localizedDivisionData, null, 4))

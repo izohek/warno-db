@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const NdfDataGenerator_1 = require("../ndf/NdfDataGenerator");
 const Divisions_1 = __importDefault(require("../lang/en/Divisions"));
 const Alliances_1 = __importDefault(require("../lang/en/Alliances"));
+const fs_1 = require("fs");
 const deckNdfFile = './ndf/suchet/DeckSerializer.ndf';
 const divisionNdfFile = './ndf/suchet/Divisions.ndf';
 // Parse from ndf
@@ -21,4 +22,4 @@ const localizedDivisionData = mpDivisionDat.map((division) => {
     return Object.assign(Object.assign({}, division), { name: (_a = Divisions_1.default[division.descriptor]) !== null && _a !== void 0 ? _a : "", alliance: (_b = Alliances_1.default[division.alliance]) !== null && _b !== void 0 ? _b : "" });
 });
 // Print
-console.log(JSON.stringify(localizedDivisionData, null, 4));
+(0, fs_1.writeFileSync)('./src/json/divisions.json', JSON.stringify(localizedDivisionData, null, 4));
