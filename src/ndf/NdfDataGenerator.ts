@@ -15,6 +15,9 @@ interface NdfDivisionDetail {
     alliance: string
     availableForPlay: string
     country: string
+    tags: string[],
+    maxActivationPoints: number,
+    costMatrix: string
 }
 
 export function generateDivisions(deckFile: string, divisionsFile: string) {
@@ -31,13 +34,24 @@ export function generateDivisions(deckFile: string, divisionsFile: string) {
     return mergeDataIntoDivision(divisionData, divisionDetailData)
 }
 
-export function generateUnits(unitsFile: string) {
+export function generateIds(unitsFile: string) {
     // 
     const unitsNdfData = parseNdfFile(unitsFile)[0]
     const unitsIdObject = search(unitsNdfData, 'UnitIds')[0].value
     const unitData = findDivisionDeckDataFromTuple(unitsIdObject) as NdfUnit[]
 
-    return unitData
+    const packIdsObject = search(unitsNdfData, 'PackIds')[0].value
+    const packIds = packIdsObject.value.map( (pid: any) => {
+        return {
+            descriptor: pid.value[0],
+            id: parseInt(pid.value[1].value),
+        }
+    })
+
+    return {
+        units: unitData,
+        packs: packIds
+    }
 }
 
 export function generatePacks(packsFile: string) {
@@ -104,8 +118,15 @@ function findDivisionDetailData(data: any): NdfDivisionDetail[] {
         return {
             descriptor: search(d, 'name'),
             alliance: search(d, 'DivisionNationalite')[0].value.value,
-            availableForPlay: search(d, 'AvailableForPlay')[0].value.value,
-            country: search(d, 'CountryId')[0].value.value.replaceAll('"', '')
+            availableForPlay: JSON.parse(search(d, 'AvailableForPlay')[0].value.value.toLowerCase()),
+            country: search(d, 'CountryId')[0].value.value.replaceAll('"', ''), 
+            tags: search(d, 'DivisionTags')[0].value.values.map((t: any) => t.value.replaceAll("'", '')),
+            maxActivationPoints: parseInt(search(d, 'MaxActivationPoints')[0].value.value),
+            costMatrix: search(d, 'CostMatrix')[0].value.value,
+            packList: search(d, 'PackList')[0].value.value.map((p: any) => { return {
+                descriptor: p.value[0].value,
+                count: parseInt(p.value[1].value)
+            }})
         }
     })
 }
@@ -121,6 +142,7 @@ function findDivisionDetailData(data: any): NdfDivisionDetail[] {
 function mergeDataIntoDivision(deck: NdfDivision[], detail: NdfDivisionDetail[]): Division[] {
     return detail.map( (d) => {
         return {
+            ...d,
             name: '',
             country: d.country,
             id: (deck.find( (deckItem) => deckItem.descriptor === d.descriptor) ?? {id:-1}).id,

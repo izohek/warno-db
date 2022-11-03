@@ -6,7 +6,10 @@ interface NdfDivision {
 interface NdfUnit extends NdfDivision {
 }
 export declare function generateDivisions(deckFile: string, divisionsFile: string): Division[];
-export declare function generateUnits(unitsFile: string): NdfUnit[];
+export declare function generateIds(unitsFile: string): {
+    units: NdfUnit[];
+    packs: any;
+};
 export declare function generatePacks(packsFile: string): {
     name: string;
     units: any;

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.generatePacks = exports.generateUnits = exports.generateDivisions = void 0;
+exports.generatePacks = exports.generateIds = exports.generateDivisions = void 0;
 const ndf_parser_1 = require("ndf-parser");
 const fs_1 = require("fs");
 function generateDivisions(deckFile, divisionsFile) {
@@ -15,14 +15,24 @@ function generateDivisions(deckFile, divisionsFile) {
     return mergeDataIntoDivision(divisionData, divisionDetailData);
 }
 exports.generateDivisions = generateDivisions;
-function generateUnits(unitsFile) {
+function generateIds(unitsFile) {
     // 
     const unitsNdfData = parseNdfFile(unitsFile)[0];
     const unitsIdObject = (0, ndf_parser_1.search)(unitsNdfData, 'UnitIds')[0].value;
     const unitData = findDivisionDeckDataFromTuple(unitsIdObject);
-    return unitData;
+    const packIdsObject = (0, ndf_parser_1.search)(unitsNdfData, 'PackIds')[0].value;
+    const packIds = packIdsObject.value.map((pid) => {
+        return {
+            descriptor: pid.value[0],
+            id: parseInt(pid.value[1].value),
+        };
+    });
+    return {
+        units: unitData,
+        packs: packIds
+    };
 }
-exports.generateUnits = generateUnits;
+exports.generateIds = generateIds;
 function generatePacks(packsFile) {
     const packsNdfData = parseNdfFile(packsFile);
     const packs = packsNdfData.map((p) => {
@@ -85,8 +95,17 @@ function findDivisionDetailData(data) {
         return {
             descriptor: (0, ndf_parser_1.search)(d, 'name'),
             alliance: (0, ndf_parser_1.search)(d, 'DivisionNationalite')[0].value.value,
-            availableForPlay: (0, ndf_parser_1.search)(d, 'AvailableForPlay')[0].value.value,
-            country: (0, ndf_parser_1.search)(d, 'CountryId')[0].value.value.replaceAll('"', '')
+            availableForPlay: JSON.parse((0, ndf_parser_1.search)(d, 'AvailableForPlay')[0].value.value.toLowerCase()),
+            country: (0, ndf_parser_1.search)(d, 'CountryId')[0].value.value.replaceAll('"', ''),
+            tags: (0, ndf_parser_1.search)(d, 'DivisionTags')[0].value.values.map((t) => t.value.replaceAll("'", '')),
+            maxActivationPoints: parseInt((0, ndf_parser_1.search)(d, 'MaxActivationPoints')[0].value.value),
+            costMatrix: (0, ndf_parser_1.search)(d, 'CostMatrix')[0].value.value,
+            packList: (0, ndf_parser_1.search)(d, 'PackList')[0].value.value.map((p) => {
+                return {
+                    descriptor: p.value[0].value,
+                    count: parseInt(p.value[1].value)
+                };
+            })
         };
     });
 }
@@ -101,12 +120,6 @@ function findDivisionDetailData(data) {
 function mergeDataIntoDivision(deck, detail) {
     return detail.map((d) => {
         var _a;
-        return {
-            name: '',
-            country: d.country,
-            id: ((_a = deck.find((deckItem) => deckItem.descriptor === d.descriptor)) !== null && _a !== void 0 ? _a : { id: -1 }).id,
-            alliance: d.alliance,
-            descriptor: d.descriptor
-        };
+        return Object.assign(Object.assign({}, d), { name: '', country: d.country, id: ((_a = deck.find((deckItem) => deckItem.descriptor === d.descriptor)) !== null && _a !== void 0 ? _a : { id: -1 }).id, alliance: d.alliance, descriptor: d.descriptor });
     });
 }

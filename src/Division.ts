@@ -5,6 +5,7 @@ export interface Division {
     alliance: string
     id: number
     descriptor: string
+    tags?: string[]
 }
 
 export default Division
