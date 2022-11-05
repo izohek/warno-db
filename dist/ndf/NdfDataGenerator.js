@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.generatePacks = exports.generateIds = exports.generateDivisions = void 0;
+exports.generateDivisionRules = exports.generatePacks = exports.generateIds = exports.generateDivisions = void 0;
 const ndf_parser_1 = require("ndf-parser");
 const fs_1 = require("fs");
 function generateDivisions(deckFile, divisionsFile) {
@@ -23,7 +23,7 @@ function generateIds(unitsFile) {
     const packIdsObject = (0, ndf_parser_1.search)(unitsNdfData, 'PackIds')[0].value;
     const packIds = packIdsObject.value.map((pid) => {
         return {
-            descriptor: pid.value[0],
+            descriptor: pid.value[0].value,
             id: parseInt(pid.value[1].value),
         };
     });
@@ -49,6 +49,44 @@ function generatePacks(packsFile) {
     return packs;
 }
 exports.generatePacks = generatePacks;
+/**
+ * Generate division rules from ndf
+ *
+ * @param rulesFile rules file name
+ * @returns array of division rules
+ */
+function generateDivisionRules(rulesFile) {
+    const rulesNdfData = parseNdfFile(rulesFile);
+    const ndfItems = rulesNdfData[0].attributes[0].value.value.map(e => e.value);
+    const rules = ndfItems.map(item => {
+        // return item
+        const unitRules = item[1].children.filter(c => c.name === 'UnitRuleList')[0].value;
+        const transportRules = item[1].children.filter(c => c.name === 'TransportRuleList')[0].value;
+        return {
+            division: item[0].value,
+            unitRules: unitRules.values.map(ur => {
+                var _a, _b, _c, _d;
+                return {
+                    unitDescriptor: ((_a = ur.children.find(u => u.name === 'UnitDescriptor')) === null || _a === void 0 ? void 0 : _a.value).value,
+                    availableWithoutTransport: JSON.parse(((_b = ur.children.find(u => u.name === 'AvailableWithoutTransport')) === null || _b === void 0 ? void 0 : _b.value).value.toLowerCase()),
+                    numberOfUnitsInPack: parseInt(((_c = ur.children.find(u => u.name === 'NumberOfUnitInPack')) === null || _c === void 0 ? void 0 : _c.value).value),
+                    numberOfUnitInPackXPMultiplier: ((_d = ur.children.find(u => u.name === 'NumberOfUnitInPackXPMultiplier')) === null || _d === void 0 ? void 0 : _d.value).values.map(i => {
+                        return parseFloat(i.value);
+                    })
+                };
+            }),
+            transportRules: (0, ndf_parser_1.search)(transportRules, 'TDeckTransportRule').map((tr) => {
+                var _a, _b;
+                return {
+                    name: ((_a = tr.children.find(c => c.name === 'TransportDescriptor')) === null || _a === void 0 ? void 0 : _a.value).value,
+                    maxNumber: parseInt(((_b = tr.children.find(c => c.name === 'MaxNumber')) === null || _b === void 0 ? void 0 : _b.value).value)
+                };
+            }),
+        };
+    });
+    return rules;
+}
+exports.generateDivisionRules = generateDivisionRules;
 /**
  * Parse an ndf file at a given path.
  *
@@ -79,7 +117,7 @@ function findDivisionDeckData(data) {
 function findDivisionDeckDataFromTuple(data) {
     return data.value.map((v) => {
         return {
-            descriptor: v.value[0],
+            descriptor: v.value[0].value,
             id: parseInt(v.value[1].value, 10)
         };
     });

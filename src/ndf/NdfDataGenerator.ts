@@ -1,6 +1,7 @@
-import { NdfParser, search } from 'ndf-parser';
+import { NdfParser, search,  } from 'ndf-parser';
+import { ParserArray, ParserObject, ParserStringLiteral, ParserTildeLiteral, ParserTuple } from "ndf-parser/dist/src/types";
 import { readFileSync } from 'fs';
-import Division from '../Division';
+import Division, { DivisionRule } from '../Division';
 import { NdfObject } from 'ndf-parser/dist/src/types';
 
 interface NdfDivision {
@@ -43,7 +44,7 @@ export function generateIds(unitsFile: string) {
     const packIdsObject = search(unitsNdfData, 'PackIds')[0].value
     const packIds = packIdsObject.value.map( (pid: any) => {
         return {
-            descriptor: pid.value[0],
+            descriptor: pid.value[0].value,
             id: parseInt(pid.value[1].value),
         }
     })
@@ -68,6 +69,42 @@ export function generatePacks(packsFile: string) {
         }
     })
     return packs
+}
+
+/**
+ * Generate division rules from ndf
+ * 
+ * @param rulesFile rules file name
+ * @returns array of division rules
+ */
+export function generateDivisionRules(rulesFile: string): DivisionRule[] {
+    const rulesNdfData = parseNdfFile(rulesFile)
+    
+    const ndfItems = ((rulesNdfData[0] as any).attributes[0].value.value as ParserTuple[]).map( e => e.value) as [ParserStringLiteral, ParserObject][]
+    const rules = ndfItems.map( item => {
+        // return item
+        const unitRules = item[1].children.filter( c => c.name === 'UnitRuleList' )[0].value as ParserArray
+        const transportRules = item[1].children.filter( c => c.name === 'TransportRuleList' )[0].value as ParserArray
+        return {
+            division: item[0].value,
+            unitRules: (unitRules.values as ParserObject[]).map( ur => {
+                return {
+                    unitDescriptor: (ur.children.find( u => u.name === 'UnitDescriptor' )?.value as ParserTildeLiteral).value,
+                    availableWithoutTransport: JSON.parse((ur.children.find( u => u.name === 'AvailableWithoutTransport' )?.value as ParserStringLiteral).value.toLowerCase()),
+                    numberOfUnitsInPack: parseInt((ur.children.find( u => u.name === 'NumberOfUnitInPack' )?.value as ParserStringLiteral).value),
+                    numberOfUnitInPackXPMultiplier: (ur.children.find( u => u.name === 'NumberOfUnitInPackXPMultiplier' )?.value as ParserArray).values.map( i => {
+                        return parseFloat((i as ParserStringLiteral).value)
+                    })
+                }
+            }),
+            transportRules: (search(transportRules, 'TDeckTransportRule') as ParserObject[]).map( (tr) => { return {
+                name: (tr.children.find( c => c.name === 'TransportDescriptor' )?.value as ParserTildeLiteral).value,
+                maxNumber: parseInt((tr.children.find( c => c.name === 'MaxNumber')?.value as ParserStringLiteral).value)
+            }}),
+        }
+    })
+
+    return rules;
 }
 
 /**
@@ -102,7 +139,7 @@ function findDivisionDeckData(data: any) {
  */
 function findDivisionDeckDataFromTuple(data: any): NdfDivision[] {
     return data.value.map( (v: any) => { return { 
-        descriptor: v.value[0],
+        descriptor: v.value[0].value,
         id: parseInt(v.value[1].value, 10)
      }})
 }
