@@ -59,9 +59,10 @@ function generateDivisionRules(rulesFile) {
     const rulesNdfData = parseNdfFile(rulesFile);
     const ndfItems = rulesNdfData[0].attributes[0].value.value.map(e => e.value);
     const rules = ndfItems.map(item => {
+        var _a;
         // return item
         const unitRules = item[1].children.filter(c => c.name === 'UnitRuleList')[0].value;
-        const transportRules = item[1].children.filter(c => c.name === 'TransportRuleList')[0].value;
+        const transportRules = (_a = item[1].children.filter(c => c.name === 'TransportRuleList')[0]) === null || _a === void 0 ? void 0 : _a.value;
         return {
             division: item[0].value,
             unitRules: unitRules.values.map(ur => {

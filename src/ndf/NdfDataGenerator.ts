@@ -84,7 +84,7 @@ export function generateDivisionRules(rulesFile: string): DivisionRule[] {
     const rules = ndfItems.map( item => {
         // return item
         const unitRules = item[1].children.filter( c => c.name === 'UnitRuleList' )[0].value as ParserArray
-        const transportRules = item[1].children.filter( c => c.name === 'TransportRuleList' )[0].value as ParserArray
+        const transportRules = item[1].children.filter( c => c.name === 'TransportRuleList' )[0]?.value as ParserArray
         return {
             division: item[0].value,
             unitRules: (unitRules.values as ParserObject[]).map( ur => {

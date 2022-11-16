@@ -2,8 +2,8 @@ import { generatePacks, generateIds } from "../ndf/NdfDataGenerator";
 import { AllUnits, UnitDefinition } from "../UnitData";
 import { writeFileSync } from 'fs'
 
-const deckNdfFile = './ndf/suchet/DeckSerializer.ndf'
-const packsNdfFile = './ndf/suchet/Packs.ndf'
+const deckNdfFile = './ndf/post-suchet/DeckSerializer.ndf'
+const packsNdfFile = './ndf/post-suchet/Packs.ndf'
 
 // From ndf
 const idData = generateIds(deckNdfFile)
@@ -24,7 +24,7 @@ let packs = generatePacks(packsNdfFile)
 packs = packs.map( (p) => {
     return { 
         ...p,
-        id: idData.packs.find( (id: any) => id.descriptor === p.name ).id
+        id: idData.packs.find( (id: any) => id.descriptor === p.name )?.id ?? null
     }
 })
 
