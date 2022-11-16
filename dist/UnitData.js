@@ -3358,6 +3358,12 @@ exports.AllUnits = [
         category: 'inf'
     },
     {
+        id: 893,
+        name: 'MG-3 7,62MM',
+        descriptor: 'Descriptor_Unit_HMGteam_MG3_RFA',
+        category: 'inf'
+    },
+    {
         id: 898,
         name: 'CMDT AEROMOBILES',
         descriptor: 'Descriptor_Unit_Rifles_Aero_CMD_FR',
@@ -3565,6 +3571,12 @@ exports.AllUnits = [
         id: 1062,
         name: 'AB M60 7,62MM',
         descriptor: 'Descriptor_Unit_HMGteam_M60_AB_US',
+        category: 'inf'
+    },
+    {
+        id: 1064,
+        name: 'FS-MG-3 7,62MM',
+        descriptor: 'Descriptor_Unit_HMGteam_MG3_FJ_RFA',
         category: 'inf'
     },
     {
