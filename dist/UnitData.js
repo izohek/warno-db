@@ -640,6 +640,12 @@ exports.AllUnits = [
         category: 'inf'
     },
     {
+        id: 219,
+        name: 'RAZVEDKA SAPERI',
+        descriptor: 'Descriptor_Unit_Engineers_Scout_SOV',
+        category: 'rec'
+    },
+    {
         id: 220,
         name: 'IGLA',
         descriptor: 'Descriptor_Unit_MANPAD_Igla_SOV',
@@ -3364,6 +3370,12 @@ exports.AllUnits = [
         category: 'inf'
     },
     {
+        id: 888,
+        name: 'PLAMYA 30MM',
+        descriptor: 'Descriptor_Unit_HMGteam_AGS17_SOV',
+        category: 'inf'
+    },
+    {
         id: 890,
         name: 'M2HB 12,7MM',
         descriptor: 'Descriptor_Unit_HMGteam_M2HB_US',
@@ -3385,6 +3397,12 @@ exports.AllUnits = [
         id: 893,
         name: 'MG-3 7,62MM',
         descriptor: 'Descriptor_Unit_HMGteam_MG3_RFA',
+        category: 'inf'
+    },
+    {
+        id: 896,
+        name: 'PKM 7,62MM',
+        descriptor: 'Descriptor_Unit_HMGteam_PKM_SOV',
         category: 'inf'
     },
     {
