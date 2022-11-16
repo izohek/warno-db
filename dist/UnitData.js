@@ -3592,6 +3592,12 @@ exports.AllUnits = [
         category: 'inf'
     },
     {
+        id: 1057,
+        name: 'DESANT. PLAMYA 30MM',
+        descriptor: 'Descriptor_Unit_HMGteam_AGS17_VDV_SOV',
+        category: 'inf'
+    },
+    {
         id: 1058,
         name: 'M2HB 12,7MM',
         descriptor: 'Descriptor_Unit_HMGteam_M2HB_AB_US',
@@ -3625,6 +3631,18 @@ exports.AllUnits = [
         id: 1065,
         name: 'AB MK.19 40MM',
         descriptor: 'Descriptor_Unit_HMGteam_Mk19_AB_US',
+        category: 'inf'
+    },
+    {
+        id: 1067,
+        name: 'NSV 12,7MM',
+        descriptor: 'Descriptor_Unit_HMGteam_NSV_SOV',
+        category: 'inf'
+    },
+    {
+        id: 1069,
+        name: 'DESANT. PKM 7,62MM',
+        descriptor: 'Descriptor_Unit_HMGteam_PKM_VDV_SOV',
         category: 'inf'
     },
     {
@@ -4261,6 +4279,12 @@ exports.AllUnits = [
         id: 1183,
         name: 'F-16CG [LGB]',
         descriptor: 'Descriptor_Unit_F16C_LGB_US',
+        category: 'air'
+    },
+    {
+        id: 1184,
+        name: 'MIG-27K [LGB]',
+        descriptor: 'Descriptor_Unit_MiG_27K_LGB_SOV',
         category: 'air'
     },
     {
