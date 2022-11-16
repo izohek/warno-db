@@ -742,6 +742,12 @@ exports.AllUnits = [
         category: 'rec'
     },
     {
+        id: 241,
+        name: 'PUMA HC.1 SUPPLY',
+        descriptor: 'Descriptor_Unit_Puma_UK',
+        category: 'log'
+    },
+    {
         id: 243,
         name: 'FV107 SCIMITAR',
         descriptor: 'Descriptor_Unit_FV107_Scimitar_UK',
@@ -4222,6 +4228,12 @@ exports.AllUnits = [
         category: 'trans'
     },
     {
+        id: 1182,
+        name: 'SAXON CP',
+        descriptor: 'Descriptor_Unit_Saxon_CMD_UK',
+        category: 'log'
+    },
+    {
         id: 1183,
         name: 'F-16CG [LGB]',
         descriptor: 'Descriptor_Unit_F16C_LGB_US',
@@ -4250,5 +4262,11 @@ exports.AllUnits = [
         name: 'TERRIERS PARAS',
         descriptor: 'Descriptor_Unit_Paratroopers_TA_UK',
         category: 'inf'
+    },
+    {
+        id: 1189,
+        name: 'RAPIER FSA',
+        descriptor: 'Descriptor_Unit_DCA_Rapier_FSA_UK',
+        category: 'aa'
     }
 ];
