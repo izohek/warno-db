@@ -2371,7 +2371,7 @@ export const AllUnits: UnitDefinition[] = [
     },
     {
         id: 632,
-        name: 'KPZ. T-72GM1',
+        name: 'KPZ. T-72M1',
         descriptor: 'Descriptor_Unit_T72M1_DDR',
         category: 'tank'
     },
