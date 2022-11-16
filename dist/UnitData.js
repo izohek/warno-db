@@ -3664,6 +3664,12 @@ exports.AllUnits = [
         category: 'inf'
     },
     {
+        id: 1066,
+        name: 'NSV 12,7MM',
+        descriptor: 'Descriptor_Unit_HMGteam_NSV_DDR',
+        category: 'inf'
+    },
+    {
         id: 1067,
         name: 'NSV 12,7MM',
         descriptor: 'Descriptor_Unit_HMGteam_NSV_SOV',
