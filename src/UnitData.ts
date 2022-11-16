@@ -1663,7 +1663,7 @@ export const AllUnits: UnitDefinition[] = [
     },
     {
         id: 456,
-        name: 'F-16C [LGB]',
+        name: 'F-16C [HE]',
         descriptor: 'Descriptor_Unit_F16E_HE_US',
         category: 'air'
     },
@@ -3175,7 +3175,7 @@ export const AllUnits: UnitDefinition[] = [
     },
     {
         id: 853,
-        name: 'M998 AVENGER',
+        name: 'M998 AVENGER PARAS',
         descriptor: 'Descriptor_Unit_M998_Avenger_US',
         category: 'aa'
     },
@@ -3561,6 +3561,24 @@ export const AllUnits: UnitDefinition[] = [
         id: 1054,
         name: 'GROUPE ANTICHAR',
         descriptor: 'Descriptor_Unit_Groupe_AT_FR',
+        category: 'inf'
+    },
+    {
+        id: 1058,
+        name: 'M2HB 12,7MM',
+        descriptor: 'Descriptor_Unit_HMGteam_M2HB_AB_US',
+        category: 'inf'
+    },
+    {
+        id: 1062,
+        name: 'AB M60 7,62MM',
+        descriptor: 'Descriptor_Unit_HMGteam_M60_AB_US',
+        category: 'inf'
+    },
+    {
+        id: 1065,
+        name: 'AB MK.19 40MM',
+        descriptor: 'Descriptor_Unit_HMGteam_Mk19_AB_US',
         category: 'inf'
     },
     {
@@ -4186,5 +4204,11 @@ export const AllUnits: UnitDefinition[] = [
         name: 'Mi-8T',
         descriptor: 'Descriptor_Unit_Mi_8T_non_arme_DDR',
         category: 'trans'
+    },
+    {
+        id: 1183,
+        name: 'F-16CG [LGB]',
+        descriptor: 'Descriptor_Unit_F16C_LGB_US',
+        category: 'air'
     }
 ]
