@@ -654,6 +654,12 @@
         "category": "inf"
     },
     {
+        "descriptor": "Descriptor_Unit_Engineers_Scout_SOV",
+        "id": 220,
+        "name": "RAZVEDKA SAPERI",
+        "category": "rec"
+    },
+    {
         "descriptor": "Descriptor_Unit_MANPAD_Igla_SOV",
         "id": 221,
         "name": "IGLA",
@@ -770,8 +776,8 @@
     {
         "descriptor": "Descriptor_Unit_Puma_UK",
         "id": 242,
-        "name": "",
-        "category": ""
+        "name": "PUMA HC.1 SUPPLY",
+        "category": "log"
     },
     {
         "descriptor": "Descriptor_Unit_FV107_Scimitar_UK",
@@ -806,7 +812,7 @@
     {
         "descriptor": "Descriptor_Unit_81mm_mortar_UK",
         "id": 250,
-        "name": "81MM MORTAR",
+        "name": "L16 81MM",
         "category": "art"
     },
     {
@@ -884,7 +890,7 @@
     {
         "descriptor": "Descriptor_Unit_2K12_KUB_DDR",
         "id": 266,
-        "name": "2K12M3 KUB-M3",
+        "name": "2K12 KUB",
         "category": "aa"
     },
     {
@@ -1404,12 +1410,6 @@
         "category": "trans"
     },
     {
-        "descriptor": "Descriptor_Unit_M1IP_Abrams_CMD_US",
-        "id": 391,
-        "name": "",
-        "category": ""
-    },
-    {
         "descriptor": "Descriptor_Unit_M35_trans_US",
         "id": 392,
         "name": "M35",
@@ -1466,7 +1466,7 @@
     {
         "descriptor": "Descriptor_Unit_2K12_KUB_SOV",
         "id": 407,
-        "name": "2K12M3 KUB-M3",
+        "name": "2K12 KUB",
         "category": "aa"
     },
     {
@@ -1712,7 +1712,7 @@
     {
         "descriptor": "Descriptor_Unit_F16E_HE_US",
         "id": 457,
-        "name": "F-16C [LGB]",
+        "name": "F-16C [HE]",
         "category": "air"
     },
     {
@@ -2050,24 +2050,6 @@
         "id": 529,
         "name": "SPEZIALAUFKLARER",
         "category": "rec"
-    },
-    {
-        "descriptor": "Descriptor_Unit_Wachregiment_CMD_DDR",
-        "id": 530,
-        "name": "",
-        "category": ""
-    },
-    {
-        "descriptor": "Descriptor_Unit_Wachregiment_DDR",
-        "id": 531,
-        "name": "",
-        "category": ""
-    },
-    {
-        "descriptor": "Descriptor_Unit_Wachregiment_SMG_DDR",
-        "id": 532,
-        "name": "",
-        "category": ""
     },
     {
         "descriptor": "Descriptor_Unit_Mi_24V_AA_SOV",
@@ -2468,7 +2450,7 @@
     {
         "descriptor": "Descriptor_Unit_T72M1_DDR",
         "id": 633,
-        "name": "KPZ. T-72GM1",
+        "name": "KPZ. T-72M1",
         "category": "tank"
     },
     {
@@ -2476,24 +2458,6 @@
         "id": 634,
         "name": "FLAMPZ. TO-55",
         "category": "tank"
-    },
-    {
-        "descriptor": "Descriptor_Unit_Wiesel_20mm_RFA",
-        "id": 635,
-        "name": "",
-        "category": ""
-    },
-    {
-        "descriptor": "Descriptor_Unit_Wiesel_RFA",
-        "id": 636,
-        "name": "",
-        "category": ""
-    },
-    {
-        "descriptor": "Descriptor_Unit_Wiesel_TOW_RFA",
-        "id": 637,
-        "name": "",
-        "category": ""
     },
     {
         "descriptor": "Descriptor_Unit_Alouette_II_reco_RFA",
@@ -2692,12 +2656,6 @@
         "id": 710,
         "name": "TPZ FUCHS RASIT",
         "category": "rec"
-    },
-    {
-        "descriptor": "Descriptor_Unit_T72B_DDR",
-        "id": 711,
-        "name": "",
-        "category": ""
     },
     {
         "descriptor": "Descriptor_Unit_M113_GreenArcher_RFA",
@@ -3042,6 +3000,12 @@
         "category": "inf"
     },
     {
+        "descriptor": "Descriptor_Unit_ATteam_Milan_2_para_UK",
+        "id": 802,
+        "name": "MILAN 2 PARA.",
+        "category": "inf"
+    },
+    {
         "descriptor": "Descriptor_Unit_ATteam_RCL_SPG9_VDV_SOV",
         "id": 803,
         "name": "DESANT. SPG-9",
@@ -3350,7 +3314,7 @@
     {
         "descriptor": "Descriptor_Unit_M998_Avenger_US",
         "id": 854,
-        "name": "M998 AVENGER",
+        "name": "M998 AVENGER PARAS",
         "category": "aa"
     },
     {
@@ -3542,68 +3506,50 @@
     {
         "descriptor": "Descriptor_Unit_HMGteam_AANF1_FR",
         "id": 888,
-        "name": "",
-        "category": ""
+        "name": "AANFI 7,62MM",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_HMGteam_AGS17_SOV",
         "id": 889,
-        "name": "",
-        "category": ""
-    },
-    {
-        "descriptor": "Descriptor_Unit_HMGteam_KPVT_SOV",
-        "id": 890,
-        "name": "",
-        "category": ""
+        "name": "PLAMYA 30MM",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_HMGteam_M2HB_US",
         "id": 891,
-        "name": "",
-        "category": ""
+        "name": "M2HB 12,7MM",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_HMGteam_M60_US",
         "id": 892,
-        "name": "",
-        "category": ""
+        "name": "M60 7,62MM",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_HMGteam_MAG_UK",
         "id": 893,
-        "name": "",
-        "category": ""
+        "name": "MAG 7,62MM",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_HMGteam_MG3_RFA",
         "id": 894,
-        "name": "",
-        "category": ""
-    },
-    {
-        "descriptor": "Descriptor_Unit_HMGteam_Mk19_US",
-        "id": 895,
-        "name": "",
-        "category": ""
+        "name": "MG-3 7,62MM",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_HMGteam_PKM_DDR",
         "id": 896,
-        "name": "",
-        "category": ""
+        "name": "PKM 7,62MM",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_HMGteam_PKM_SOV",
         "id": 897,
-        "name": "",
-        "category": ""
-    },
-    {
-        "descriptor": "Descriptor_Unit_Howz_M46_130mm_SOV",
-        "id": 898,
-        "name": "",
-        "category": ""
+        "name": "PKM 7,62MM",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_Rifles_Aero_CMD_FR",
@@ -3830,92 +3776,80 @@
     {
         "descriptor": "Descriptor_Unit_HMGteam_AANF1_para_FR",
         "id": 1056,
-        "name": "",
-        "category": ""
+        "name": "AANFI 7,62MM",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_HMGteam_AGS17_DDR",
         "id": 1057,
-        "name": "",
-        "category": ""
+        "name": "GR.-MG 30MM",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_HMGteam_AGS17_VDV_SOV",
         "id": 1058,
-        "name": "",
-        "category": ""
+        "name": "DESANT. PLAMYA 30MM",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_HMGteam_M2HB_AB_US",
         "id": 1059,
-        "name": "",
-        "category": ""
+        "name": "M2HB 12,7MM",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_HMGteam_M2HB_FR",
         "id": 1060,
-        "name": "",
-        "category": ""
+        "name": "M2HB 12,7MM",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_HMGteam_M2HB_para_FR",
         "id": 1061,
-        "name": "",
-        "category": ""
-    },
-    {
-        "descriptor": "Descriptor_Unit_HMGteam_M2HB_para_UK",
-        "id": 1062,
-        "name": "",
-        "category": ""
+        "name": "PARA. M2HB 12,7MM",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_HMGteam_M60_AB_US",
         "id": 1063,
-        "name": "",
-        "category": ""
-    },
-    {
-        "descriptor": "Descriptor_Unit_HMGteam_MAG_para_UK",
-        "id": 1064,
-        "name": "",
-        "category": ""
+        "name": "AB M60 7,62MM",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_HMGteam_MG3_FJ_RFA",
         "id": 1065,
-        "name": "",
-        "category": ""
+        "name": "FS-MG-3 7,62MM",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_HMGteam_Mk19_AB_US",
         "id": 1066,
-        "name": "",
-        "category": ""
+        "name": "AB MK.19 40MM",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_HMGteam_NSV_DDR",
         "id": 1067,
-        "name": "",
-        "category": ""
+        "name": "NSV 12,7MM",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_HMGteam_NSV_SOV",
         "id": 1068,
-        "name": "",
-        "category": ""
+        "name": "NSV 12,7MM",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_HMGteam_PKM_FJ_DDR",
         "id": 1069,
-        "name": "",
-        "category": ""
+        "name": "FS-PKM 7,62MM",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_HMGteam_PKM_VDV_SOV",
         "id": 1070,
-        "name": "",
-        "category": ""
+        "name": "DESANT. PKM 7,62MM",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_Leopard_2A4_RFA",
@@ -4296,24 +4230,6 @@
         "category": "inf"
     },
     {
-        "descriptor": "Descriptor_Unit_Faun_Kraka_20mm_RFA",
-        "id": 1134,
-        "name": "",
-        "category": ""
-    },
-    {
-        "descriptor": "Descriptor_Unit_Faun_Kraka_Log_RFA",
-        "id": 1135,
-        "name": "",
-        "category": ""
-    },
-    {
-        "descriptor": "Descriptor_Unit_Faun_Kraka_TOW_RFA",
-        "id": 1136,
-        "name": "",
-        "category": ""
-    },
-    {
         "descriptor": "Descriptor_Unit_Gun_Group_TA_UK",
         "id": 1137,
         "name": "TERRIERS GUN GROUP",
@@ -4458,18 +4374,6 @@
         "category": "art"
     },
     {
-        "descriptor": "Descriptor_Unit_OT_62_TOPAS_JOD_POL",
-        "id": 1161,
-        "name": "",
-        "category": ""
-    },
-    {
-        "descriptor": "Descriptor_Unit_OT_62_TOPAS_SPG9_POL",
-        "id": 1162,
-        "name": "",
-        "category": ""
-    },
-    {
         "descriptor": "Descriptor_Unit_Para_CMD_FR",
         "id": 1163,
         "name": "CMDT PARAS",
@@ -4574,8 +4478,8 @@
     {
         "descriptor": "Descriptor_Unit_Mi_8TV_UPK_DDR",
         "id": 1180,
-        "name": "",
-        "category": ""
+        "name": "MI-8MT [UPK]",
+        "category": "hel"
     },
     {
         "descriptor": "Descriptor_Unit_Mi_8TV_non_arme_SOV",
@@ -4588,5 +4492,65 @@
         "id": 1182,
         "name": "Mi-8T",
         "category": "trans"
+    },
+    {
+        "descriptor": "Descriptor_Unit_Saxon_CMD_UK",
+        "id": 1183,
+        "name": "SAXON CP",
+        "category": "log"
+    },
+    {
+        "descriptor": "Descriptor_Unit_F16C_LGB_US",
+        "id": 1184,
+        "name": "F-16CG [LGB]",
+        "category": "air"
+    },
+    {
+        "descriptor": "Descriptor_Unit_MiG_27K_LGB_SOV",
+        "id": 1185,
+        "name": "MIG-27K [LGB]",
+        "category": "air"
+    },
+    {
+        "descriptor": "Descriptor_Unit_LandRover_MILAN_Para_UK",
+        "id": 1186,
+        "name": "ROVER MILAN PARA",
+        "category": "tank"
+    },
+    {
+        "descriptor": "Descriptor_Unit_Paratroopers_CMD_UK",
+        "id": 1187,
+        "name": "PARAS LDR.",
+        "category": "inf"
+    },
+    {
+        "descriptor": "Descriptor_Unit_Paratroopers_MILAN_TA_UK",
+        "id": 1188,
+        "name": "TERRIERS PARAS (CARLG)",
+        "category": "inf"
+    },
+    {
+        "descriptor": "Descriptor_Unit_Paratroopers_TA_UK",
+        "id": 1189,
+        "name": "TERRIERS PARAS",
+        "category": "inf"
+    },
+    {
+        "descriptor": "Descriptor_Unit_DCA_Rapier_FSA_UK",
+        "id": 1190,
+        "name": "RAPIER FSA",
+        "category": "aa"
+    },
+    {
+        "descriptor": "Descriptor_Unit_M1025_Humvee_AGL_nonPara_US",
+        "id": 1191,
+        "name": "",
+        "category": ""
+    },
+    {
+        "descriptor": "Descriptor_Unit_UH1D_Supply_NL",
+        "id": 1192,
+        "name": "",
+        "category": ""
     }
 ]
