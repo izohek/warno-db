@@ -3346,15 +3346,15 @@ exports.AllUnits = [
         category: 'aa'
     },
     {
-        id: 891,
-        name: 'M60 7,62MM',
-        descriptor: 'Descriptor_Unit_HMGteam_M60_US',
+        id: 890,
+        name: 'M2HB 12,7MM',
+        descriptor: 'Descriptor_Unit_HMGteam_M2HB_US',
         category: 'inf'
     },
     {
-        id: 892,
-        name: 'M2HB 12,7MM',
-        descriptor: 'Descriptor_Unit_HMGteam_M2HB_US',
+        id: 891,
+        name: 'M60 7,62MM',
+        descriptor: 'Descriptor_Unit_HMGteam_M60_US',
         category: 'inf'
     },
     {
