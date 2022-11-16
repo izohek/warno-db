@@ -773,7 +773,7 @@ exports.AllUnits = [
     },
     {
         id: 249,
-        name: '81MM MORTAR',
+        name: 'L16 81MM',
         descriptor: 'Descriptor_Unit_81mm_mortar_UK',
         category: 'art'
     },
@@ -2866,6 +2866,12 @@ exports.AllUnits = [
         category: 'inf'
     },
     {
+        id: 801,
+        name: 'MILAN 2 PARA.',
+        descriptor: 'Descriptor_Unit_ATteam_Milan_2_para_UK',
+        category: 'inf'
+    },
+    {
         id: 802,
         name: 'DESANT. SPG-9',
         descriptor: 'Descriptor_Unit_ATteam_RCL_SPG9_VDV_SOV',
@@ -3355,6 +3361,12 @@ exports.AllUnits = [
         id: 891,
         name: 'M60 7,62MM',
         descriptor: 'Descriptor_Unit_HMGteam_M60_US',
+        category: 'inf'
+    },
+    {
+        id: 892,
+        name: 'MAG 7,62MM',
+        descriptor: 'Descriptor_Unit_HMGteam_MAG_UK',
         category: 'inf'
     },
     {
@@ -4214,5 +4226,29 @@ exports.AllUnits = [
         name: 'F-16CG [LGB]',
         descriptor: 'Descriptor_Unit_F16C_LGB_US',
         category: 'air'
+    },
+    {
+        id: 1185,
+        name: 'ROVER MILAN PARA',
+        descriptor: 'Descriptor_Unit_LandRover_MILAN_Para_UK',
+        category: 'tank'
+    },
+    {
+        id: 1186,
+        name: 'PARAS LDR.',
+        descriptor: 'Descriptor_Unit_Paratroopers_CMD_UK',
+        category: 'inf'
+    },
+    {
+        id: 1187,
+        name: 'TERRIERS PARAS (CARLG)',
+        descriptor: 'Descriptor_Unit_Paratroopers_MILAN_TA_UK',
+        category: 'inf'
+    },
+    {
+        id: 1188,
+        name: 'TERRIERS PARAS',
+        descriptor: 'Descriptor_Unit_Paratroopers_TA_UK',
+        category: 'inf'
     }
 ];
