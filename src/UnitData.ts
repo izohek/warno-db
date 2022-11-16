@@ -871,7 +871,7 @@ export const AllUnits: UnitDefinition[] = [
     },
     {
         id: 265,
-        name: '2K12M3 KUB-M3',
+        name: '2K12 KUB',
         descriptor: 'Descriptor_Unit_2K12_KUB_DDR',
         category: 'aa'
     },
@@ -3408,6 +3408,12 @@ export const AllUnits: UnitDefinition[] = [
         category: 'inf'
     },
     {
+        id: 895,
+        name: 'PKM 7,62MM',
+        descriptor: 'Descriptor_Unit_HMGteam_PKM_DDR',
+        category: 'inf'
+    },
+    {
         id: 896,
         name: 'PKM 7,62MM',
         descriptor: 'Descriptor_Unit_HMGteam_PKM_SOV',
@@ -3618,6 +3624,12 @@ export const AllUnits: UnitDefinition[] = [
         category: 'inf'
     },
     {
+        id: 1056,
+        name: 'GR.-MG 30MM',
+        descriptor: 'Descriptor_Unit_HMGteam_AGS17_DDR',
+        category: 'inf'
+    },
+    {
         id: 1057,
         name: 'DESANT. PLAMYA 30MM',
         descriptor: 'Descriptor_Unit_HMGteam_AGS17_VDV_SOV',
@@ -3663,6 +3675,12 @@ export const AllUnits: UnitDefinition[] = [
         id: 1067,
         name: 'NSV 12,7MM',
         descriptor: 'Descriptor_Unit_HMGteam_NSV_SOV',
+        category: 'inf'
+    },
+    {
+        id: 1068,
+        name: 'FS-PKM 7,62MM',
+        descriptor: 'Descriptor_Unit_HMGteam_PKM_FJ_DDR',
         category: 'inf'
     },
     {
@@ -4282,6 +4300,12 @@ export const AllUnits: UnitDefinition[] = [
         name: 'ZSU-23-4M2 AFGHANSKII',
         descriptor: 'Descriptor_Unit_ZSU_23_Shilka_Afghan_SOV',
         category: 'aa'
+    },
+    {
+        id: 1179,
+        name: 'MI-8MT [UPK]',
+        descriptor: 'Descriptor_Unit_Mi_8TV_UPK_DDR',
+        category: 'hel'
     },
     {
         id: 1180,
