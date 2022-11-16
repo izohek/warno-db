@@ -3594,6 +3594,12 @@ export const AllUnits: UnitDefinition[] = [
         category: 'inf'
     },
     {
+        id: 1055,
+        name: 'AANFI 7,62MM',
+        descriptor: 'Descriptor_Unit_HMGteam_AANF1_para_FR',
+        category: 'inf'
+    },
+    {
         id: 1058,
         name: 'M2HB 12,7MM',
         descriptor: 'Descriptor_Unit_HMGteam_M2HB_AB_US',
@@ -3603,6 +3609,12 @@ export const AllUnits: UnitDefinition[] = [
         id: 1059,
         name: 'M2HB 12,7MM',
         descriptor: 'Descriptor_Unit_HMGteam_M2HB_FR',
+        category: 'inf'
+    },
+    {
+        id: 1060,
+        name: 'PARA. M2HB 12,7MM',
+        descriptor: 'Descriptor_Unit_HMGteam_M2HB_para_FR',
         category: 'inf'
     },
     {
