@@ -1433,7 +1433,7 @@ exports.AllUnits = [
     },
     {
         id: 406,
-        name: '2K12M3 KUB-M3',
+        name: '2K12 KUB',
         descriptor: 'Descriptor_Unit_2K12_KUB_SOV',
         category: 'aa'
     },
