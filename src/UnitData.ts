@@ -174,6 +174,12 @@ export const AllUnits: UnitDefinition[] = [
         category: 'aa'
     },
     {
+        id: 56,
+        name: 'UH-1H HUEY',
+        descriptor: 'Descriptor_Unit_UH1H_Huey_US',
+        category: 'trans'
+    },
+    {
         id: 57,
         name: 'UH-60A BLACKHAWK',
         descriptor: 'Descriptor_Unit_UH60A_Black_Hawk_US',
@@ -450,6 +456,12 @@ export const AllUnits: UnitDefinition[] = [
         category: 'art'
     },
     {
+        id: 167,
+        name: 'M1025 HUMVEE TOW',
+        descriptor: 'Descriptor_Unit_M1025_Humvee_TOW_US',
+        category: 'tank'
+    },
+    {
         id: 168,
         name: 'M1025 HUMVEE AGL',
         descriptor: 'Descriptor_Unit_M1025_Humvee_AGL_US',
@@ -496,6 +508,12 @@ export const AllUnits: UnitDefinition[] = [
         name: 'ENGINEERS LDR.',
         descriptor: 'Descriptor_Unit_Engineer_CMD_US',
         category: 'inf'
+    },
+    {
+        id: 185,
+        name: 'M1025 HUMVEE CP',
+        descriptor: 'Descriptor_Unit_M1025_Humvee_CMD_US',
+        category: 'log'
     },
     {
         id: 186,
@@ -622,6 +640,12 @@ export const AllUnits: UnitDefinition[] = [
         name: 'URAL-4320 MUN.',
         descriptor: 'Descriptor_Unit_Ural_4320_DDR',
         category: 'log'
+    },
+    {
+        id: 212,
+        name: 'DETACHMENT "A"',
+        descriptor: 'Descriptor_Unit_GreenBerets_MP5_US',
+        category: 'rec'
     },
     {
         id: 213,
@@ -786,6 +810,12 @@ export const AllUnits: UnitDefinition[] = [
         category: 'art'
     },
     {
+        id: 247,
+        name: 'FV432 RARDEN',
+        descriptor: 'Descriptor_Unit_FV432_Rarden_UK',
+        category: 'tank'
+    },
+    {
         id: 248,
         name: 'FV432',
         descriptor: 'Descriptor_Unit_FV432_UK',
@@ -868,6 +898,12 @@ export const AllUnits: UnitDefinition[] = [
         name: 'HARRIER GR.3 [AA]',
         descriptor: 'Descriptor_Unit_Harrier_UK',
         category: 'air'
+    },
+    {
+        id: 264,
+        name: 'CHIEFTAIN MK. 10',
+        descriptor: 'Descriptor_Unit_FV4201_Chieftain_UK',
+        category: 'tank'
     },
     {
         id: 265,
@@ -984,6 +1020,12 @@ export const AllUnits: UnitDefinition[] = [
         category: 'trans'
     },
     {
+        id: 289,
+        name: 'MIRAGE IV [HE]',
+        descriptor: 'Descriptor_Unit_Mirage_IV_FR',
+        category: 'air'
+    },
+    {
         id: 290,
         name: 'MIRAGE 2000C RDI',
         descriptor: 'Descriptor_Unit_Mirage_2000_C_FR',
@@ -1086,6 +1128,12 @@ export const AllUnits: UnitDefinition[] = [
         category: 'air'
     },
     {
+        id: 316,
+        name: 'AMX-13/90',
+        descriptor: 'Descriptor_Unit_AMX_13_90mm_FR',
+        category: 'tank'
+    },
+    {
         id: 317,
         name: 'AMX-13 VCI 12,7MM',
         descriptor: 'Descriptor_Unit_AMX_13_VCI_12_7mm_FR',
@@ -1125,6 +1173,12 @@ export const AllUnits: UnitDefinition[] = [
         id: 326,
         name: 'GRENZER',
         descriptor: 'Descriptor_Unit_Grenzer_DDR',
+        category: 'rec'
+    },
+    {
+        id: 327,
+        name: 'B.G.S',
+        descriptor: 'Descriptor_Unit_BGS_RFA',
         category: 'rec'
     },
     {
@@ -1392,6 +1446,12 @@ export const AllUnits: UnitDefinition[] = [
         category: 'trans'
     },
     {
+        id: 390,
+        name: 'M1IP ABRAMS CP',
+        descriptor: 'Descriptor_Unit_M1IP_Abrams_CMD_US',
+        category: 'tank'
+    },
+    {
         id: 391,
         name: 'M35',
         descriptor: 'Descriptor_Unit_M35_trans_US',
@@ -1413,6 +1473,12 @@ export const AllUnits: UnitDefinition[] = [
         id: 394,
         name: 'AB FIRE TEAM (AT4)',
         descriptor: 'Descriptor_Unit_Airborne_half_LAW_US',
+        category: 'inf'
+    },
+    {
+        id: 396,
+        name: 'BERLIN LIGHT RIFLES',
+        descriptor: 'Descriptor_Unit_LightRifles_RCL_US',
         category: 'inf'
     },
     {
@@ -1588,6 +1654,12 @@ export const AllUnits: UnitDefinition[] = [
         name: 'AH-64A APACHE [RKT]',
         descriptor: 'Descriptor_Unit_AH64_Apache_emp2_US',
         category: 'hel'
+    },
+    {
+        id: 435,
+        name: 'F-117A NIGHTHAWK [LGB]',
+        descriptor: 'Descriptor_Unit_F117_Nighthawk_US',
+        category: 'air'
     },
     {
         id: 437,
@@ -4375,6 +4447,60 @@ export const AllUnits: UnitDefinition[] = [
     },
 
     {
+        id: 1192,
+        name: "AMX-30 B CMDT",
+        descriptor: "Descriptor_Unit_AMX_30_B_CMD_FR",
+        category: "tank"
+    },
+    {
+        id: 1195,
+        name: "53T2 20MM",
+        descriptor: "Descriptor_Unit_DCA_53T2_20mm_FR",
+        category: "aa"
+    },
+    {
+        id: 1197,
+        name: "CHIEFTAIN MK. 10 CMD",
+        descriptor: "Descriptor_Unit_FV4201_Chieftain_CMD_UK",
+        category: "tank"
+    },
+    {
+        id: 1199,
+        name: "M198 155MM",
+        descriptor: "Descriptor_Unit_Howz_M198_155mm_US",
+        category: "art"
+    },
+    {
+        id: 1201,
+        name: "ROVER WOMBAT",
+        descriptor: "Descriptor_Unit_LandRover_WOMBAT_UK",
+        category: "inf"
+    },
+    {
+        id: 1202,
+        name: "LIGHT RIFLES LDR.",
+        descriptor: "Descriptor_Unit_LightRifles_CMD_US",
+        category: "inf"
+    },
+    {
+        id: 1204,
+        name: "R.A.F. RIFLES",
+        descriptor: "Descriptor_Unit_Rifles_RAF_UK",
+        category: "inf"
+    },
+    {
+        id: 1207,
+        name: "MIRAGE IV [SEAD]",
+        descriptor: "Descriptor_Unit_Mirage_IV_SEAD_FR",
+        category: "air"
+    },
+    {
+        id: 1210,
+        name: "FR. POLIZEI-RESERVE",
+        descriptor: "Descriptor_Unit_Reserve_Polizei_RFA",
+        category: "inf"
+    },
+    {
         id: 1211,
         name: "M2A2 BRADLEY CP",
         descriptor: "Descriptor_Unit_M2A2_Bradley_Leader_US",
@@ -4385,5 +4511,17 @@ export const AllUnits: UnitDefinition[] = [
         name: "FIRE TEAM LDR.",
         descriptor: "Descriptor_Unit_Rifles_half_CMD_US",
         category: "inf"
+    },
+    {
+        id: 1214,
+        name: "SONDERWAGEN 4",
+        descriptor: "Descriptor_Unit_Sonderwagen_4_RFA",
+        category: "trans"
+    },
+    {
+        id: 1215,
+        name: "SONDERWAGEN 4 AUFKL.",
+        descriptor: "Descriptor_Unit_Sonderwagen_4_recon_RFA",
+        category: "rec"
     },
 ]

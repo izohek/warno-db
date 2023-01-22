@@ -19,7 +19,8 @@ export const DivisionNamesMap_En = {
     [Divisions.RDA_KdA_Bezirk_Erfurt]: 'KDA',
     [Divisions.RFA_TerrKdo_Sud]: 'TKS',
     [Divisions.UK_1st_Armoured]: '1st',
-    [Divisions.UK_2nd_Infantry]: '2ndUK'
+    [Divisions.UK_2nd_Infantry]: '2ndUK',
+    [Divisions.Berlin_Command]: 'BerlinCmd'
 }
 
 export default DivisionNamesMap_En

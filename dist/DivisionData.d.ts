@@ -15,4 +15,5 @@ export declare const Divisions: {
     readonly RFA_TerrKdo_Sud: "Descriptor_Deck_Division_RFA_TerrKdo_Sud_multi";
     readonly UK_1st_Armoured: "Descriptor_Deck_Division_UK_1st_Armoured_multi";
     readonly UK_2nd_Infantry: "Descriptor_Deck_Division_UK_2nd_Infantry_multi";
+    readonly Berlin_Command: "Descriptor_Deck_Division_NATO_Garnison_Berlin_multi";
 };
