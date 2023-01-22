@@ -134,7 +134,6 @@ function findDivisionDetailData(data) {
         return {
             descriptor: (0, ndf_parser_1.search)(d, 'name'),
             alliance: (0, ndf_parser_1.search)(d, 'DivisionNationalite')[0].value.value,
-            availableForPlay: JSON.parse((0, ndf_parser_1.search)(d, 'AvailableForPlay')[0].value.value.toLowerCase()),
             country: (0, ndf_parser_1.search)(d, 'CountryId')[0].value.value.replaceAll('"', ''),
             tags: (0, ndf_parser_1.search)(d, 'DivisionTags')[0].value.values.map((t) => t.value.replaceAll("'", '')),
             maxActivationPoints: parseInt((0, ndf_parser_1.search)(d, 'MaxActivationPoints')[0].value.value),

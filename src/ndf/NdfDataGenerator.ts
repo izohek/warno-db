@@ -14,7 +14,6 @@ interface NdfUnit extends NdfDivision {}
 interface NdfDivisionDetail {
     descriptor: string
     alliance: string
-    availableForPlay: string
     country: string
     tags: string[],
     maxActivationPoints: number,
@@ -155,7 +154,6 @@ function findDivisionDetailData(data: any): NdfDivisionDetail[] {
         return {
             descriptor: search(d, 'name'),
             alliance: search(d, 'DivisionNationalite')[0].value.value,
-            availableForPlay: JSON.parse(search(d, 'AvailableForPlay')[0].value.value.toLowerCase()),
             country: search(d, 'CountryId')[0].value.value.replaceAll('"', ''), 
             tags: search(d, 'DivisionTags')[0].value.values.map((t: any) => t.value.replaceAll("'", '')),
             maxActivationPoints: parseInt(search(d, 'MaxActivationPoints')[0].value.value),

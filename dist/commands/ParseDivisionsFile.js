@@ -7,8 +7,8 @@ const NdfDataGenerator_1 = require("../ndf/NdfDataGenerator");
 const Divisions_1 = __importDefault(require("../lang/en/Divisions"));
 const Alliances_1 = __importDefault(require("../lang/en/Alliances"));
 const fs_1 = require("fs");
-const deckNdfFile = './ndf/post-suchet/DeckSerializer.ndf';
-const divisionNdfFile = './ndf/post-suchet/Divisions.ndf';
+const deckNdfFile = './ndf/oudinot/DeckSerializer.ndf';
+const divisionNdfFile = './ndf/oudinot/Divisions.ndf';
 // Parse from ndf
 const divisionData = (0, NdfDataGenerator_1.generateDivisions)(deckNdfFile, divisionNdfFile);
 divisionData.sort((a, b) => a.id - b.id);
