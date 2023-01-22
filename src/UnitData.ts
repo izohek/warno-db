@@ -4372,5 +4372,18 @@ export const AllUnits: UnitDefinition[] = [
         name: 'RAPIER FSA',
         descriptor: 'Descriptor_Unit_DCA_Rapier_FSA_UK',
         category: 'aa'
-    }
+    },
+
+    {
+        id: 1211,
+        name: "M2A2 BRADLEY CP",
+        descriptor: "Descriptor_Unit_M2A2_Bradley_Leader_US",
+        category: "log"
+    },
+    {
+        id: 1213,
+        name: "FIRE TEAM LDR.",
+        descriptor: "Descriptor_Unit_Rifles_half_CMD_US",
+        category: "inf"
+    },
 ]
