@@ -323,7 +323,7 @@ exports.AllUnits = [
     },
     {
         id: 106,
-        name: 'MI-26 GRUZOVDI',
+        name: 'MI-26 GRUZOVOI',
         descriptor: 'Descriptor_Unit_Mi_26_SOV',
         category: 'log'
     },
@@ -1853,7 +1853,7 @@ exports.AllUnits = [
     },
     {
         id: 489,
-        name: 'MI-8MT GRUZOVDI',
+        name: 'MI-8MT GRUZOVOI',
         descriptor: 'Descriptor_Unit_Mi_8TZ_SOV',
         category: 'log'
     },
@@ -4444,6 +4444,12 @@ exports.AllUnits = [
         category: "tank"
     },
     {
+        id: 1194,
+        name: "1V119 REOSTAT",
+        descriptor: "Descriptor_Unit_BMD_1_Reostat_SOV",
+        category: "rec"
+    },
+    {
         id: 1195,
         name: "53T2 20MM",
         descriptor: "Descriptor_Unit_DCA_53T2_20mm_FR",
@@ -4478,6 +4484,12 @@ exports.AllUnits = [
         name: "R.A.F. RIFLES",
         descriptor: "Descriptor_Unit_Rifles_RAF_UK",
         category: "inf"
+    },
+    {
+        id: 1205,
+        name: "Mi-8MTV [RKT]",
+        descriptor: "Descriptor_Unit_Mi_8MTV_SOV",
+        category: "trans"
     },
     {
         id: 1207,
