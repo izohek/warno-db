@@ -162,6 +162,12 @@
         "category": "aa"
     },
     {
+        "descriptor": "Descriptor_Unit_UH1H_Huey_US",
+        "id": 57,
+        "name": "UH-1H HUEY",
+        "category": "trans"
+    },
+    {
         "descriptor": "Descriptor_Unit_UH60A_Black_Hawk_US",
         "id": 58,
         "name": "UH-60A BLACKHAWK",
@@ -254,8 +260,8 @@
     {
         "descriptor": "Descriptor_Unit_UAZ_469_CMD_SOV",
         "id": 91,
-        "name": "",
-        "category": ""
+        "name": "KSHM R-149",
+        "category": "log"
     },
     {
         "descriptor": "Descriptor_Unit_BMP_1P_SOV",
@@ -280,6 +286,12 @@
         "id": 95,
         "name": "BRDM-2 KONKURS",
         "category": "tank"
+    },
+    {
+        "descriptor": "Descriptor_Unit_BTR_70_SOV",
+        "id": 96,
+        "name": "",
+        "category": ""
     },
     {
         "descriptor": "Descriptor_Unit_BTR_80_SOV",
@@ -332,7 +344,7 @@
     {
         "descriptor": "Descriptor_Unit_Mi_26_SOV",
         "id": 107,
-        "name": "MI-26 GRUZOVDI",
+        "name": "MI-26 GRUZOVOI",
         "category": "log"
     },
     {
@@ -456,6 +468,12 @@
         "category": "art"
     },
     {
+        "descriptor": "Descriptor_Unit_M1025_Humvee_TOW_US",
+        "id": 168,
+        "name": "M1025 HUMVEE TOW",
+        "category": "tank"
+    },
+    {
         "descriptor": "Descriptor_Unit_M1025_Humvee_AGL_US",
         "id": 169,
         "name": "M1025 HUMVEE AGL",
@@ -502,6 +520,12 @@
         "id": 184,
         "name": "ENGINEERS LDR.",
         "category": "inf"
+    },
+    {
+        "descriptor": "Descriptor_Unit_M1025_Humvee_CMD_US",
+        "id": 186,
+        "name": "M1025 HUMVEE CP",
+        "category": "log"
     },
     {
         "descriptor": "Descriptor_Unit_M113A2_supply_US",
@@ -628,6 +652,12 @@
         "id": 212,
         "name": "URAL-4320 MUN.",
         "category": "log"
+    },
+    {
+        "descriptor": "Descriptor_Unit_GreenBerets_MP5_US",
+        "id": 213,
+        "name": "DETACHMENT \"A\"",
+        "category": "rec"
     },
     {
         "descriptor": "Descriptor_Unit_GreenBerets_US",
@@ -804,6 +834,12 @@
         "category": "art"
     },
     {
+        "descriptor": "Descriptor_Unit_FV432_Rarden_UK",
+        "id": 248,
+        "name": "FV432 RARDEN",
+        "category": "tank"
+    },
+    {
         "descriptor": "Descriptor_Unit_FV432_UK",
         "id": 249,
         "name": "FV432",
@@ -886,6 +922,12 @@
         "id": 264,
         "name": "HARRIER GR.3 [AA]",
         "category": "air"
+    },
+    {
+        "descriptor": "Descriptor_Unit_FV4201_Chieftain_UK",
+        "id": 265,
+        "name": "CHIEFTAIN MK. 10",
+        "category": "tank"
     },
     {
         "descriptor": "Descriptor_Unit_2K12_KUB_DDR",
@@ -1002,6 +1044,12 @@
         "category": "trans"
     },
     {
+        "descriptor": "Descriptor_Unit_Mirage_IV_FR",
+        "id": 290,
+        "name": "MIRAGE IV [HE]",
+        "category": "air"
+    },
+    {
         "descriptor": "Descriptor_Unit_Mirage_2000_C_FR",
         "id": 291,
         "name": "MIRAGE 2000C RDI",
@@ -1016,7 +1064,7 @@
     {
         "descriptor": "Descriptor_Unit_Mirage_F1_CT_FR",
         "id": 293,
-        "name": "MIRAGE F1 CT",
+        "name": "MIRAGE F1 CT [LGB]",
         "category": "air"
     },
     {
@@ -1104,6 +1152,12 @@
         "category": "air"
     },
     {
+        "descriptor": "Descriptor_Unit_AMX_13_90mm_FR",
+        "id": 317,
+        "name": "AMX-13/90",
+        "category": "tank"
+    },
+    {
         "descriptor": "Descriptor_Unit_AMX_13_VCI_12_7mm_FR",
         "id": 318,
         "name": "AMX-13 VCI 12,7MM",
@@ -1143,6 +1197,12 @@
         "descriptor": "Descriptor_Unit_Grenzer_DDR",
         "id": 327,
         "name": "GRENZER",
+        "category": "rec"
+    },
+    {
+        "descriptor": "Descriptor_Unit_BGS_RFA",
+        "id": 328,
+        "name": "B.G.S",
         "category": "rec"
     },
     {
@@ -1332,6 +1392,12 @@
         "category": "aa"
     },
     {
+        "descriptor": "Descriptor_Unit_MANPAD_Strela_2M_FJ_DDR",
+        "id": 369,
+        "name": "FS-FLA-RAK. STRELA-2M",
+        "category": "aa"
+    },
+    {
         "descriptor": "Descriptor_Unit_MotRifles_BTR_DDR",
         "id": 370,
         "name": "MOT.-SCHUTZEN (BTR)",
@@ -1410,6 +1476,12 @@
         "category": "trans"
     },
     {
+        "descriptor": "Descriptor_Unit_M1IP_Abrams_CMD_US",
+        "id": 391,
+        "name": "M1IP ABRAMS CP",
+        "category": "tank"
+    },
+    {
         "descriptor": "Descriptor_Unit_M35_trans_US",
         "id": 392,
         "name": "M35",
@@ -1431,6 +1503,12 @@
         "descriptor": "Descriptor_Unit_Airborne_half_LAW_US",
         "id": 395,
         "name": "AB FIRE TEAM (AT4)",
+        "category": "inf"
+    },
+    {
+        "descriptor": "Descriptor_Unit_LightRifles_RCL_US",
+        "id": 397,
+        "name": "BERLIN LIGHT RIFLES",
         "category": "inf"
     },
     {
@@ -1624,6 +1702,12 @@
         "id": 433,
         "name": "AH-64A APACHE [RKT]",
         "category": "hel"
+    },
+    {
+        "descriptor": "Descriptor_Unit_F117_Nighthawk_US",
+        "id": 436,
+        "name": "F-117A NIGHTHAWK [LGB]",
+        "category": "air"
     },
     {
         "descriptor": "Descriptor_Unit_F111E_Aardvark_CBU_US",
@@ -1826,7 +1910,7 @@
     {
         "descriptor": "Descriptor_Unit_Mi_8TZ_SOV",
         "id": 490,
-        "name": "MI-8MT GRUZOVDI",
+        "name": "MI-8MT GRUZOVOI",
         "category": "log"
     },
     {
@@ -2052,6 +2136,24 @@
         "category": "rec"
     },
     {
+        "descriptor": "Descriptor_Unit_Wachregiment_CMD_DDR",
+        "id": 530,
+        "name": "WACHSCHUTZEN FUH.",
+        "category": "inf"
+    },
+    {
+        "descriptor": "Descriptor_Unit_Wachregiment_DDR",
+        "id": 531,
+        "name": "WACHSCHUTZEN",
+        "category": "inf"
+    },
+    {
+        "descriptor": "Descriptor_Unit_Wachregiment_SMG_DDR",
+        "id": 532,
+        "name": "WACHSCHUTZEN (STOSS)",
+        "category": "inf"
+    },
+    {
         "descriptor": "Descriptor_Unit_Mi_24V_AA_SOV",
         "id": 533,
         "name": "MI-24V [AA]",
@@ -2074,6 +2176,12 @@
         "id": 536,
         "name": "SU-22M4 [NPLM]",
         "category": "air"
+    },
+    {
+        "descriptor": "Descriptor_Unit_BM21_Grad_DDR",
+        "id": 537,
+        "name": "MFRW BM-21 [NPLM]",
+        "category": "art"
     },
     {
         "descriptor": "Descriptor_Unit_BMP_1P_reco_DDR",
@@ -2384,8 +2492,8 @@
     {
         "descriptor": "Descriptor_Unit_Su_22_RKT_DDR",
         "id": 621,
-        "name": "",
-        "category": ""
+        "name": "SU-22M4 [RKT]",
+        "category": "air"
     },
     {
         "descriptor": "Descriptor_Unit_BMP_1_SP1_DDR",
@@ -3596,13 +3704,13 @@
     {
         "descriptor": "Descriptor_Unit_Volkspolizei_CMD_DDR",
         "id": 906,
-        "name": "VPV FUH.",
+        "name": "VOPOS FUH.",
         "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_Volkspolizei_DDR",
         "id": 907,
-        "name": "VPB",
+        "name": "VOPOS",
         "category": "inf"
     },
     {
@@ -4552,5 +4660,161 @@
         "id": 1192,
         "name": "",
         "category": ""
+    },
+    {
+        "descriptor": "Descriptor_Unit_AMX_30_B_CMD_FR",
+        "id": 1193,
+        "name": "AMX-30 B CMDT",
+        "category": "tank"
+    },
+    {
+        "descriptor": "Descriptor_Unit_AT_ZiS2_57mm_DDR",
+        "id": 1194,
+        "name": "PAK ZIS-2 57MM",
+        "category": "tank"
+    },
+    {
+        "descriptor": "Descriptor_Unit_BMD_1_Reostat_SOV",
+        "id": 1195,
+        "name": "1V119 REOSTAT",
+        "category": "rec"
+    },
+    {
+        "descriptor": "Descriptor_Unit_DCA_53T2_20mm_FR",
+        "id": 1196,
+        "name": "53T2 20MM",
+        "category": "aa"
+    },
+    {
+        "descriptor": "Descriptor_Unit_Engineers_AGI_DDR",
+        "id": 1197,
+        "name": "PIONIER (AGI)",
+        "category": "inf"
+    },
+    {
+        "descriptor": "Descriptor_Unit_FV4201_Chieftain_CMD_UK",
+        "id": 1198,
+        "name": "CHIEFTAIN MK. 10 CMD",
+        "category": "tank"
+    },
+    {
+        "descriptor": "Descriptor_Unit_Grenzer_Mot_DDR",
+        "id": 1199,
+        "name": "MOT. GRENZER",
+        "category": "rec"
+    },
+    {
+        "descriptor": "Descriptor_Unit_Howz_M198_155mm_US",
+        "id": 1200,
+        "name": "M198 155MM",
+        "category": "art"
+    },
+    {
+        "descriptor": "Descriptor_Unit_Howz_ZiS3_76mm_DDR",
+        "id": 1201,
+        "name": "ZIS-3 76,2MM",
+        "category": "art"
+    },
+    {
+        "descriptor": "Descriptor_Unit_LandRover_WOMBAT_UK",
+        "id": 1202,
+        "name": "ROVER WOMBAT",
+        "category": "inf"
+    },
+    {
+        "descriptor": "Descriptor_Unit_LightRifles_CMD_US",
+        "id": 1203,
+        "name": "LIGHT RIFLES LDR.",
+        "category": "inf"
+    },
+    {
+        "descriptor": "Descriptor_Unit_PSzH_IV_DDR",
+        "id": 1204,
+        "name": "SPW PSH",
+        "category": "trans"
+    },
+    {
+        "descriptor": "Descriptor_Unit_Rifles_RAF_UK",
+        "id": 1205,
+        "name": "R.A.F. RIFLES",
+        "category": "inf"
+    },
+    {
+        "descriptor": "Descriptor_Unit_Mi_8MTV_SOV",
+        "id": 1206,
+        "name": "Mi-8MTV [RKT]",
+        "category": "trans"
+    },
+    {
+        "descriptor": "Descriptor_Unit_MiG_23ML_UPK_DDR",
+        "id": 1207,
+        "name": "",
+        "category": ""
+    },
+    {
+        "descriptor": "Descriptor_Unit_Mirage_IV_SEAD_FR",
+        "id": 1208,
+        "name": "MIRAGE IV [SEAD]",
+        "category": "air"
+    },
+    {
+        "descriptor": "Descriptor_Unit_Su_22_UPK_DDR",
+        "id": 1209,
+        "name": "SU-22M4 [UPK]",
+        "category": "air"
+    },
+    {
+        "descriptor": "Descriptor_Unit_OT_65_DDR",
+        "id": 1210,
+        "name": "SPW FUG",
+        "category": "trans"
+    },
+    {
+        "descriptor": "Descriptor_Unit_Reserve_Polizei_RFA",
+        "id": 1211,
+        "name": "FR. POLIZEI-RESERVE",
+        "category": "inf"
+    },
+    {
+        "descriptor": "Descriptor_Unit_M2A2_Bradley_Leader_US",
+        "id": 1212,
+        "name": "M2A2 BRADLEY CP",
+        "category": "log"
+    },
+    {
+        "descriptor": "Descriptor_Unit_CH53_Sea_Stallion_US",
+        "id": 1213,
+        "name": "",
+        "category": ""
+    },
+    {
+        "descriptor": "Descriptor_Unit_Rifles_half_CMD_US",
+        "id": 1214,
+        "name": "FIRE TEAM LDR.",
+        "category": "inf"
+    },
+    {
+        "descriptor": "Descriptor_Unit_Sonderwagen_4_RFA",
+        "id": 1215,
+        "name": "SONDERWAGEN 4",
+        "category": "trans"
+    },
+    {
+        "descriptor": "Descriptor_Unit_Sonderwagen_4_recon_RFA",
+        "id": 1216,
+        "name": "SONDERWAGEN 4 AUFKL.",
+        "category": "rec"
+    },
+    {
+        "descriptor": "Descriptor_Unit_MiG_29_AA2_SOV",
+        "id": 1217,
+        "name": "",
+        "category": ""
+    },
+    {
+        "descriptor": "Descriptor_Unit_MANPAD_Igla_DDR",
+        "id": 1218,
+        "name": "FLA-RAK. IGLA",
+        "category": "aa"
     }
 ]

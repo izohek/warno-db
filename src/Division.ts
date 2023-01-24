@@ -11,19 +11,19 @@ export interface Division {
 export default Division
 
 export interface DivisionUnitRule {
-    unitDescriptor: string,
-    availableWithoutTransport: boolean,
-    numberOfUnitsInPack: number,
+    unitDescriptor: string
+    availableWithoutTransport: boolean
+    numberOfUnitsInPack: number
     numberOfUnitInPackXPMultiplier: number[]
 }
 
 export interface DivisionTransportRule {
-    name: string,
+    name: string
     maxNumber: number
 }
 
 export interface DivisionRule {
-    division: string,
-    unitRules: DivisionUnitRule[],
+    division: string
+    unitRules: DivisionUnitRule[]
     transportRules: DivisionTransportRule[]
 }

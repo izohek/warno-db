@@ -4481,140 +4481,140 @@ exports.AllUnits = [
     },
     {
         id: 1192,
-        name: "AMX-30 B CMDT",
-        descriptor: "Descriptor_Unit_AMX_30_B_CMD_FR",
-        category: "tank"
+        name: 'AMX-30 B CMDT',
+        descriptor: 'Descriptor_Unit_AMX_30_B_CMD_FR',
+        category: 'tank'
     },
     {
         id: 1193,
-        name: "PAK ZIS-2 57MM",
-        descriptor: "Descriptor_Unit_AT_ZiS2_57mm_DDR",
-        category: "tank"
+        name: 'PAK ZIS-2 57MM',
+        descriptor: 'Descriptor_Unit_AT_ZiS2_57mm_DDR',
+        category: 'tank'
     },
     {
         id: 1194,
-        name: "1V119 REOSTAT",
-        descriptor: "Descriptor_Unit_BMD_1_Reostat_SOV",
-        category: "rec"
+        name: '1V119 REOSTAT',
+        descriptor: 'Descriptor_Unit_BMD_1_Reostat_SOV',
+        category: 'rec'
     },
     {
         id: 1195,
-        name: "53T2 20MM",
-        descriptor: "Descriptor_Unit_DCA_53T2_20mm_FR",
-        category: "aa"
+        name: '53T2 20MM',
+        descriptor: 'Descriptor_Unit_DCA_53T2_20mm_FR',
+        category: 'aa'
     },
     {
         id: 1196,
-        name: "PIONIER (AGI)",
-        descriptor: "Descriptor_Unit_Engineers_AGI_DDR",
-        category: "inf"
+        name: 'PIONIER (AGI)',
+        descriptor: 'Descriptor_Unit_Engineers_AGI_DDR',
+        category: 'inf'
     },
     {
         id: 1197,
-        name: "CHIEFTAIN MK. 10 CMD",
-        descriptor: "Descriptor_Unit_FV4201_Chieftain_CMD_UK",
-        category: "tank"
+        name: 'CHIEFTAIN MK. 10 CMD',
+        descriptor: 'Descriptor_Unit_FV4201_Chieftain_CMD_UK',
+        category: 'tank'
     },
     {
         id: 1198,
-        name: "MOT. GRENZER",
-        descriptor: "Descriptor_Unit_Grenzer_Mot_DDR",
-        category: "rec"
+        name: 'MOT. GRENZER',
+        descriptor: 'Descriptor_Unit_Grenzer_Mot_DDR',
+        category: 'rec'
     },
     {
         id: 1199,
-        name: "M198 155MM",
-        descriptor: "Descriptor_Unit_Howz_M198_155mm_US",
-        category: "art"
+        name: 'M198 155MM',
+        descriptor: 'Descriptor_Unit_Howz_M198_155mm_US',
+        category: 'art'
     },
     {
         id: 1200,
-        name: "ZIS-3 76,2MM",
-        descriptor: "Descriptor_Unit_Howz_ZiS3_76mm_DDR",
-        category: "art"
+        name: 'ZIS-3 76,2MM',
+        descriptor: 'Descriptor_Unit_Howz_ZiS3_76mm_DDR',
+        category: 'art'
     },
     {
         id: 1201,
-        name: "ROVER WOMBAT",
-        descriptor: "Descriptor_Unit_LandRover_WOMBAT_UK",
-        category: "inf"
+        name: 'ROVER WOMBAT',
+        descriptor: 'Descriptor_Unit_LandRover_WOMBAT_UK',
+        category: 'inf'
     },
     {
         id: 1202,
-        name: "LIGHT RIFLES LDR.",
-        descriptor: "Descriptor_Unit_LightRifles_CMD_US",
-        category: "inf"
+        name: 'LIGHT RIFLES LDR.',
+        descriptor: 'Descriptor_Unit_LightRifles_CMD_US',
+        category: 'inf'
     },
     {
         id: 1203,
-        name: "SPW PSH",
-        descriptor: "Descriptor_Unit_PSzH_IV_DDR",
-        category: "trans"
+        name: 'SPW PSH',
+        descriptor: 'Descriptor_Unit_PSzH_IV_DDR',
+        category: 'trans'
     },
     {
         id: 1204,
-        name: "R.A.F. RIFLES",
-        descriptor: "Descriptor_Unit_Rifles_RAF_UK",
-        category: "inf"
+        name: 'R.A.F. RIFLES',
+        descriptor: 'Descriptor_Unit_Rifles_RAF_UK',
+        category: 'inf'
     },
     {
         id: 1205,
-        name: "Mi-8MTV [RKT]",
-        descriptor: "Descriptor_Unit_Mi_8MTV_SOV",
-        category: "trans"
+        name: 'Mi-8MTV [RKT]',
+        descriptor: 'Descriptor_Unit_Mi_8MTV_SOV',
+        category: 'trans'
     },
     {
         id: 1207,
-        name: "MIRAGE IV [SEAD]",
-        descriptor: "Descriptor_Unit_Mirage_IV_SEAD_FR",
-        category: "air"
+        name: 'MIRAGE IV [SEAD]',
+        descriptor: 'Descriptor_Unit_Mirage_IV_SEAD_FR',
+        category: 'air'
     },
     {
         id: 1208,
-        name: "SU-22M4 [UPK]",
-        descriptor: "Descriptor_Unit_Su_22_UPK_DDR",
-        category: "air"
+        name: 'SU-22M4 [UPK]',
+        descriptor: 'Descriptor_Unit_Su_22_UPK_DDR',
+        category: 'air'
     },
     {
         id: 1209,
-        name: "SPW FUG",
-        descriptor: "Descriptor_Unit_OT_65_DDR",
-        category: "trans"
+        name: 'SPW FUG',
+        descriptor: 'Descriptor_Unit_OT_65_DDR',
+        category: 'trans'
     },
     {
         id: 1210,
-        name: "FR. POLIZEI-RESERVE",
-        descriptor: "Descriptor_Unit_Reserve_Polizei_RFA",
-        category: "inf"
+        name: 'FR. POLIZEI-RESERVE',
+        descriptor: 'Descriptor_Unit_Reserve_Polizei_RFA',
+        category: 'inf'
     },
     {
         id: 1211,
-        name: "M2A2 BRADLEY CP",
-        descriptor: "Descriptor_Unit_M2A2_Bradley_Leader_US",
-        category: "log"
+        name: 'M2A2 BRADLEY CP',
+        descriptor: 'Descriptor_Unit_M2A2_Bradley_Leader_US',
+        category: 'log'
     },
     {
         id: 1213,
-        name: "FIRE TEAM LDR.",
-        descriptor: "Descriptor_Unit_Rifles_half_CMD_US",
-        category: "inf"
+        name: 'FIRE TEAM LDR.',
+        descriptor: 'Descriptor_Unit_Rifles_half_CMD_US',
+        category: 'inf'
     },
     {
         id: 1214,
-        name: "SONDERWAGEN 4",
-        descriptor: "Descriptor_Unit_Sonderwagen_4_RFA",
-        category: "trans"
+        name: 'SONDERWAGEN 4',
+        descriptor: 'Descriptor_Unit_Sonderwagen_4_RFA',
+        category: 'trans'
     },
     {
         id: 1215,
-        name: "SONDERWAGEN 4 AUFKL.",
-        descriptor: "Descriptor_Unit_Sonderwagen_4_recon_RFA",
-        category: "rec"
+        name: 'SONDERWAGEN 4 AUFKL.',
+        descriptor: 'Descriptor_Unit_Sonderwagen_4_recon_RFA',
+        category: 'rec'
     },
     {
         id: 1217,
-        name: "FLA-RAK. IGLA",
-        descriptor: "Descriptor_Unit_MANPAD_Igla_DDR",
-        category: "aa"
-    },
+        name: 'FLA-RAK. IGLA',
+        descriptor: 'Descriptor_Unit_MANPAD_Igla_DDR',
+        category: 'aa'
+    }
 ];
