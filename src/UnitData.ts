@@ -4536,4 +4536,10 @@ export const AllUnits: UnitDefinition[] = [
         descriptor: "Descriptor_Unit_Sonderwagen_4_recon_RFA",
         category: "rec"
     },
+    {
+        id: 1217,
+        name: "FLA-RAK. IGLA",
+        descriptor: "Descriptor_Unit_MANPAD_Igla_DDR",
+        category: "aa"
+    },
 ]
