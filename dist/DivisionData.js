@@ -19,5 +19,6 @@ exports.Divisions = {
     RFA_TerrKdo_Sud: 'Descriptor_Deck_Division_RFA_TerrKdo_Sud_multi',
     UK_1st_Armoured: 'Descriptor_Deck_Division_UK_1st_Armoured_multi',
     UK_2nd_Infantry: 'Descriptor_Deck_Division_UK_2nd_Infantry_multi',
-    Berlin_Command: 'Descriptor_Deck_Division_NATO_Garnison_Berlin_multi'
+    Berlin_Command: 'Descriptor_Deck_Division_NATO_Garnison_Berlin_multi',
+    Unternehmen_Zentrum: 'Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi'
 };

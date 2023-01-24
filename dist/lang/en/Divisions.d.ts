@@ -16,5 +16,6 @@ export declare const DivisionNamesMap_En: {
     Descriptor_Deck_Division_UK_1st_Armoured_multi: string;
     Descriptor_Deck_Division_UK_2nd_Infantry_multi: string;
     Descriptor_Deck_Division_NATO_Garnison_Berlin_multi: string;
+    Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi: string;
 };
 export default DivisionNamesMap_En;

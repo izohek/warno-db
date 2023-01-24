@@ -262,6 +262,12 @@ exports.AllUnits = [
         category: 'art'
     },
     {
+        id: 90,
+        name: 'KSHM R-149',
+        descriptor: 'Descriptor_Unit_UAZ_469_CMD_SOV',
+        category: 'log'
+    },
+    {
         id: 91,
         name: 'BMP-1P',
         descriptor: 'Descriptor_Unit_BMP_1P_SOV',
@@ -1360,6 +1366,12 @@ exports.AllUnits = [
         category: 'aa'
     },
     {
+        id: 368,
+        name: 'FS-FLA-RAK. STRELA-2M',
+        descriptor: 'Descriptor_Unit_MANPAD_Strela_2M_FJ_DDR',
+        category: 'aa'
+    },
+    {
         id: 369,
         name: 'MOT.-SCHUTZEN (BTR)',
         descriptor: 'Descriptor_Unit_MotRifles_BTR_DDR',
@@ -2050,6 +2062,24 @@ exports.AllUnits = [
         category: 'rec'
     },
     {
+        id: 529,
+        name: 'WACHSCHUTZEN FUH.',
+        descriptor: 'Descriptor_Unit_Wachregiment_CMD_DDR',
+        category: 'inf'
+    },
+    {
+        id: 530,
+        name: 'WACHSCHUTZEN',
+        descriptor: 'Descriptor_Unit_Wachregiment_DDR',
+        category: 'inf'
+    },
+    {
+        id: 531,
+        name: 'WACHSCHUTZEN (STOSS)',
+        descriptor: 'Descriptor_Unit_Wachregiment_SMG_DDR',
+        category: 'inf'
+    },
+    {
         id: 532,
         name: 'MI-24V [AA]',
         descriptor: 'Descriptor_Unit_Mi_24V_AA_SOV',
@@ -2072,6 +2102,12 @@ exports.AllUnits = [
         name: 'SU-22M4 [NPLM]',
         descriptor: 'Descriptor_Unit_Su_22_nplm_DDR',
         category: 'air'
+    },
+    {
+        id: 536,
+        name: 'MFRW BM-21 [NPLM]',
+        descriptor: 'Descriptor_Unit_BM21_Grad_DDR',
+        category: 'art'
     },
     {
         id: 537,
@@ -2371,6 +2407,12 @@ exports.AllUnits = [
         id: 619,
         name: 'G.91R/3 GINA [RKT]',
         descriptor: 'Descriptor_Unit_G91_R3_Gina_RKT_RFA',
+        category: 'air'
+    },
+    {
+        id: 620,
+        name: 'SU-22M4 [RKT]',
+        descriptor: 'Descriptor_Unit_Su_22_RKT_DDR',
         category: 'air'
     },
     {
@@ -4444,6 +4486,12 @@ exports.AllUnits = [
         category: "tank"
     },
     {
+        id: 1193,
+        name: "PAK ZIS-2 57MM",
+        descriptor: "Descriptor_Unit_AT_ZiS2_57mm_DDR",
+        category: "tank"
+    },
+    {
         id: 1194,
         name: "1V119 REOSTAT",
         descriptor: "Descriptor_Unit_BMD_1_Reostat_SOV",
@@ -4456,15 +4504,33 @@ exports.AllUnits = [
         category: "aa"
     },
     {
+        id: 1196,
+        name: "PIONIER (AGI)",
+        descriptor: "Descriptor_Unit_Engineers_AGI_DDR",
+        category: "inf"
+    },
+    {
         id: 1197,
         name: "CHIEFTAIN MK. 10 CMD",
         descriptor: "Descriptor_Unit_FV4201_Chieftain_CMD_UK",
         category: "tank"
     },
     {
+        id: 1198,
+        name: "MOT. GRENZER",
+        descriptor: "Descriptor_Unit_Grenzer_Mot_DDR",
+        category: "rec"
+    },
+    {
         id: 1199,
         name: "M198 155MM",
         descriptor: "Descriptor_Unit_Howz_M198_155mm_US",
+        category: "art"
+    },
+    {
+        id: 1200,
+        name: "ZIS-3 76,2MM",
+        descriptor: "Descriptor_Unit_Howz_ZiS3_76mm_DDR",
         category: "art"
     },
     {
@@ -4502,6 +4568,18 @@ exports.AllUnits = [
         name: "MIRAGE IV [SEAD]",
         descriptor: "Descriptor_Unit_Mirage_IV_SEAD_FR",
         category: "air"
+    },
+    {
+        id: 1208,
+        name: "SU-22M4 [UPK]",
+        descriptor: "Descriptor_Unit_Su_22_UPK_DDR",
+        category: "air"
+    },
+    {
+        id: 1209,
+        name: "SPW FUG",
+        descriptor: "Descriptor_Unit_OT_65_DDR",
+        category: "trans"
     },
     {
         id: 1210,

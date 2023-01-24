@@ -20,7 +20,8 @@ export const DivisionNamesMap_En = {
     [Divisions.RFA_TerrKdo_Sud]: 'TKS',
     [Divisions.UK_1st_Armoured]: '1st',
     [Divisions.UK_2nd_Infantry]: '2ndUK',
-    [Divisions.Berlin_Command]: 'BerlinCmd'
+    [Divisions.Berlin_Command]: 'BerlinCmd',
+    [Divisions.Unternehmen_Zentrum]: 'UntZentrum'
 }
 
 export default DivisionNamesMap_En

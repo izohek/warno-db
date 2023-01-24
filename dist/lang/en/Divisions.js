@@ -21,6 +21,7 @@ exports.DivisionNamesMap_En = {
     [DivisionData_1.Divisions.RFA_TerrKdo_Sud]: 'TKS',
     [DivisionData_1.Divisions.UK_1st_Armoured]: '1st',
     [DivisionData_1.Divisions.UK_2nd_Infantry]: '2ndUK',
-    [DivisionData_1.Divisions.Berlin_Command]: 'BerlinCmd'
+    [DivisionData_1.Divisions.Berlin_Command]: 'BerlinCmd',
+    [DivisionData_1.Divisions.Unternehmen_Zentrum]: 'UntZentrum'
 };
 exports.default = exports.DivisionNamesMap_En;
