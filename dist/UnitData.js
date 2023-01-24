@@ -3527,13 +3527,13 @@ exports.AllUnits = [
     },
     {
         id: 905,
-        name: 'VPV FUH.',
+        name: 'VOPOS FUH.',
         descriptor: 'Descriptor_Unit_Volkspolizei_CMD_DDR',
         category: 'inf'
     },
     {
         id: 906,
-        name: 'VPB',
+        name: 'VOPOS',
         descriptor: 'Descriptor_Unit_Volkspolizei_DDR',
         category: 'inf'
     },
@@ -4478,6 +4478,12 @@ exports.AllUnits = [
         name: "LIGHT RIFLES LDR.",
         descriptor: "Descriptor_Unit_LightRifles_CMD_US",
         category: "inf"
+    },
+    {
+        id: 1203,
+        name: "SPW PSH",
+        descriptor: "Descriptor_Unit_PSzH_IV_DDR",
+        category: "trans"
     },
     {
         id: 1204,
