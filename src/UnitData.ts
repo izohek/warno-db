@@ -1039,7 +1039,7 @@ export const AllUnits: UnitDefinition[] = [
     },
     {
         id: 292,
-        name: 'MIRAGE F1 CT',
+        name: 'MIRAGE F1 CT [LGB]',
         descriptor: 'Descriptor_Unit_Mirage_F1_CT_FR',
         category: 'air'
     },
