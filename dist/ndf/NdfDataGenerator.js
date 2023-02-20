@@ -36,13 +36,11 @@ exports.generateIds = generateIds;
 function generatePacks(packsFile) {
     const packsNdfData = parseNdfFile(packsFile);
     const packs = packsNdfData.map((p) => {
-        const units = (0, ndf_parser_1.search)(p, 'UnitDescriptorList');
+        const unit = (0, ndf_parser_1.search)(p, 'UnitDescriptor');
         return {
             name: p.name,
-            units: units.flatMap((u) => {
-                return u.value.values.map((u2) => {
-                    return u2.value;
-                });
+            units: unit.flatMap((u) => {
+                return u.value.value;
             })
         };
     });

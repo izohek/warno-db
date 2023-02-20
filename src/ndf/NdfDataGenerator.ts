@@ -57,13 +57,11 @@ export function generateIds(unitsFile: string) {
 export function generatePacks(packsFile: string) {
     const packsNdfData = parseNdfFile(packsFile)
     const packs = packsNdfData.map( (p) => {
-        const units = search(p, 'UnitDescriptorList')
+        const unit = search(p, 'UnitDescriptor')
         return {
             name: (p as NdfObject).name,
-            units: units.flatMap( (u: any) => {
-                return u.value.values.map( (u2: any) => {
-                    return u2.value
-                })
+            units: unit.flatMap( (u: any) => {
+                return u.value.value
             })
         }
     })

@@ -289,7 +289,7 @@
         "packList": [
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_AH64_Apache_emp2_US",
-                "count": 2
+                "count": 4
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_ATteam_Milan_1_RFA",
@@ -853,7 +853,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_AH64_Apache_emp2_US",
-                "count": 2
+                "count": 4
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_ATteam_ITOW_US",
@@ -1485,7 +1485,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_FV721_Fox_UK",
-                "count": 1
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_Ferret_Mk2_UK",
@@ -3019,7 +3019,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_AH1F_HeavyHog_US",
-                "count": 1
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_AH1S_Cobra_US",
@@ -3035,7 +3035,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_AH64_Apache_emp2_US",
-                "count": 2
+                "count": 4
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_AH6C_Little_Bird_US",
@@ -4405,7 +4405,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_FV721_Fox_UK",
-                "count": 1
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_Ferret_Mk2_UK",
