@@ -4135,7 +4135,7 @@ export const AllUnits: UnitDefinition[] = [
     },
     {
         id: 1125,
-        name: 'HARRIER GR.1A [RKT]',
+        name: 'JAGUAR GR.1A [RKT]',
         descriptor: 'Descriptor_Unit_Jaguar_RKT_UK',
         category: 'air'
     },
