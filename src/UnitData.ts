@@ -14,7 +14,7 @@ export const AllUnits: UnitDefinition[] = [
     {
         id: 12,
         name: 'HEMTT',
-        descriptor: 'Descriptor_Unit_HEMTT',
+        descriptor: 'Descriptor_Unit_HEMTT_US',
         category: 'log'
     },
     {
@@ -4625,5 +4625,65 @@ export const AllUnits: UnitDefinition[] = [
         name: 'FLA-RAK. IGLA',
         descriptor: 'Descriptor_Unit_MANPAD_Igla_DDR',
         category: 'aa'
+    },
+    {
+        id: 1405,
+        name: 'DRAGON-PARAS',
+        descriptor: 'Descriptor_Unit_LRRP_FR',
+        category: 'rec'
+    },
+    {
+        id: 1471,
+        name: 'MILITARSTREIFEN',
+        descriptor: 'Descriptor_Unit_MP_DDR',
+        category: 'inf'
+    },
+    {
+        id: 1474,
+        name: 'KOMENDATURA',
+        descriptor: 'Descriptor_Unit_MP_SOV',
+        category: 'inf'
+    },
+    {
+        id: 1596,
+        name: 'FERN. SCHARFSCHUTZE',
+        descriptor: 'Descriptor_Unit_Sniper_Fern_RFA',
+        category: 'rec'
+    },
+    {
+        id: 1578,
+        name: 'SNIPER SAS',
+        descriptor: 'Descriptor_Unit_SAS_Sniper_FR',
+        category: 'rec'
+    },
+    {
+        id: 1595,
+        name: 'FJ SCHARFSCHUTZE',
+        descriptor: 'Descriptor_Unit_Sniper_FJ_DDR',
+        category: 'rec'
+    },
+    {
+        id: 1598,
+        name: 'SNAYPERI SPETSNAZ',
+        descriptor: 'Descriptor_Unit_Sniper_Spetsnaz_SOV',
+        category: 'rec'
+    },
+    {
+        id: 1599,
+        name: 'SNIPER',
+        descriptor: 'Descriptor_Unit_Sniper_UK',
+        category: 'rec'
+    },
+    {
+        id: 1600,
+        name: 'SNIPER',
+        descriptor: 'Descriptor_Unit_Sniper_US',
+        category: 'rec'
+    },
+    {
+        id: 1644,
+        name: 'UAZ-469 KOMENDATURA',
+        descriptor: 'Descriptor_Unit_UAZ_469_MP_SOV',
+        category: 'trans'
     }
 ]

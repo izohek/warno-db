@@ -2,8 +2,8 @@
     {
         "descriptor": "Descriptor_Unit_HEMTT_US",
         "id": 13,
-        "name": "",
-        "category": ""
+        "name": "HEMTT",
+        "category": "log"
     },
     {
         "descriptor": "Descriptor_Unit_M106A2_HOWZ_US",
@@ -4814,26 +4814,26 @@
     {
         "descriptor": "Descriptor_Unit_LRRP_FR",
         "id": 1406,
-        "name": "",
-        "category": ""
+        "name": "DRAGON-PARAS",
+        "category": "rec"
     },
     {
         "descriptor": "Descriptor_Unit_MP_DDR",
         "id": 1472,
-        "name": "",
-        "category": ""
+        "name": "MILITARSTREIFEN",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_MP_SOV",
         "id": 1475,
-        "name": "",
-        "category": ""
+        "name": "KOMENDATURA",
+        "category": "inf"
     },
     {
         "descriptor": "Descriptor_Unit_SAS_Sniper_FR",
         "id": 1579,
-        "name": "",
-        "category": ""
+        "name": "SNIPER SAS",
+        "category": "rec"
     },
     {
         "descriptor": "Descriptor_Unit_Sniper_ESR_BEL",
@@ -4844,37 +4844,37 @@
     {
         "descriptor": "Descriptor_Unit_Sniper_FJ_DDR",
         "id": 1596,
-        "name": "",
-        "category": ""
+        "name": "FJ SCHARFSCHUTZE",
+        "category": "rec"
     },
     {
         "descriptor": "Descriptor_Unit_Sniper_Fern_RFA",
         "id": 1597,
-        "name": "",
-        "category": ""
+        "name": "FERN. SCHARFSCHUTZE",
+        "category": "rec"
     },
     {
         "descriptor": "Descriptor_Unit_Sniper_Spetsnaz_SOV",
         "id": 1599,
-        "name": "",
-        "category": ""
+        "name": "SNAYPERI SPETSNAZ",
+        "category": "rec"
     },
     {
         "descriptor": "Descriptor_Unit_Sniper_UK",
         "id": 1600,
-        "name": "",
-        "category": ""
+        "name": "SNIPER",
+        "category": "rec"
     },
     {
         "descriptor": "Descriptor_Unit_Sniper_US",
         "id": 1601,
-        "name": "",
-        "category": ""
+        "name": "SNIPER",
+        "category": "rec"
     },
     {
         "descriptor": "Descriptor_Unit_UAZ_469_MP_SOV",
         "id": 1645,
-        "name": "",
-        "category": ""
+        "name": "UAZ-469 KOMENDATURA",
+        "category": "trans"
     }
 ]
