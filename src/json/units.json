@@ -1,9 +1,9 @@
 [
     {
-        "descriptor": "Descriptor_Unit_HEMTT",
+        "descriptor": "Descriptor_Unit_HEMTT_US",
         "id": 13,
-        "name": "HEMTT",
-        "category": "log"
+        "name": "",
+        "category": ""
     },
     {
         "descriptor": "Descriptor_Unit_M106A2_HOWZ_US",
@@ -3780,12 +3780,6 @@
         "category": ""
     },
     {
-        "descriptor": "Descriptor_Unit_2S5_GiatsintS_SOV",
-        "id": 1038,
-        "name": "",
-        "category": ""
-    },
-    {
         "descriptor": "Descriptor_Unit_BRDM_2_Konkurs_DDR",
         "id": 1039,
         "name": "",
@@ -4816,5 +4810,71 @@
         "id": 1218,
         "name": "FLA-RAK. IGLA",
         "category": "aa"
+    },
+    {
+        "descriptor": "Descriptor_Unit_LRRP_FR",
+        "id": 1406,
+        "name": "",
+        "category": ""
+    },
+    {
+        "descriptor": "Descriptor_Unit_MP_DDR",
+        "id": 1472,
+        "name": "",
+        "category": ""
+    },
+    {
+        "descriptor": "Descriptor_Unit_MP_SOV",
+        "id": 1475,
+        "name": "",
+        "category": ""
+    },
+    {
+        "descriptor": "Descriptor_Unit_SAS_Sniper_FR",
+        "id": 1579,
+        "name": "",
+        "category": ""
+    },
+    {
+        "descriptor": "Descriptor_Unit_Sniper_ESR_BEL",
+        "id": 1595,
+        "name": "",
+        "category": ""
+    },
+    {
+        "descriptor": "Descriptor_Unit_Sniper_FJ_DDR",
+        "id": 1596,
+        "name": "",
+        "category": ""
+    },
+    {
+        "descriptor": "Descriptor_Unit_Sniper_Fern_RFA",
+        "id": 1597,
+        "name": "",
+        "category": ""
+    },
+    {
+        "descriptor": "Descriptor_Unit_Sniper_Spetsnaz_SOV",
+        "id": 1599,
+        "name": "",
+        "category": ""
+    },
+    {
+        "descriptor": "Descriptor_Unit_Sniper_UK",
+        "id": 1600,
+        "name": "",
+        "category": ""
+    },
+    {
+        "descriptor": "Descriptor_Unit_Sniper_US",
+        "id": 1601,
+        "name": "",
+        "category": ""
+    },
+    {
+        "descriptor": "Descriptor_Unit_UAZ_469_MP_SOV",
+        "id": 1645,
+        "name": "",
+        "category": ""
     }
 ]

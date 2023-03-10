@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const NdfDataGenerator_1 = require("../ndf/NdfDataGenerator");
 const UnitData_1 = require("../UnitData");
 const fs_1 = require("fs");
-const deckNdfFile = './ndf/oudinot/DeckSerializer.ndf';
-const packsNdfFile = './ndf/oudinot/Packs.ndf';
+const deckNdfFile = './ndf/latest/DeckSerializer.ndf';
+const packsNdfFile = './ndf/latest/Packs.ndf';
 // From ndf
 const idData = (0, NdfDataGenerator_1.generateIds)(deckNdfFile);
 // Add extra unit data

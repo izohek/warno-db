@@ -25,5 +25,4 @@ export interface DivisionTransportRule {
 export interface DivisionRule {
     division: string
     unitRules: DivisionUnitRule[]
-    transportRules: DivisionTransportRule[]
 }

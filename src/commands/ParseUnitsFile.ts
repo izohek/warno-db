@@ -2,8 +2,8 @@ import { generatePacks, generateIds } from "../ndf/NdfDataGenerator";
 import { AllUnits, UnitDefinition } from "../UnitData";
 import { writeFileSync } from 'fs'
 
-const deckNdfFile = './ndf/oudinot/DeckSerializer.ndf'
-const packsNdfFile = './ndf/oudinot/Packs.ndf'
+const deckNdfFile = './ndf/latest/DeckSerializer.ndf'
+const packsNdfFile = './ndf/latest/Packs.ndf'
 
 // From ndf
 const idData = generateIds(deckNdfFile)

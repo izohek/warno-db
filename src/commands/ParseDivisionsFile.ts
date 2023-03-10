@@ -3,8 +3,8 @@ import localization_En from '../lang/en/Divisions'
 import allianceLoc_En from '../lang/en/Alliances'
 import { writeFileSync } from 'fs'
 
-const deckNdfFile = './ndf/oudinot/DeckSerializer.ndf'
-const divisionNdfFile = './ndf/oudinot/Divisions.ndf'
+const deckNdfFile = './ndf/latest/DeckSerializer.ndf'
+const divisionNdfFile = './ndf/latest/Divisions.ndf'
 
 // Parse from ndf
 const divisionData = generateDivisions(deckNdfFile, divisionNdfFile)

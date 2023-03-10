@@ -309,6 +309,13 @@
             "id": 1583
         },
         {
+            "name": "Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_SAS_Sniper_FR",
+            "units": [
+                "Descriptor_Unit_SAS_Sniper_FR"
+            ],
+            "id": 5285
+        },
+        {
             "name": "Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_Scout_para_FR",
             "units": [
                 "Descriptor_Unit_Scout_para_FR"
@@ -580,6 +587,13 @@
                 "Descriptor_Unit_Jaguar_SEAD_FR"
             ],
             "id": 1800
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_LRRP_FR",
+            "units": [
+                "Descriptor_Unit_LRRP_FR"
+            ],
+            "id": 5284
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_MANPAD_Mistral_FR",
@@ -1583,6 +1597,13 @@
             "id": 975
         },
         {
+            "name": "Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_MP_DDR",
+            "units": [
+                "Descriptor_Unit_MP_DDR"
+            ],
+            "id": 5297
+        },
+        {
             "name": "Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_MTLB_Strela10_DDR",
             "units": [
                 "Descriptor_Unit_MTLB_Strela10_DDR"
@@ -1798,6 +1819,13 @@
                 "Descriptor_Unit_Scout_DDR"
             ],
             "id": 1005
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_Sniper_FJ_DDR",
+            "units": [
+                "Descriptor_Unit_Sniper_FJ_DDR"
+            ],
+            "id": 5286
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_Su_22_AT_DDR",
@@ -2057,6 +2085,13 @@
                 "Descriptor_Unit_MFRW_RM70_DDR"
             ],
             "id": 836
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_RDA_7_Panzer_multi_MP_DDR",
+            "units": [
+                "Descriptor_Unit_MP_DDR"
+            ],
+            "id": 5298
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_RDA_7_Panzer_multi_MTLB_Strela10_DDR",
@@ -2540,6 +2575,13 @@
                 "Descriptor_Unit_MFRW_RM70_cluster_DDR"
             ],
             "id": 1805
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_MP_DDR",
+            "units": [
+                "Descriptor_Unit_MP_DDR"
+            ],
+            "id": 5302
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_MTLB_supply_DDR",
@@ -3296,6 +3338,13 @@
                 "Descriptor_Unit_Security_RFA"
             ],
             "id": 1077
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_Sniper_Fern_RFA",
+            "units": [
+                "Descriptor_Unit_Sniper_Fern_RFA"
+            ],
+            "id": 5287
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_TPZ_Fuchs_CMD_RFA",
@@ -4418,6 +4467,13 @@
             "id": 1130
         },
         {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MP_SOV",
+            "units": [
+                "Descriptor_Unit_MP_SOV"
+            ],
+            "id": 5299
+        },
+        {
             "name": "Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MTLB_Vasilek_SOV",
             "units": [
                 "Descriptor_Unit_MTLB_Vasilek_SOV"
@@ -4472,6 +4528,13 @@
                 "Descriptor_Unit_MiG_27M_rkt_SOV"
             ],
             "id": 1137
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_29_AA2_SOV",
+            "units": [
+                "Descriptor_Unit_MiG_29_AA2_SOV"
+            ],
+            "id": 5283
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_29_AA_SOV",
@@ -4598,6 +4661,13 @@
                 "Descriptor_Unit_Scout_VDV_SOV"
             ],
             "id": 1153
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_Sniper_Spetsnaz_SOV",
+            "units": [
+                "Descriptor_Unit_Sniper_Spetsnaz_SOV"
+            ],
+            "id": 5288
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_Spetsnaz_CMD_SOV",
@@ -4913,6 +4983,13 @@
                 "Descriptor_Unit_MANPAD_Igla_SOV"
             ],
             "id": 746
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_MP_SOV",
+            "units": [
+                "Descriptor_Unit_MP_SOV"
+            ],
+            "id": 5300
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_MTLB_CMD_SOV",
@@ -5382,6 +5459,13 @@
                 "Descriptor_Unit_MANPAD_Igla_SOV"
             ],
             "id": 536
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_MP_SOV",
+            "units": [
+                "Descriptor_Unit_MP_SOV"
+            ],
+            "id": 5301
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_MTLB_CMD_SOV",
@@ -6049,6 +6133,13 @@
             "id": 1485
         },
         {
+            "name": "Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_Sniper_UK",
+            "units": [
+                "Descriptor_Unit_Sniper_UK"
+            ],
+            "id": 5289
+        },
+        {
             "name": "Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_Tornado_ADV_HE_UK",
             "units": [
                 "Descriptor_Unit_Tornado_ADV_HE_UK"
@@ -6497,6 +6588,13 @@
             "id": 1663
         },
         {
+            "name": "Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_Sniper_UK",
+            "units": [
+                "Descriptor_Unit_Sniper_UK"
+            ],
+            "id": 5290
+        },
+        {
             "name": "Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_Territorial_CMD_UK",
             "units": [
                 "Descriptor_Unit_Territorial_CMD_UK"
@@ -6686,11 +6784,11 @@
             "id": 591
         },
         {
-            "name": "Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_HEMTT",
+            "name": "Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_HEMTT_US",
             "units": [
-                "Descriptor_Unit_HEMTT"
+                "Descriptor_Unit_HEMTT_US"
             ],
-            "id": 375
+            "id": 5278
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_HMGteam_M2HB_US",
@@ -6957,6 +7055,13 @@
                 "Descriptor_Unit_Scout_US"
             ],
             "id": 402
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_Sniper_US",
+            "units": [
+                "Descriptor_Unit_Sniper_US"
+            ],
+            "id": 5293
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_UH60A_CO_US",
@@ -7379,6 +7484,13 @@
             "id": 1220
         },
         {
+            "name": "Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_Sniper_US",
+            "units": [
+                "Descriptor_Unit_Sniper_US"
+            ],
+            "id": 5294
+        },
+        {
             "name": "Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_UH60A_Supply_US",
             "units": [
                 "Descriptor_Unit_UH60A_Supply_US"
@@ -7526,11 +7638,11 @@
             "id": 2345
         },
         {
-            "name": "Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_HEMTT",
+            "name": "Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_HEMTT_US",
             "units": [
-                "Descriptor_Unit_HEMTT"
+                "Descriptor_Unit_HEMTT_US"
             ],
-            "id": 446
+            "id": 5280
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_HMGteam_M2HB_US",
@@ -7862,6 +7974,13 @@
             "id": 478
         },
         {
+            "name": "Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_Sniper_US",
+            "units": [
+                "Descriptor_Unit_Sniper_US"
+            ],
+            "id": 5295
+        },
+        {
             "name": "Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_UH60A_CO_US",
             "units": [
                 "Descriptor_Unit_UH60A_CO_US"
@@ -8182,6 +8301,20 @@
                 "Descriptor_Unit_MFRW_RM70_DDR"
             ],
             "id": 1703
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_MP_DDR",
+            "units": [
+                "Descriptor_Unit_MP_DDR"
+            ],
+            "id": 5303
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_MP_SOV",
+            "units": [
+                "Descriptor_Unit_MP_SOV"
+            ],
+            "id": 5304
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_MTLB_Strela10_DDR",

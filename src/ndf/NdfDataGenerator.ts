@@ -81,7 +81,6 @@ export function generateDivisionRules(rulesFile: string): DivisionRule[] {
     const rules = ndfItems.map( item => {
         // return item
         const unitRules = item[1].children.filter( c => c.name === 'UnitRuleList' )[0].value as ParserArray
-        const transportRules = item[1].children.filter( c => c.name === 'TransportRuleList' )[0]?.value as ParserArray
         return {
             division: item[0].value,
             unitRules: (unitRules.values as ParserObject[]).map( ur => {
@@ -93,11 +92,7 @@ export function generateDivisionRules(rulesFile: string): DivisionRule[] {
                         return parseFloat((i as ParserStringLiteral).value)
                     })
                 }
-            }),
-            transportRules: (search(transportRules, 'TDeckTransportRule') as ParserObject[]).map( (tr) => { return {
-                name: (tr.children.find( c => c.name === 'TransportDescriptor' )?.value as ParserTildeLiteral).value,
-                maxNumber: parseInt((tr.children.find( c => c.name === 'MaxNumber')?.value as ParserStringLiteral).value)
-            }}),
+            })
         }
     })
 
