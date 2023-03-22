@@ -4802,8 +4802,8 @@
     {
         "descriptor": "Descriptor_Unit_MiG_29_AA2_SOV",
         "id": 1217,
-        "name": "",
-        "category": ""
+        "name": "MIG-29 [AA2]",
+        "category": "air"
     },
     {
         "descriptor": "Descriptor_Unit_MANPAD_Igla_DDR",

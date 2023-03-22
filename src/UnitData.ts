@@ -4621,6 +4621,12 @@ export const AllUnits: UnitDefinition[] = [
         category: 'rec'
     },
     {
+        id: 1216,
+        name: 'MIG-29 [AA2]',
+        descriptor: 'Descriptor_Unit_MiG_29_AA2_SOV',
+        category: 'air'
+    },
+    {
         id: 1217,
         name: 'FLA-RAK. IGLA',
         descriptor: 'Descriptor_Unit_MANPAD_Igla_DDR',
