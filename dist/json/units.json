@@ -174,7 +174,7 @@
         "category": "trans"
     },
     {
-        "descriptor": "Descriptor_Unit_EF111_Raven",
+        "descriptor": "Descriptor_Unit_EF111_Raven_US",
         "id": 61,
         "name": "EF-111A RAVEN [SEAD]",
         "category": "air"
@@ -4380,7 +4380,7 @@
         "category": "hel"
     },
     {
-        "descriptor": "Descriptor_Unit_F4_Phantom_AA_F3",
+        "descriptor": "Descriptor_Unit_F4_Phantom_AA_F3_UK",
         "id": 1145,
         "name": "PHANTOM F.3 [AA]",
         "category": "air"
@@ -4876,5 +4876,41 @@
         "id": 1645,
         "name": "UAZ-469 KOMENDATURA",
         "category": "trans"
+    },
+    {
+        "descriptor": "Descriptor_Unit_FOB_SOV",
+        "id": 1733,
+        "name": "SKLAD SNABZHENIYA",
+        "category": "log"
+    },
+    {
+        "descriptor": "Descriptor_Unit_FOB_US",
+        "id": 1734,
+        "name": "FIELD SUPPLY POINT",
+        "category": "log"
+    },
+    {
+        "descriptor": "Descriptor_Unit_FOB_DDR",
+        "id": 1754,
+        "name": "FELDDEPOT",
+        "category": "log"
+    },
+    {
+        "descriptor": "Descriptor_Unit_FOB_FR",
+        "id": 1755,
+        "name": "DEPOT DE MUNITION",
+        "category": "log"
+    },
+    {
+        "descriptor": "Descriptor_Unit_FOB_RFA",
+        "id": 1756,
+        "name": "FELDDEPOT",
+        "category": "log"
+    },
+    {
+        "descriptor": "Descriptor_Unit_FOB_UK",
+        "id": 1758,
+        "name": "FIELD SUPPLY POINT",
+        "category": "log"
     }
 ]

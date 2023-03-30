@@ -82,6 +82,10 @@
                 "count": 1
             },
             {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_RDA_7_Panzer_multi_FOB_DDR",
+                "count": 1
+            },
+            {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RDA_7_Panzer_multi_HMGteam_AGS17_DDR",
                 "count": 2
             },
@@ -368,6 +372,10 @@
                 "count": 2
             },
             {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_FOB_RFA",
+                "count": 1
+            },
+            {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Feldgendarmerie_RFA",
                 "count": 1
             },
@@ -615,6 +623,10 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Engineers_Scout_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_FOB_SOV",
                 "count": 1
             },
             {
@@ -928,6 +940,10 @@
                 "count": 1
             },
             {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_FOB_US",
+                "count": 1
+            },
+            {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_HEMTT_US",
                 "count": 2
             },
@@ -1191,6 +1207,10 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_F4_Wild_Weasel_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_FOB_US",
                 "count": 1
             },
             {
@@ -1488,6 +1508,10 @@
                 "count": 2
             },
             {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_FOB_UK",
+                "count": 1
+            },
+            {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_FV4201_Chieftain_CMD_UK",
                 "count": 1
             },
@@ -1712,6 +1736,10 @@
                 "count": 1
             },
             {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_Sniper_UK",
+                "count": 1
+            },
+            {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_Sonderwagen_4_recon_RFA",
                 "count": 1
             },
@@ -1827,6 +1855,10 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_Engineers_Scout_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_FOB_SOV",
                 "count": 1
             },
             {
@@ -2152,6 +2184,10 @@
                 "count": 1
             },
             {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_FOB_DDR",
+                "count": 1
+            },
+            {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_Fallschirmjager_CMD_DDR",
                 "count": 1
             },
@@ -2369,7 +2405,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_T55AM2_CMD_DDR",
-                "count": 1
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_T55AM2_DDR",
@@ -2484,6 +2520,10 @@
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_FH70_155mm_RFA",
                 "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_FOB_RFA",
+                "count": 1
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_FV101_Scorpion_BEL",
@@ -2801,6 +2841,10 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_Engineers_VDV_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_FOB_SOV",
                 "count": 1
             },
             {
@@ -3190,6 +3234,10 @@
                 "count": 2
             },
             {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_FOB_US",
+                "count": 1
+            },
+            {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_HMGteam_M2HB_AB_US",
                 "count": 1
             },
@@ -3330,6 +3378,10 @@
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_ERC_90_Sagaie_FR",
                 "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_FOB_FR",
+                "count": 1
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_Gazelle_20mm_FR",
@@ -3626,6 +3678,10 @@
                 "count": 1
             },
             {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_FOB_FR",
+                "count": 1
+            },
+            {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_Gazelle_HOT_2_FR",
                 "count": 2
             },
@@ -3857,6 +3913,10 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_Engineers_Flam_DDR",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_FOB_DDR",
                 "count": 1
             },
             {
@@ -4194,6 +4254,10 @@
                 "count": 2
             },
             {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_RFA_TerrKdo_Sud_multi_FOB_RFA",
+                "count": 1
+            },
+            {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RFA_TerrKdo_Sud_multi_Fallschirm_B1_RFA",
                 "count": 1
             },
@@ -4414,6 +4478,10 @@
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_Engineers_UK",
                 "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_FOB_UK",
+                "count": 1
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_FV101_Scorpion_UK",
@@ -4682,12 +4750,16 @@
                 "count": 1
             },
             {
-                "descriptor": "~/Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_F4_Phantom_AA_F3",
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_F4_Phantom_AA_F3_UK",
                 "count": 1
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_FH70_155mm_UK",
                 "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_FOB_UK",
+                "count": 1
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_FV721_Fox_UK",
@@ -4984,6 +5056,10 @@
                 "count": 2
             },
             {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_FOB_DDR",
+                "count": 1
+            },
+            {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Fallschirmjager_CMD_DDR",
                 "count": 1
             },
@@ -5172,6 +5248,10 @@
                 "count": 2
             },
             {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Sniper_FJ_DDR",
+                "count": 1
+            },
+            {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Su_17M4_SOV",
                 "count": 1
             },
@@ -5201,7 +5281,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_T55AM2_CMD_DDR",
-                "count": 1
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_T55AM2_DDR",

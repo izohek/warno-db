@@ -188,7 +188,7 @@ export const AllUnits: UnitDefinition[] = [
     {
         id: 60,
         name: 'EF-111A RAVEN [SEAD]',
-        descriptor: 'Descriptor_Unit_EF111_Raven',
+        descriptor: 'Descriptor_Unit_EF111_Raven_US',
         category: 'air'
     },
     {
@@ -4226,7 +4226,7 @@ export const AllUnits: UnitDefinition[] = [
     {
         id: 1144,
         name: 'PHANTOM F.3 [AA]',
-        descriptor: 'Descriptor_Unit_F4_Phantom_AA_F3',
+        descriptor: 'Descriptor_Unit_F4_Phantom_AA_F3_UK',
         category: 'air'
     },
     {
@@ -4691,5 +4691,41 @@ export const AllUnits: UnitDefinition[] = [
         name: 'UAZ-469 KOMENDATURA',
         descriptor: 'Descriptor_Unit_UAZ_469_MP_SOV',
         category: 'trans'
+    },
+    {
+        id: 1732,
+        name: "SKLAD SNABZHENIYA",
+        descriptor: "Descriptor_Unit_FOB_SOV",
+        category: "log"
+    },
+    {
+        id: 1733,
+        name: "FIELD SUPPLY POINT",
+        descriptor: "Descriptor_Unit_FOB_US",
+        category: "log"
+    },
+    {
+        id: 1753,
+        name: "FELDDEPOT",
+        descriptor: "Descriptor_Unit_FOB_DDR",
+        category: "log"
+    },
+    {
+        id: 1754,
+        name: "DEPOT DE MUNITION",
+        descriptor: "Descriptor_Unit_FOB_FR",
+        category: "log"
+    },
+    {
+        id: 1755,
+        name: "FELDDEPOT",
+        descriptor: "Descriptor_Unit_FOB_RFA",
+        category: "log"
+    },
+    {
+        id: 1757,
+        name: "FIELD SUPPLY POINT",
+        descriptor: "Descriptor_Unit_FOB_UK",
+        category: "log"
     }
 ]

@@ -69,6 +69,17 @@
                 ]
             },
             {
+                "unitDescriptor": "~/Descriptor_Unit_FOB_FR",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    1,
+                    0,
+                    0
+                ]
+            },
+            {
                 "unitDescriptor": "~/Descriptor_Unit_Gazelle_20mm_FR",
                 "availableWithoutTransport": true,
                 "numberOfUnitsInPack": 6,
@@ -833,6 +844,17 @@
                 ]
             },
             {
+                "unitDescriptor": "~/Descriptor_Unit_FOB_FR",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    1,
+                    0,
+                    0
+                ]
+            },
+            {
                 "unitDescriptor": "~/Descriptor_Unit_Gazelle_HOT_2_FR",
                 "availableWithoutTransport": true,
                 "numberOfUnitsInPack": 4,
@@ -938,8 +960,8 @@
                 "numberOfUnitInPackXPMultiplier": [
                     0,
                     0,
-                    0,
-                    1
+                    1,
+                    0.66
                 ]
             },
             {
@@ -1439,6 +1461,17 @@
                     0,
                     0,
                     1,
+                    0
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_FOB_UK",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    1,
+                    0,
                     0
                 ]
             },
@@ -2059,6 +2092,17 @@
                 ]
             },
             {
+                "unitDescriptor": "~/Descriptor_Unit_Sniper_UK",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    0,
+                    1,
+                    0.66
+                ]
+            },
+            {
                 "unitDescriptor": "~/Descriptor_Unit_Sonderwagen_4_recon_RFA",
                 "availableWithoutTransport": true,
                 "numberOfUnitsInPack": 6,
@@ -2358,6 +2402,17 @@
                     0,
                     1,
                     0.66
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_FOB_DDR",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    1,
+                    0,
+                    0
                 ]
             },
             {
@@ -3235,6 +3290,17 @@
                 ]
             },
             {
+                "unitDescriptor": "~/Descriptor_Unit_FOB_DDR",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    1,
+                    0,
+                    0
+                ]
+            },
+            {
                 "unitDescriptor": "~/Descriptor_Unit_HMGteam_AGS17_DDR",
                 "availableWithoutTransport": false,
                 "numberOfUnitsInPack": 6,
@@ -3560,8 +3626,8 @@
                 "numberOfUnitInPackXPMultiplier": [
                     0,
                     0,
-                    0,
-                    1
+                    1,
+                    0.66
                 ]
             },
             {
@@ -3952,6 +4018,17 @@
                     0,
                     1,
                     0.66
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_FOB_DDR",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    1,
+                    0,
+                    0
                 ]
             },
             {
@@ -4357,8 +4434,8 @@
                 "numberOfUnitInPackXPMultiplier": [
                     0,
                     0,
-                    0,
-                    1
+                    1,
+                    0.66
                 ]
             },
             {
@@ -4770,6 +4847,17 @@
                     0,
                     1,
                     0.5,
+                    0
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_FOB_RFA",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    1,
+                    0,
                     0
                 ]
             },
@@ -5604,6 +5692,17 @@
                 ]
             },
             {
+                "unitDescriptor": "~/Descriptor_Unit_FOB_RFA",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    1,
+                    0,
+                    0
+                ]
+            },
+            {
                 "unitDescriptor": "~/Descriptor_Unit_Feldgendarmerie_RFA",
                 "availableWithoutTransport": false,
                 "numberOfUnitsInPack": 12,
@@ -5621,8 +5720,8 @@
                 "numberOfUnitInPackXPMultiplier": [
                     0,
                     0,
-                    0,
-                    1
+                    1,
+                    0.66
                 ]
             },
             {
@@ -6324,6 +6423,17 @@
                 ]
             },
             {
+                "unitDescriptor": "~/Descriptor_Unit_FOB_RFA",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    1,
+                    0,
+                    0
+                ]
+            },
+            {
                 "unitDescriptor": "~/Descriptor_Unit_Fallschirm_B1_RFA",
                 "availableWithoutTransport": false,
                 "numberOfUnitsInPack": 4,
@@ -6967,6 +7077,17 @@
                 ]
             },
             {
+                "unitDescriptor": "~/Descriptor_Unit_FOB_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    1,
+                    0,
+                    0
+                ]
+            },
+            {
                 "unitDescriptor": "~/Descriptor_Unit_GAZ_66B_ZU_SOV",
                 "availableWithoutTransport": true,
                 "numberOfUnitsInPack": 9,
@@ -7358,8 +7479,8 @@
                 "numberOfUnitInPackXPMultiplier": [
                     0,
                     0,
-                    0,
-                    1
+                    1,
+                    0.66
                 ]
             },
             {
@@ -7794,6 +7915,17 @@
                     1,
                     0.66,
                     0.3
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_FOB_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    1,
+                    0,
+                    0
                 ]
             },
             {
@@ -8583,6 +8715,17 @@
                 ]
             },
             {
+                "unitDescriptor": "~/Descriptor_Unit_FOB_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    1,
+                    0,
+                    0
+                ]
+            },
+            {
                 "unitDescriptor": "~/Descriptor_Unit_HMGteam_AGS17_SOV",
                 "availableWithoutTransport": false,
                 "numberOfUnitsInPack": 6,
@@ -8897,8 +9040,8 @@
                 "numberOfUnitInPackXPMultiplier": [
                     0,
                     0,
-                    0,
-                    1
+                    1,
+                    0.66
                 ]
             },
             {
@@ -9270,6 +9413,17 @@
                 ]
             },
             {
+                "unitDescriptor": "~/Descriptor_Unit_FOB_UK",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    1,
+                    0,
+                    0
+                ]
+            },
+            {
                 "unitDescriptor": "~/Descriptor_Unit_FV101_Scorpion_UK",
                 "availableWithoutTransport": true,
                 "numberOfUnitsInPack": 6,
@@ -9518,8 +9672,8 @@
                 "numberOfUnitInPackXPMultiplier": [
                     0,
                     0,
-                    0,
-                    1
+                    1,
+                    0.66
                 ]
             },
             {
@@ -9957,7 +10111,7 @@
                 ]
             },
             {
-                "unitDescriptor": "~/Descriptor_Unit_F4_Phantom_AA_F3",
+                "unitDescriptor": "~/Descriptor_Unit_F4_Phantom_AA_F3_UK",
                 "availableWithoutTransport": true,
                 "numberOfUnitsInPack": 4,
                 "numberOfUnitInPackXPMultiplier": [
@@ -9975,6 +10129,17 @@
                     0,
                     1,
                     0.5,
+                    0
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_FOB_UK",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    1,
+                    0,
                     0
                 ]
             },
@@ -10732,6 +10897,17 @@
                 ]
             },
             {
+                "unitDescriptor": "~/Descriptor_Unit_FOB_US",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    1,
+                    0,
+                    0
+                ]
+            },
+            {
                 "unitDescriptor": "~/Descriptor_Unit_HEMTT_US",
                 "availableWithoutTransport": true,
                 "numberOfUnitsInPack": 2,
@@ -10771,8 +10947,8 @@
                 "numberOfUnitInPackXPMultiplier": [
                     0,
                     0,
-                    0,
-                    1
+                    1,
+                    0.66
                 ]
             },
             {
@@ -11584,6 +11760,17 @@
                 ]
             },
             {
+                "unitDescriptor": "~/Descriptor_Unit_FOB_US",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    1,
+                    0,
+                    0
+                ]
+            },
+            {
                 "unitDescriptor": "~/Descriptor_Unit_HMGteam_M2HB_AB_US",
                 "availableWithoutTransport": false,
                 "numberOfUnitsInPack": 9,
@@ -11634,8 +11821,8 @@
                 "numberOfUnitInPackXPMultiplier": [
                     0,
                     0,
-                    0,
-                    1
+                    1,
+                    0.66
                 ]
             },
             {
@@ -12084,6 +12271,17 @@
                 ]
             },
             {
+                "unitDescriptor": "~/Descriptor_Unit_FOB_US",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    1,
+                    0,
+                    0
+                ]
+            },
+            {
                 "unitDescriptor": "~/Descriptor_Unit_HEMTT_US",
                 "availableWithoutTransport": true,
                 "numberOfUnitsInPack": 2,
@@ -12178,8 +12376,8 @@
                 "numberOfUnitInPackXPMultiplier": [
                     0,
                     0,
-                    0,
-                    1
+                    1,
+                    0.66
                 ]
             },
             {
@@ -12914,6 +13112,17 @@
                 ]
             },
             {
+                "unitDescriptor": "~/Descriptor_Unit_FOB_DDR",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    1,
+                    0,
+                    0
+                ]
+            },
+            {
                 "unitDescriptor": "~/Descriptor_Unit_Fallschirmjager_CMD_DDR",
                 "availableWithoutTransport": false,
                 "numberOfUnitsInPack": 2,
@@ -13423,6 +13632,17 @@
                 "unitDescriptor": "~/Descriptor_Unit_Scout_DDR",
                 "availableWithoutTransport": false,
                 "numberOfUnitsInPack": 9,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    0,
+                    1,
+                    0.66
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Sniper_FJ_DDR",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 4,
                 "numberOfUnitInPackXPMultiplier": [
                     0,
                     0,

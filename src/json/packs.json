@@ -43,6 +43,13 @@
             "id": 1551
         },
         {
+            "name": "Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_FOB_FR",
+            "units": [
+                "Descriptor_Unit_FOB_FR"
+            ],
+            "id": 5392
+        },
+        {
             "name": "Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_Gazelle_20mm_FR",
             "units": [
                 "Descriptor_Unit_Gazelle_20mm_FR"
@@ -526,6 +533,13 @@
             "id": 1313
         },
         {
+            "name": "Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_FOB_FR",
+            "units": [
+                "Descriptor_Unit_FOB_FR"
+            ],
+            "id": 5393
+        },
+        {
             "name": "Descriptor_Deck_Pack_TOE_FR_5e_Blindee_multi_Gazelle_HOT_2_FR",
             "units": [
                 "Descriptor_Unit_Gazelle_HOT_2_FR"
@@ -909,6 +923,13 @@
                 "Descriptor_Unit_F117_Nighthawk_US"
             ],
             "id": 1600
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_FOB_UK",
+            "units": [
+                "Descriptor_Unit_FOB_UK"
+            ],
+            "id": 5395
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_FV4201_Chieftain_CMD_UK",
@@ -1303,6 +1324,13 @@
             "id": 514
         },
         {
+            "name": "Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_Sniper_UK",
+            "units": [
+                "Descriptor_Unit_Sniper_UK"
+            ],
+            "id": 5362
+        },
+        {
             "name": "Descriptor_Deck_Pack_TOE_NATO_Garnison_Berlin_multi_Sonderwagen_4_recon_RFA",
             "units": [
                 "Descriptor_Unit_Sonderwagen_4_recon_RFA"
@@ -1490,6 +1518,13 @@
                 "Descriptor_Unit_Engineers_Flam_DDR"
             ],
             "id": 966
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_FOB_DDR",
+            "units": [
+                "Descriptor_Unit_FOB_DDR"
+            ],
+            "id": 5396
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_Fallschirmjager_CMD_DDR",
@@ -2045,6 +2080,13 @@
             "id": 833
         },
         {
+            "name": "Descriptor_Deck_Pack_TOE_RDA_7_Panzer_multi_FOB_DDR",
+            "units": [
+                "Descriptor_Unit_FOB_DDR"
+            ],
+            "id": 5397
+        },
+        {
             "name": "Descriptor_Deck_Pack_TOE_RDA_7_Panzer_multi_HMGteam_AGS17_DDR",
             "units": [
                 "Descriptor_Unit_HMGteam_AGS17_DDR"
@@ -2498,6 +2540,13 @@
                 "Descriptor_Unit_Engineers_Flam_DDR"
             ],
             "id": 1391
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_FOB_DDR",
+            "units": [
+                "Descriptor_Unit_FOB_DDR"
+            ],
+            "id": 5399
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_HMGteam_AGS17_DDR",
@@ -3016,6 +3065,13 @@
                 "Descriptor_Unit_FH70_155mm_RFA"
             ],
             "id": 1036
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_FOB_RFA",
+            "units": [
+                "Descriptor_Unit_FOB_RFA"
+            ],
+            "id": 5400
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_FV101_Scorpion_BEL",
@@ -3543,6 +3599,13 @@
             "id": 1087
         },
         {
+            "name": "Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_FOB_RFA",
+            "units": [
+                "Descriptor_Unit_FOB_RFA"
+            ],
+            "id": 5401
+        },
+        {
             "name": "Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Feldgendarmerie_RFA",
             "units": [
                 "Descriptor_Unit_Feldgendarmerie_RFA"
@@ -3998,6 +4061,13 @@
             "id": 1254
         },
         {
+            "name": "Descriptor_Deck_Pack_TOE_RFA_TerrKdo_Sud_multi_FOB_RFA",
+            "units": [
+                "Descriptor_Unit_FOB_RFA"
+            ],
+            "id": 5402
+        },
+        {
             "name": "Descriptor_Deck_Pack_TOE_RFA_TerrKdo_Sud_multi_Fallschirm_B1_RFA",
             "units": [
                 "Descriptor_Unit_Fallschirm_B1_RFA"
@@ -4402,6 +4472,13 @@
                 "Descriptor_Unit_Engineers_VDV_SOV"
             ],
             "id": 1125
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_FOB_SOV",
+            "units": [
+                "Descriptor_Unit_FOB_SOV"
+            ],
+            "id": 5380
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_GAZ_66B_ZU_SOV",
@@ -4929,6 +5006,13 @@
             "id": 2185
         },
         {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_FOB_SOV",
+            "units": [
+                "Descriptor_Unit_FOB_SOV"
+            ],
+            "id": 5381
+        },
+        {
             "name": "Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_FireSupport_SOV",
             "units": [
                 "Descriptor_Unit_FireSupport_SOV"
@@ -5426,6 +5510,13 @@
             "id": 2189
         },
         {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_FOB_SOV",
+            "units": [
+                "Descriptor_Unit_FOB_SOV"
+            ],
+            "id": 5382
+        },
+        {
             "name": "Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_HMGteam_AGS17_SOV",
             "units": [
                 "Descriptor_Unit_HMGteam_AGS17_SOV"
@@ -5858,6 +5949,13 @@
                 "Descriptor_Unit_Engineers_UK"
             ],
             "id": 1453
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_FOB_UK",
+            "units": [
+                "Descriptor_Unit_FOB_UK"
+            ],
+            "id": 5403
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_FV101_Scorpion_UK",
@@ -6294,11 +6392,11 @@
             "id": 1631
         },
         {
-            "name": "Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_F4_Phantom_AA_F3",
+            "name": "Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_F4_Phantom_AA_F3_UK",
             "units": [
-                "Descriptor_Unit_F4_Phantom_AA_F3"
+                "Descriptor_Unit_F4_Phantom_AA_F3_UK"
             ],
-            "id": 1632
+            "id": 5952
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_FH70_155mm_UK",
@@ -6306,6 +6404,13 @@
                 "Descriptor_Unit_FH70_155mm_UK"
             ],
             "id": 1633
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_FOB_UK",
+            "units": [
+                "Descriptor_Unit_FOB_UK"
+            ],
+            "id": 5404
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_FV721_Fox_UK",
@@ -6782,6 +6887,13 @@
                 "Descriptor_Unit_F4_Wild_Weasel_US"
             ],
             "id": 591
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_FOB_US",
+            "units": [
+                "Descriptor_Unit_FOB_US"
+            ],
+            "id": 3881
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_HEMTT_US",
@@ -7323,6 +7435,13 @@
             "id": 1237
         },
         {
+            "name": "Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_FOB_US",
+            "units": [
+                "Descriptor_Unit_FOB_US"
+            ],
+            "id": 5388
+        },
+        {
             "name": "Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_HMGteam_M2HB_AB_US",
             "units": [
                 "Descriptor_Unit_HMGteam_M2HB_AB_US"
@@ -7636,6 +7755,13 @@
                 "Descriptor_Unit_F4_Wild_Weasel_US"
             ],
             "id": 2345
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_FOB_US",
+            "units": [
+                "Descriptor_Unit_FOB_US"
+            ],
+            "id": 5389
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_HEMTT_US",
@@ -8163,6 +8289,13 @@
             "id": 1687
         },
         {
+            "name": "Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_FOB_DDR",
+            "units": [
+                "Descriptor_Unit_FOB_DDR"
+            ],
+            "id": 5407
+        },
+        {
             "name": "Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Fallschirmjager_CMD_DDR",
             "units": [
                 "Descriptor_Unit_Fallschirmjager_CMD_DDR"
@@ -8490,6 +8623,13 @@
                 "Descriptor_Unit_Scout_DDR"
             ],
             "id": 1726
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Sniper_FJ_DDR",
+            "units": [
+                "Descriptor_Unit_Sniper_FJ_DDR"
+            ],
+            "id": 5363
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Su_17M4_SOV",
