@@ -8,7 +8,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "ndf-parser": "github:izohek/ndf-parser",
     "rimraf": "^5.0.0",
-    "typescript": "^4.8.2"
+    "typescript": "^5.0.4"
   },
   "name": "@izohek/warno-db",
   "version": "0.7.2",
