@@ -17,12 +17,16 @@
   "scripts": {
     "clean": "rimraf dist/",
     "build": "npx tsc",
-    "prebuild": "npm run clean",
-    "divisions": "npx tsc && node ./dist/commands/ParseDivisionsFile.js",
+    "divisions": "node ./dist/commands/ParseDivisionsFile.js",
     "lint": "npx eslint src/*.ts",
-    "parse": "npx tsc && node ./dist/commands/Parse.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "units": "npx tsc && node ./dist/commands/ParseUnitsFile.js"
+    "parse": "node ./dist/commands/Parse.js",
+    "units": "node ./dist/commands/ParseUnitsFile.js",
+    "prebuild": "npm run clean",
+    "predivisions": "npm run build",
+    "prelint": "npm run build",
+    "preparse": "npm run build",
+    "preunits": "npm run build"
   },
   "repository": {
     "type": "git",
