@@ -4685,38 +4685,38 @@ exports.AllUnits = [
     },
     {
         id: 1732,
-        name: "SKLAD SNABZHENIYA",
-        descriptor: "Descriptor_Unit_FOB_SOV",
-        category: "log"
+        name: 'SKLAD SNABZHENIYA',
+        descriptor: 'Descriptor_Unit_FOB_SOV',
+        category: 'log'
     },
     {
         id: 1733,
-        name: "FIELD SUPPLY POINT",
-        descriptor: "Descriptor_Unit_FOB_US",
-        category: "log"
+        name: 'FIELD SUPPLY POINT',
+        descriptor: 'Descriptor_Unit_FOB_US',
+        category: 'log'
     },
     {
         id: 1753,
-        name: "FELDDEPOT",
-        descriptor: "Descriptor_Unit_FOB_DDR",
-        category: "log"
+        name: 'FELDDEPOT',
+        descriptor: 'Descriptor_Unit_FOB_DDR',
+        category: 'log'
     },
     {
         id: 1754,
-        name: "DEPOT DE MUNITION",
-        descriptor: "Descriptor_Unit_FOB_FR",
-        category: "log"
+        name: 'DEPOT DE MUNITION',
+        descriptor: 'Descriptor_Unit_FOB_FR',
+        category: 'log'
     },
     {
         id: 1755,
-        name: "FELDDEPOT",
-        descriptor: "Descriptor_Unit_FOB_RFA",
-        category: "log"
+        name: 'FELDDEPOT',
+        descriptor: 'Descriptor_Unit_FOB_RFA',
+        category: 'log'
     },
     {
         id: 1757,
-        name: "FIELD SUPPLY POINT",
-        descriptor: "Descriptor_Unit_FOB_UK",
-        category: "log"
+        name: 'FIELD SUPPLY POINT',
+        descriptor: 'Descriptor_Unit_FOB_UK',
+        category: 'log'
     }
 ];
