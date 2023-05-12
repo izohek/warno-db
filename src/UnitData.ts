@@ -588,6 +588,12 @@ export const AllUnits: UnitDefinition[] = [
         category: 'rec'
     },
     {
+        id: 200,
+        name: 'UH-1H SUPPLY',
+        descriptor: 'Descriptor_Unit_UH1H_supply_US',
+        category: 'log'
+    },
+    {
         id: 201,
         name: 'UH-60A CO',
         descriptor: 'Descriptor_Unit_UH60A_CO_US',
@@ -2157,6 +2163,12 @@ export const AllUnits: UnitDefinition[] = [
         id: 543,
         name: 'BTR-60PU',
         descriptor: 'Descriptor_Unit_BTR_60_CMD_DDR',
+        category: 'log'
+    },
+    {
+        id: 544,
+        name: 'BTR-60PB',
+        descriptor: 'Descriptor_Unit_BTR_60_DDR',
         category: 'log'
     },
     {
@@ -4663,6 +4675,12 @@ export const AllUnits: UnitDefinition[] = [
         category: 'rec'
     },
     {
+        id: 1593,
+        name: 'HSF',
+        descriptor: 'Descriptor_Unit_Security_UK',
+        category: 'inf'
+    },
+    {
         id: 1595,
         name: 'FJ SCHARFSCHUTZE',
         descriptor: 'Descriptor_Unit_Sniper_FJ_DDR',
@@ -4727,5 +4745,47 @@ export const AllUnits: UnitDefinition[] = [
         name: 'FIELD SUPPLY POINT',
         descriptor: 'Descriptor_Unit_FOB_UK',
         category: 'log'
+    },
+    {
+        id: 1847,
+        name: 'AML-60 GENDARM.',
+        descriptor: 'Descriptor_Unit_AML_60_Gendarmerie_FR',
+        category: 'rec'
+    },
+    {
+        id: 1921,
+        name: 'GRENZER (FLAM)',
+        descriptor: 'Descriptor_Unit_Grenzer_Flam_DDR',
+        category: 'rec'
+    },
+    {
+        id: 1922,
+        name: 'BERLIN LIGHT RIFLES (LAW)',
+        descriptor: 'Descriptor_Unit_LightRifles_LAW_US',
+        category: 'inf'
+    },
+    {
+        id: 1923,
+        name: 'RESERVISTEN',
+        descriptor: 'Descriptor_Unit_Reserve_DDR',
+        category: 'inf'
+    },
+    {
+        id: 1924,
+        name: 'SEK',
+        descriptor: 'Descriptor_Unit_SEK_RFA',
+        category: 'rec'
+    },
+    {
+        id: 1938,
+        name: 'SICHERUNGS',
+        descriptor: 'Descriptor_Unit_Security_DDR',
+        category: 'inf'
+    },
+    {
+        id: 1939,
+        name: 'AFGANTSY',
+        descriptor: 'Descriptor_Unit_VDV_Afgantsy_SOV',
+        category: 'inf'
     }
 ]

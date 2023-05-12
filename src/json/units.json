@@ -594,6 +594,12 @@
         "category": "rec"
     },
     {
+        "descriptor": "Descriptor_Unit_UH1H_supply_US",
+        "id": 201,
+        "name": "UH-1H SUPPLY",
+        "category": "log"
+    },
+    {
         "descriptor": "Descriptor_Unit_UH60A_CO_US",
         "id": 202,
         "name": "UH-60A CO",
@@ -1410,6 +1416,12 @@
         "category": "inf"
     },
     {
+        "descriptor": "Descriptor_Unit_MotRifles_Metis_DDR",
+        "id": 372,
+        "name": "",
+        "category": ""
+    },
+    {
         "descriptor": "Descriptor_Unit_Panzergrenadier_APC_RFA",
         "id": 375,
         "name": "PZ.GRENADIER (M113)",
@@ -2223,6 +2235,12 @@
         "descriptor": "Descriptor_Unit_BTR_60_CMD_DDR",
         "id": 544,
         "name": "BTR-60PU",
+        "category": "log"
+    },
+    {
+        "descriptor": "Descriptor_Unit_BTR_60_DDR",
+        "id": 545,
+        "name": "BTR-60PB",
         "category": "log"
     },
     {
@@ -4650,12 +4668,6 @@
         "category": ""
     },
     {
-        "descriptor": "Descriptor_Unit_UH1D_Supply_NL",
-        "id": 1192,
-        "name": "",
-        "category": ""
-    },
-    {
         "descriptor": "Descriptor_Unit_AMX_30_B_CMD_FR",
         "id": 1193,
         "name": "AMX-30 B CMDT",
@@ -4836,6 +4848,12 @@
         "category": "rec"
     },
     {
+        "descriptor": "Descriptor_Unit_Security_UK",
+        "id": 1594,
+        "name": "HSF",
+        "category": "inf"
+    },
+    {
         "descriptor": "Descriptor_Unit_Sniper_ESR_BEL",
         "id": 1595,
         "name": "",
@@ -4912,5 +4930,65 @@
         "id": 1758,
         "name": "FIELD SUPPLY POINT",
         "category": "log"
+    },
+    {
+        "descriptor": "Descriptor_Unit_AML_60_Gendarmerie_FR",
+        "id": 1848,
+        "name": "AML-60 GENDARM.",
+        "category": "rec"
+    },
+    {
+        "descriptor": "Descriptor_Unit_T55A_SOV",
+        "id": 1904,
+        "name": "",
+        "category": ""
+    },
+    {
+        "descriptor": "Descriptor_Unit_T55A_CMD_SOV",
+        "id": 1921,
+        "name": "",
+        "category": ""
+    },
+    {
+        "descriptor": "Descriptor_Unit_Grenzer_Flam_DDR",
+        "id": 1922,
+        "name": "GRENZER (FLAM)",
+        "category": "rec"
+    },
+    {
+        "descriptor": "Descriptor_Unit_LightRifles_LAW_US",
+        "id": 1923,
+        "name": "BERLIN LIGHT RIFLES (LAW)",
+        "category": "inf"
+    },
+    {
+        "descriptor": "Descriptor_Unit_Reserve_DDR",
+        "id": 1924,
+        "name": "RESERVISTEN",
+        "category": "inf"
+    },
+    {
+        "descriptor": "Descriptor_Unit_SEK_RFA",
+        "id": 1925,
+        "name": "SEK",
+        "category": "rec"
+    },
+    {
+        "descriptor": "Descriptor_Unit_M1A1_Abrams_reco_US",
+        "id": 1926,
+        "name": "",
+        "category": ""
+    },
+    {
+        "descriptor": "Descriptor_Unit_Security_DDR",
+        "id": 1939,
+        "name": "SICHERUNGS",
+        "category": "inf"
+    },
+    {
+        "descriptor": "Descriptor_Unit_VDV_Afgantsy_SOV",
+        "id": 1940,
+        "name": "AFGANTSY",
+        "category": "inf"
     }
 ]
