@@ -655,7 +655,7 @@ export const AllUnits: UnitDefinition[] = [
     },
     {
         id: 212,
-        name: 'DETACHMENT "A"',
+        name: 'PSSE-B',
         descriptor: 'Descriptor_Unit_GreenBerets_MP5_US',
         category: 'rec'
     },
@@ -2197,13 +2197,13 @@ export const AllUnits: UnitDefinition[] = [
     },
     {
         id: 550,
-        name: 'LEOPARD 1A1A1 FUH.',
+        name: 'PZ.BEF. LEOPARD 1A1A1',
         descriptor: 'Descriptor_Unit_Leopard_1A1_CMD_RFA',
         category: 'tank'
     },
     {
         id: 551,
-        name: 'LEOPARD 1A5 FUH.',
+        name: 'PZ.BEF. LEOPARD 1A5',
         descriptor: 'Descriptor_Unit_Leopard_1A5_CMD_RFA',
         category: 'tank'
     },
@@ -2215,7 +2215,7 @@ export const AllUnits: UnitDefinition[] = [
     },
     {
         id: 553,
-        name: 'LEOPARD 2A3 FUH.',
+        name: 'PZ.BEF. LEOPARD 2A3',
         descriptor: 'Descriptor_Unit_Leopard_2A3_CMD_RFA',
         category: 'tank'
     },
@@ -2323,7 +2323,7 @@ export const AllUnits: UnitDefinition[] = [
     },
     {
         id: 571,
-        name: 'KPZ. T-55AM2 FUH.',
+        name: 'FUPZ. T-55AM2K3',
         descriptor: 'Descriptor_Unit_T55AM2_CMD_DDR',
         category: 'tank'
     },
@@ -2335,7 +2335,7 @@ export const AllUnits: UnitDefinition[] = [
     },
     {
         id: 573,
-        name: 'KPZ. T-55A FUH.',
+        name: 'FUPZ. T-55AK',
         descriptor: 'Descriptor_Unit_T55A_CMD_DDR',
         category: 'tank'
     },
@@ -2347,7 +2347,7 @@ export const AllUnits: UnitDefinition[] = [
     },
     {
         id: 575,
-        name: 'KPZ. T-72GM FUH.',
+        name: 'FUPZ. T-72MK',
         descriptor: 'Descriptor_Unit_T72M_CMD_DDR',
         category: 'tank'
     },
@@ -2605,7 +2605,7 @@ export const AllUnits: UnitDefinition[] = [
     },
     {
         id: 653,
-        name: 'F-4F [HE2]',
+        name: 'F-4F [HE1]',
         descriptor: 'Descriptor_Unit_F4F_Phantom_II_HE1_RFA',
         category: 'air'
     },
@@ -3427,7 +3427,7 @@ export const AllUnits: UnitDefinition[] = [
     },
     {
         id: 872,
-        name: 'M48A2GA2 FUH.',
+        name: 'PZ.BEF. M48A2GA2',
         descriptor: 'Descriptor_Unit_M48A2GA2_CMD_RFA',
         category: 'tank'
     },

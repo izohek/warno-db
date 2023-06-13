@@ -662,7 +662,7 @@
     {
         "descriptor": "Descriptor_Unit_GreenBerets_MP5_US",
         "id": 213,
-        "name": "DETACHMENT \"A\"",
+        "name": "PSSE-B",
         "category": "rec"
     },
     {
@@ -2276,13 +2276,13 @@
     {
         "descriptor": "Descriptor_Unit_Leopard_1A1_CMD_RFA",
         "id": 551,
-        "name": "LEOPARD 1A1A1 FUH.",
+        "name": "PZ.BEF. LEOPARD 1A1A1",
         "category": "tank"
     },
     {
         "descriptor": "Descriptor_Unit_Leopard_1A5_CMD_RFA",
         "id": 552,
-        "name": "LEOPARD 1A5 FUH.",
+        "name": "PZ.BEF. LEOPARD 1A5",
         "category": "tank"
     },
     {
@@ -2294,7 +2294,7 @@
     {
         "descriptor": "Descriptor_Unit_Leopard_2A3_CMD_RFA",
         "id": 554,
-        "name": "LEOPARD 2A3 FUH.",
+        "name": "PZ.BEF. LEOPARD 2A3",
         "category": "tank"
     },
     {
@@ -2402,7 +2402,7 @@
     {
         "descriptor": "Descriptor_Unit_T55AM2_CMD_DDR",
         "id": 572,
-        "name": "KPZ. T-55AM2 FUH.",
+        "name": "FUPZ. T-55AM2K3",
         "category": "tank"
     },
     {
@@ -2414,7 +2414,7 @@
     {
         "descriptor": "Descriptor_Unit_T55A_CMD_DDR",
         "id": 574,
-        "name": "KPZ. T-55A FUH.",
+        "name": "FUPZ. T-55AK",
         "category": "tank"
     },
     {
@@ -2426,7 +2426,7 @@
     {
         "descriptor": "Descriptor_Unit_T72M_CMD_DDR",
         "id": 576,
-        "name": "KPZ. T-72GM FUH.",
+        "name": "FUPZ. T-72MK",
         "category": "tank"
     },
     {
@@ -2684,7 +2684,7 @@
     {
         "descriptor": "Descriptor_Unit_F4F_Phantom_II_HE1_RFA",
         "id": 654,
-        "name": "F-4F [HE2]",
+        "name": "F-4F [HE1]",
         "category": "air"
     },
     {
@@ -3548,7 +3548,7 @@
     {
         "descriptor": "Descriptor_Unit_M48A2GA2_CMD_RFA",
         "id": 873,
-        "name": "M48A2GA2 FUH.",
+        "name": "PZ.BEF. M48A2GA2",
         "category": "tank"
     },
     {
