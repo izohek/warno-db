@@ -11,7 +11,7 @@
     "typescript": "^5.0.4"
   },
   "name": "@izohek/warno-db",
-  "version": "0.7.3",
+  "version": "0.7.4",
   "description": "Warno Unit Database",
   "main": "dist/index.js",
   "scripts": {
