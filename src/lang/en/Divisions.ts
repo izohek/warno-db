@@ -21,7 +21,9 @@ export const DivisionNamesMap_En = {
     [Divisions.UK_1st_Armoured]: '1st',
     [Divisions.UK_2nd_Infantry]: '2ndUK',
     [Divisions.Berlin_Command]: 'BerlinCmd',
-    [Divisions.Unternehmen_Zentrum]: 'UntZentrum'
+    [Divisions.Unternehmen_Zentrum]: 'UntZentrum',
+    [Divisions.SOV_119_IndTk_Brig]: '119th',
+    [Divisions.US_11_ACR]: '11Acr',
 }
 
 export default DivisionNamesMap_En

@@ -17,5 +17,7 @@ export const Divisions = {
     UK_1st_Armoured: 'Descriptor_Deck_Division_UK_1st_Armoured_multi',
     UK_2nd_Infantry: 'Descriptor_Deck_Division_UK_2nd_Infantry_multi',
     Berlin_Command: 'Descriptor_Deck_Division_NATO_Garnison_Berlin_multi',
-    Unternehmen_Zentrum: 'Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi'
+    Unternehmen_Zentrum: 'Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi',
+    SOV_119_IndTk_Brig: 'Descriptor_Deck_Division_SOV_119IndTkBrig_multi',
+    US_11_ACR: 'Descriptor_Deck_Division_US_11ACR_multi'
 } as const

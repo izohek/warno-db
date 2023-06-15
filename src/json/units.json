@@ -446,7 +446,7 @@
     {
         "descriptor": "Descriptor_Unit_T80BV_SOV",
         "id": 164,
-        "name": "T-80BV IZD. 39",
+        "name": "T-80BV",
         "category": "tank"
     },
     {
@@ -3822,6 +3822,12 @@
         "category": ""
     },
     {
+        "descriptor": "Descriptor_Unit_T80BV_Beast_SOV",
+        "id": 1043,
+        "name": "T-80BV IZD. 29",
+        "category": "tank"
+    },
+    {
         "descriptor": "Descriptor_Unit_T80UD_SOV",
         "id": 1044,
         "name": "T-80UD",
@@ -4824,6 +4830,12 @@
         "category": "aa"
     },
     {
+        "descriptor": "Descriptor_Unit_Howz_MstaB_150mm_SOV",
+        "id": 1388,
+        "name": "2A65 MSTA-B 152MM",
+        "category": "art"
+    },
+    {
         "descriptor": "Descriptor_Unit_LRRP_FR",
         "id": 1406,
         "name": "DRAGON-PARAS",
@@ -4896,6 +4908,12 @@
         "category": "trans"
     },
     {
+        "descriptor": "Descriptor_Unit_Gazelle_CMD_UK",
+        "id": 1671,
+        "name": "GAZELLE AH.1 CP",
+        "category": "log"
+    },
+    {
         "descriptor": "Descriptor_Unit_FOB_SOV",
         "id": 1733,
         "name": "SKLAD SNABZHENIYA",
@@ -4906,6 +4924,12 @@
         "id": 1734,
         "name": "FIELD SUPPLY POINT",
         "category": "log"
+    },
+    {
+        "descriptor": "Descriptor_Unit_GAZ_66_supply_SOV",
+        "id": 1736,
+        "name": "",
+        "category": ""
     },
     {
         "descriptor": "Descriptor_Unit_FOB_DDR",
@@ -4976,8 +5000,20 @@
     {
         "descriptor": "Descriptor_Unit_M1A1_Abrams_reco_US",
         "id": 1926,
-        "name": "",
-        "category": ""
+        "name": "M1A1 ACAV",
+        "category": "rec"
+    },
+    {
+        "descriptor": "Descriptor_Unit_Rifles_Cavalry_US",
+        "id": 1927,
+        "name": "DISMOUNT. TROOPERS",
+        "category": "inf"
+    },
+    {
+        "descriptor": "Descriptor_Unit_Mortier_2B9_Vasilek_nonPara_SOV",
+        "id": 1933,
+        "name": "2B9 VASILEK",
+        "category": "art"
     },
     {
         "descriptor": "Descriptor_Unit_Security_DDR",
@@ -4990,5 +5026,29 @@
         "id": 1940,
         "name": "AFGANTSY",
         "category": "inf"
+    },
+    {
+        "descriptor": "Descriptor_Unit_AH1F_CNITE_US",
+        "id": 1954,
+        "name": "AH-1F C-NITE",
+        "category": "hel"
+    },
+    {
+        "descriptor": "Descriptor_Unit_Ural_4320_trans_SOV",
+        "id": 1955,
+        "name": "URAL-4320",
+        "category": "trans"
+    },
+    {
+        "descriptor": "Descriptor_Unit_Su_24M_clu2_SOV",
+        "id": 1956,
+        "name": "SU-24M [CLU2]",
+        "category": "air"
+    },
+    {
+        "descriptor": "Descriptor_Unit_Su_24M_LGB_SOV",
+        "id": 1957,
+        "name": "SU-24M [LGB]",
+        "category": "air"
     }
 ]

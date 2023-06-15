@@ -439,7 +439,7 @@ export const AllUnits: UnitDefinition[] = [
     },
     {
         id: 163,
-        name: 'T-80BV IZD. 39',
+        name: 'T-80BV',
         descriptor: 'Descriptor_Unit_T80BV_SOV',
         category: 'tank'
     },
@@ -3672,6 +3672,12 @@ export const AllUnits: UnitDefinition[] = [
         category: 'art'
     },
     {
+        id: 1042,
+        name: 'T-80BV IZD. 29',
+        descriptor: 'Descriptor_Unit_T80BV_Beast_SOV',
+        category: 'tank'
+    },
+    {
         id: 1043,
         name: 'T-80UD',
         descriptor: 'Descriptor_Unit_T80UD_SOV',
@@ -4645,6 +4651,12 @@ export const AllUnits: UnitDefinition[] = [
         category: 'aa'
     },
     {
+        id: 1387,
+        name: '2A65 MSTA-B 152MM',
+        descriptor: 'Descriptor_Unit_Howz_MstaB_150mm_SOV',
+        category: 'art'
+    },
+    {
         id: 1405,
         name: 'DRAGON-PARAS',
         descriptor: 'Descriptor_Unit_LRRP_FR',
@@ -4709,6 +4721,12 @@ export const AllUnits: UnitDefinition[] = [
         name: 'UAZ-469 KOMENDATURA',
         descriptor: 'Descriptor_Unit_UAZ_469_MP_SOV',
         category: 'trans'
+    },
+    {
+        id: 1670,
+        name: 'GAZELLE AH.1 CP',
+        descriptor: 'Descriptor_Unit_Gazelle_CMD_UK',
+        category: 'log'
     },
     {
         id: 1732,
@@ -4777,6 +4795,24 @@ export const AllUnits: UnitDefinition[] = [
         category: 'rec'
     },
     {
+        id: 1925,
+        name: 'M1A1 ACAV',
+        descriptor: 'Descriptor_Unit_M1A1_Abrams_reco_US',
+        category: 'rec'
+    },
+    {
+        id: 1926,
+        name: 'DISMOUNT. TROOPERS',
+        descriptor: 'Descriptor_Unit_Rifles_Cavalry_US',
+        category: 'inf'
+    },
+    {
+        id: 1932,
+        name: '2B9 VASILEK',
+        descriptor: 'Descriptor_Unit_Mortier_2B9_Vasilek_nonPara_SOV',
+        category: 'art'
+    },
+    {
         id: 1938,
         name: 'SICHERUNGS',
         descriptor: 'Descriptor_Unit_Security_DDR',
@@ -4787,5 +4823,29 @@ export const AllUnits: UnitDefinition[] = [
         name: 'AFGANTSY',
         descriptor: 'Descriptor_Unit_VDV_Afgantsy_SOV',
         category: 'inf'
+    },
+    {
+        id: 1953,
+        name: 'AH-1F C-NITE',
+        descriptor: 'Descriptor_Unit_AH1F_CNITE_US',
+        category: 'hel'
+    },
+    {
+        id: 1954,
+        name: 'URAL-4320',
+        descriptor: 'Descriptor_Unit_Ural_4320_trans_SOV',
+        category: 'trans'
+    },
+    {
+        id: 1955,
+        name: 'SU-24M [CLU2]',
+        descriptor: 'Descriptor_Unit_Su_24M_clu2_SOV',
+        category: 'air'
+    },
+    {
+        id: 1956,
+        name: 'SU-24M [LGB]',
+        descriptor: 'Descriptor_Unit_Su_24M_LGB_SOV',
+        category: 'air'
     }
 ]
