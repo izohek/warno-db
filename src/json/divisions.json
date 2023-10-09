@@ -301,7 +301,7 @@
         "packList": [
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_AH64_Apache_emp2_US",
-                "count": 4
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_ATteam_Milan_1_RFA",
@@ -445,11 +445,11 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Leopard_2A3_RFA",
-                "count": 3
+                "count": 4
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Leopard_2A4_RFA",
-                "count": 1
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Luchs_A1_RFA",
@@ -505,7 +505,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Panzergrenadier_APC_RFA",
-                "count": 3
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Panzergrenadier_CMD_RFA",
@@ -513,7 +513,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_Panzergrenadier_IFV_RFA",
-                "count": 6
+                "count": 5
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RFA_5_Panzer_multi_PzGrenadier_RFA",
@@ -591,7 +591,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_BM21_Grad_SOV",
-                "count": 2
+                "count": 1
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_BMP_1_CMD_SOV",
@@ -743,7 +743,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Osa_9K33M3_SOV",
-                "count": 2
+                "count": 3
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_multi_Scout_LRRP_SOV",
@@ -909,7 +909,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_F16E_AA_US",
-                "count": 3
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_F16E_AGM_US",
@@ -1099,7 +1099,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_AH64_Apache_emp2_US",
-                "count": 4
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_ATteam_ITOW_US",
@@ -1211,7 +1211,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M1A1HA_Abrams_US",
-                "count": 4
+                "count": 5
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M1A1_Abrams_CMD_US",
@@ -1230,7 +1230,7 @@
                 "count": 2
             },
             {
-                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M2A2_Bradley_Leader_US",
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M2A1_Bradley_Leader_US",
                 "count": 2
             },
             {
@@ -1243,7 +1243,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M48_Chaparral_MIM72F_US",
-                "count": 2
+                "count": 3
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M577_US",
@@ -1505,7 +1505,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M1A1_Abrams_US",
-                "count": 3
+                "count": 4
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M1_Abrams_CMD_US",
@@ -1513,7 +1513,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M1_Abrams_US",
-                "count": 4
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M270_MLRS_US",
@@ -1529,7 +1529,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M48_Chaparral_MIM72F_US",
-                "count": 2
+                "count": 3
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_M577_US",
@@ -2044,8 +2044,12 @@
                 "count": 1
             },
             {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_ATteam_RCL_SPG9_SOV",
+                "count": 1
+            },
+            {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_BM21_Grad_SOV",
-                "count": 2
+                "count": 1
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_BM27_Uragan_SOV",
@@ -2093,10 +2097,6 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_FOB_SOV",
-                "count": 1
-            },
-            {
-                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_FireSupport_SOV",
                 "count": 1
             },
             {
@@ -2229,7 +2229,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_Osa_9K33M3_SOV",
-                "count": 2
+                "count": 3
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_Scout_SOV",
@@ -2293,7 +2293,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_T80BV_SOV",
-                "count": 3
+                "count": 4
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_T80B_CMD_SOV",
@@ -2877,7 +2877,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_Leopard_2A3_RFA",
-                "count": 1
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_Luchs_A1_RFA",
@@ -3345,7 +3345,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_AH1F_ATAS_US",
-                "count": 1
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_AH1F_Cobra_US",
@@ -3369,7 +3369,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_AH64_Apache_emp2_US",
-                "count": 4
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_82nd_Airborne_multi_AH6C_Little_Bird_US",
@@ -3623,7 +3623,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_ERC_90_Sagaie_FR",
-                "count": 2
+                "count": 3
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_FOB_FR",
@@ -3647,7 +3647,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_Gazelle_Mistral_FR",
-                "count": 1
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_Gazelle_reco_FR",
@@ -3763,7 +3763,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_Puma_Pirate_FR",
-                "count": 1
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_Reserviste_FR",
@@ -3811,7 +3811,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_VLRA_Mistral_FR",
-                "count": 1
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_FR_11e_Para_multi_VLRA_Mortier81_FR",
@@ -4295,7 +4295,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_Osa_9K33M3_DDR",
-                "count": 2
+                "count": 3
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RDA_KdA_Bezirk_Erfurt_multi_PT76B_CMD_DDR",
@@ -5009,7 +5009,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_F4_Phantom_AA_F3_UK",
-                "count": 1
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_UK_2nd_Infantry_multi_FH70_155mm_UK",
@@ -5311,7 +5311,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Engineers_CMD_SOV",
-                "count": 2
+                "count": 1
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Engineers_DDR",
@@ -5319,11 +5319,11 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Engineers_Flam_SOV",
-                "count": 2
+                "count": 1
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Engineers_SOV",
-                "count": 2
+                "count": 1
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_FOB_DDR",
@@ -5339,7 +5339,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Fallschirmjager_Metys_DDR",
-                "count": 2
+                "count": 1
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Grenzer_DDR",
@@ -5355,7 +5355,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_HMGteam_AGS17_DDR",
-                "count": 2
+                "count": 1
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_HMGteam_NSV_DDR",
@@ -5395,7 +5395,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_KdA_DDR",
-                "count": 2
+                "count": 1
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_MANPAD_Igla_SOV",
@@ -5507,7 +5507,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_MotRifles_SOV",
-                "count": 2
+                "count": 1
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_MotSchutzen_DDR",
@@ -5603,7 +5603,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Volkspolizei_DDR",
-                "count": 2
+                "count": 1
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_Wachregiment_CMD_DDR",
@@ -5673,15 +5673,15 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_119IndTkBrig_multi_Engineers_CMD_SOV",
-                "count": 2
+                "count": 1
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_119IndTkBrig_multi_Engineers_Flam_SOV",
-                "count": 3
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_119IndTkBrig_multi_Engineers_SOV",
-                "count": 1
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_119IndTkBrig_multi_Engineers_Scout_SOV",
@@ -5805,7 +5805,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_119IndTkBrig_multi_T80U_SOV",
-                "count": 2
+                "count": 3
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_119IndTkBrig_multi_TO_55_SOV",
@@ -5822,5 +5822,533 @@
         ],
         "name": "119th",
         "id": 195
+    },
+    {
+        "descriptor": "Descriptor_Deck_Division_SOV_27_Gds_Rifle_multi",
+        "alliance": "PACT",
+        "country": "SOV",
+        "tags": [
+            "DEFAULT",
+            "SOV",
+            "Axis",
+            "infantryReg",
+            "DC_PWR2"
+        ],
+        "maxActivationPoints": 50,
+        "costMatrix": "MatrixCostName_SOV_27_Gds_Rifle_multi",
+        "packList": [
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_2S1_Gvozdika_SOV",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_2S23_Nona_SVK_SOV",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_2S3M1_Akatsiya_SOV",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_2S3M_Akatsiya_SOV",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_AT_2A45_SprutB_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_ATteam_KonkursM_TTsko_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_ATteam_Konkurs_TTsko_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_BM21_Grad_SOV",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_BMP_2_CMD_SOV",
+                "count": 3
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_BRDM_2_Konkurs_M_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_BRDM_2_SOV",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_BRM_1_SOV",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_BTR_80_CMD_SOV",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_DCA_ZU_23_2_TTsko_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Engineers_CMD_TTsko_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Engineers_Flam_TTsko_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Engineers_Scout_TTsko_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Engineers_TTsko_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_FOB_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_FireSupport_TTsko_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_HMGteam_AGS17_TTsko_SOV",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_HMGteam_NSV_TTsko_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_HMGteam_PKM_TTsko_SOV",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Howz_2A36_Giatsint_B_SOV",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Howz_D30_122mm_SOV",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_HvyScout_TTsko_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MANPAD_Igla_TTsko_SOV",
+                "count": 5
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MP_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MTLB_CMD_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MTLB_Strela10M3_SOV",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MTLB_supply_SOV",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MiG_23MLD_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MiG_27M_bombe_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MiG_27M_napalm_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MiG_29_AA2_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Mi_24K_reco_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Mi_24V_AA_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Mi_24V_AT_SOV",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Mi_24V_RKT_SOV",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Mortier_2S12_120mm_TTsko_SOV",
+                "count": 3
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MotRifles_BTR_TTsko_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MotRifles_CMD_TTsko_SOV",
+                "count": 4
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MotRifles_HMG_TTsko_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MotRifles_Metis_TTsko_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_MotRifles_TTsko_SOV",
+                "count": 4
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Scout_Spetsnaz_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Scout_TTsko_SOV",
+                "count": 4
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Su_17M4_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Su_22_AT_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Su_25T_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_T80BV_CMD_SOV",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_T80BV_SOV",
+                "count": 4
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Tor_SOV",
+                "count": 3
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Tunguska_2K22_SOV",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_Ural_4320_SOV",
+                "count": 2
+            }
+        ],
+        "name": "27th",
+        "id": 207
+    },
+    {
+        "descriptor": "Descriptor_Deck_Division_US_24th_Inf_multi",
+        "alliance": "NATO",
+        "country": "US",
+        "tags": [
+            "DEFAULT",
+            "US",
+            "Allied",
+            "infantryReg",
+            "DC_PWR2"
+        ],
+        "maxActivationPoints": 50,
+        "costMatrix": "MatrixCostName_US_24th_Inf_multi",
+        "packList": [
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_AH1F_Cobra_US",
+                "count": 4
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_AH1S_Cobra_US",
+                "count": 4
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_AH64_Apache_NG_US",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_ATteam_ITOW_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_ATteam_TOW2_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_ATteam_TOW_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_AeroRifles_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Engineer_CMD_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Engineers_Dragon_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Engineers_Flash_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Engineers_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_F111F_Aardvark_CBU_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_F15C_Eagle_AA2_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_F15E_StrikeEagle_US",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_F4E_Phantom_II_AA_US",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_F4E_Phantom_II_HE_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_F4E_Phantom_II_napalm_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_F4_Wild_Weasel_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_FOB_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_HMGteam_M2HB_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_HMGteam_M60_NG_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_HMGteam_M60_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M106A2_HOWZ_US",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M109A2_HOWZ_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M109A2_NG_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M113A1_TOW_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M125_HOWZ_US",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M151A2_TOW_NG_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M151_MUTT_CMD_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M163_PIVADS_US",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M1IP_Abrams_CMD_US",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M1IP_Abrams_US",
+                "count": 3
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M1_Abrams_CMD_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M1_Abrams_NG_US",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M270_MLRS_US",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M2A1_Bradley_Leader_US",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M35_supply_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M3A1_Bradley_CFV_US",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M48_Chaparral_MIM72F_US",
+                "count": 3
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M548A2_supply_US",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M577_US",
+                "count": 3
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M728_CEV_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M901A1_ITW_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M901_TOW_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_M981_FISTV_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_MANPAD_Stinger_C_US",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_MANPAD_Stinger_NG_US",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_MP_CMD_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_MP_Combat_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_MP_RCL_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_MP_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Mortier_107mm_US",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_OH58C_Scout_US",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_OH58D_Combat_Scout_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_OH58D_Kiowa_Warrior_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_OH58_CS_US",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Rifles_half_AT4_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Rifles_half_CMD_NG_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Rifles_half_CMD_US",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Rifles_half_Dragon_NG_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Rifles_half_Dragon_US",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Rifles_half_LAW_NG_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Rifles_half_LAW_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Scout_NG_US",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Scout_US",
+                "count": 2
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_Sniper_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_UH1A_US",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_24th_Inf_multi_UH1H_supply_US",
+                "count": 1
+            }
+        ],
+        "name": "24th",
+        "id": 208
     }
 ]

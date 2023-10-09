@@ -24,6 +24,8 @@ export const DivisionNamesMap_En = {
     [Divisions.Unternehmen_Zentrum]: 'UntZentrum',
     [Divisions.SOV_119_IndTk_Brig]: '119th',
     [Divisions.US_11_ACR]: '11Acr',
+    [Divisions.SOV_27_Gds_Rifle]: '27th',
+    [Divisions.US_24th_Inf]: '24th',
 }
 
 export default DivisionNamesMap_En
