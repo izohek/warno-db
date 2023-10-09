@@ -90,6 +90,12 @@ export const AllUnits: UnitDefinition[] = [
         category: 'rec'
     },
     {
+        id: 32,
+        name: 'M2A1 BRADLEY IFV',
+        descriptor: 'Descriptor_Unit_M2A1_Bradley_IFV_US',
+        category: 'trans'
+    },
+    {
         id: 33,
         name: 'M48A1 CHAPARRAL',
         descriptor: 'Descriptor_Unit_M48_Chaparral_MIM72F_US',
@@ -172,6 +178,12 @@ export const AllUnits: UnitDefinition[] = [
         name: 'OH-58C/S',
         descriptor: 'Descriptor_Unit_OH58_CS_US',
         category: 'aa'
+    },
+    {
+        id: 55,
+        name: 'UH-1A ACP',
+        descriptor: 'Descriptor_Unit_UH1A_US',
+        category: 'hel'
     },
     {
         id: 56,
@@ -375,6 +387,12 @@ export const AllUnits: UnitDefinition[] = [
         id: 115,
         name: 'SU-24M [HE]',
         descriptor: 'Descriptor_Unit_Su_24M_SOV',
+        category: 'air'
+    },
+    {
+        id: 116,
+        name: 'T-8M',
+        descriptor: 'Descriptor_Unit_Su_25T_SOV',
         category: 'air'
     },
     {
@@ -4651,16 +4669,40 @@ export const AllUnits: UnitDefinition[] = [
         category: 'aa'
     },
     {
+        id: 1242,
+        name: '2A45M SPRUT-B',
+        descriptor: 'Descriptor_Unit_AT_2A45_SprutB_SOV',
+        category: 'tank'
+    },
+    {
+        id: 1372,
+        name: '2A36 GIATSINT-B 152MM',
+        descriptor: 'Descriptor_Unit_Howz_2A36_Giatsint_B_SOV',
+        category: 'art'
+    },
+    {
         id: 1387,
         name: '2A65 MSTA-B 152MM',
         descriptor: 'Descriptor_Unit_Howz_MstaB_150mm_SOV',
         category: 'art'
     },
     {
+        id: 1399,
+        name: 'KRAZ-255B',
+        descriptor: 'Descriptor_Unit_KrAZ_255B_SOV',
+        category: 'trans'
+    },
+    {
         id: 1405,
         name: 'DRAGON-PARAS',
         descriptor: 'Descriptor_Unit_LRRP_FR',
         category: 'rec'
+    },
+    {
+        id: 1457,
+        name: 'M548A2',
+        descriptor: 'Descriptor_Unit_M548A2_supply_US',
+        category: 'log'
     },
     {
         id: 1471,
@@ -4717,6 +4759,12 @@ export const AllUnits: UnitDefinition[] = [
         category: 'rec'
     },
     {
+        id: 1639,
+        name: '9K330 TOR',
+        descriptor: 'Descriptor_Unit_Tor_SOV',
+        category: 'aa'
+    },
+    {
         id: 1644,
         name: 'UAZ-469 KOMENDATURA',
         descriptor: 'Descriptor_Unit_UAZ_469_MP_SOV',
@@ -4727,6 +4775,12 @@ export const AllUnits: UnitDefinition[] = [
         name: 'GAZELLE AH.1 CP',
         descriptor: 'Descriptor_Unit_Gazelle_CMD_UK',
         category: 'log'
+    },
+    {
+        id: 1703,
+        name: 'F-15E STRIKE EAGLE',
+        descriptor: 'Descriptor_Unit_F15E_StrikeEagle_US',
+        category: 'air'
     },
     {
         id: 1732,
@@ -4846,6 +4900,312 @@ export const AllUnits: UnitDefinition[] = [
         id: 1956,
         name: 'SU-24M [LGB]',
         descriptor: 'Descriptor_Unit_Su_24M_LGB_SOV',
+        category: 'air'
+    },
+    {
+        id: 1964,
+        name: 'BMP-2AG',
+        descriptor: 'Descriptor_Unit_BMP_2AG_SOV',
+        category: 'trans'
+    },
+    {
+        id: 1965,
+        name: 'BPM-2D',
+        descriptor: 'Descriptor_Unit_BMP_2D_SOV',
+        category: 'trans'
+    },
+    {
+        id: 1974,
+        name: '',
+        descriptor: 'Descriptor_Unit_DCA_M167A2_Vulcan_20mm_US',
+        category: ''
+    },
+    {
+        id: 1998,
+        name: 'BMP-2K',
+        descriptor: 'Descriptor_Unit_BMP_2_CMD_SOV',
+        category: 'log'
+    },
+    {
+        id: 1999,
+        name: '',
+        descriptor: 'Descriptor_Unit_M1025_Humvee_scout_tuto_US',
+        category: ''
+    },
+    {
+        id: 2000,
+        name: '',
+        descriptor: 'Descriptor_Unit_M35_trans_tuto_US',
+        category: ''
+    },
+    {
+        id: 2001,
+        name: '',
+        descriptor: 'Descriptor_Unit_Ranger_tuto_US',
+        category: ''
+    },
+    {
+        id: 2003,
+        name: '2S23 NONA-SVK',
+        descriptor: 'Descriptor_Unit_2S23_Nona_SVK_SOV',
+        category: 'art'
+    },
+    {
+        id: 2004,
+        name: '2S3M AKATSIYA',
+        descriptor: 'Descriptor_Unit_2S3M1_Akatsiya_SOV',
+        category: 'art'
+    },
+    {
+        id: 2008,
+        name: 'N.G. M109A2',
+        descriptor: 'Descriptor_Unit_M109A2_NG_US',
+        category: 'art'
+    },
+    {
+        id: 2009,
+        name: 'N.G. M151A2 I-TOW',
+        descriptor: 'Descriptor_Unit_M151A2_TOW_NG_US',
+        category: 'tank'
+    },
+    {
+        id: 2010,
+        name: 'N.G. M1 ABRAMS',
+        descriptor: 'Descriptor_Unit_M1_Abrams_NG_US',
+        category: 'tank'
+    },
+    {
+        id: 2011,
+        name: 'M2A1 BRADLEY CP',
+        descriptor: 'Descriptor_Unit_M2A1_Bradley_Leader_US',
+        category: 'log'
+    },
+    {
+        id: 2012,
+        name: 'N.G. M2 BRADLEY IFV',
+        descriptor: 'Descriptor_Unit_M2_Bradley_IFV_NG_US',
+        category: 'trans'
+    },
+    {
+        id: 2015,
+        name: 'MP LEADER',
+        descriptor: 'Descriptor_Unit_MP_CMD_US',
+        category: 'log'
+    },
+    {
+        id: 2016,
+        name: 'MILITARY POLICE',
+        descriptor: 'Descriptor_Unit_MP_Combat_US',
+        category: 'inf'
+    },
+    {
+        id: 2017,
+        name: 'MT-LB STRELA-10M3',
+        descriptor: 'Descriptor_Unit_MTLB_Strela10M3_SOV',
+        category: 'aa'
+    },
+    {
+        id: 2018,
+        name: 'N.G. FIRE TEAM (DRAGON)',
+        descriptor: 'Descriptor_Unit_Rifles_half_Dragon_NG_US',
+        category: 'inf'
+    },
+    {
+        id: 2019,
+        name: 'N.G. FIRE TEAM (LAW)',
+        descriptor: 'Descriptor_Unit_Rifles_half_LAW_NG_US',
+        category: 'inf'
+    },
+    {
+        id: 2020,
+        name: 'NG AH-64A APACHE',
+        descriptor: 'Descriptor_Unit_AH64_Apache_NG_US',
+        category: 'hel'
+    },
+    {
+        id: 2021,
+        name: 'N.G. FIRE TEAM LDR.',
+        descriptor: 'Descriptor_Unit_Rifles_half_CMD_NG_US',
+        category: 'inf'
+    },
+    {
+        id: 2022,
+        name: 'SU-17M4 [AT]',
+        descriptor: 'Descriptor_Unit_Su_22_AT_SOV',
+        category: 'air'
+    },
+    {
+        id: 2023,
+        name: 'N.G. M60 7,62MM',
+        descriptor: 'Descriptor_Unit_HMGteam_M60_NG_US',
+        category: 'inf'
+    },
+    {
+        id: 2024,
+        name: 'KONKURS-M',
+        descriptor: 'Descriptor_Unit_ATteam_KonkursM_TTsko_SOV',
+        category: 'inf'
+    },
+    {
+        id: 2025,
+        name: 'SAPERI KOM.',
+        descriptor: 'Descriptor_Unit_Engineers_CMD_TTsko_SOV',
+        category: 'inf'
+    },
+    {
+        id: 2026,
+        name: 'SAPERI (RPO)',
+        descriptor: 'Descriptor_Unit_Engineers_Flam_TTsko_SOV',
+        category: 'inf'
+    },
+    {
+        id: 2027,
+        name: 'RAZVEDKA SAPERI',
+        descriptor: 'Descriptor_Unit_Engineers_Scout_TTsko_SOV',
+        category: 'rec'
+    },
+    {
+        id: 2028,
+        name: 'SAPERI',
+        descriptor: 'Descriptor_Unit_Engineers_TTsko_SOV',
+        category: 'inf'
+    },
+    {
+        id: 2029,
+        name: 'OTDELENIE PODDERZHKI',
+        descriptor: 'Descriptor_Unit_FireSupport_TTsko_SOV',
+        category: 'inf'
+    },
+    {
+        id: 2030,
+        name: 'MOT. RAZVEDKA',
+        descriptor: 'Descriptor_Unit_HvyScout_TTsko_SOV',
+        category: 'rec'
+    },
+    {
+        id: 2031,
+        name: 'IGLA',
+        descriptor: 'Descriptor_Unit_MANPAD_Igla_TTsko_SOV',
+        category: 'aa'
+    },
+    {
+        id: 2032,
+        name: 'MOTOSTRELKI (RPG-26)',
+        descriptor: 'Descriptor_Unit_MotRifles_BTR_TTsko_SOV',
+        category: 'inf'
+    },
+    {
+        id: 2033,
+        name: 'MOTOSTRELKI KOM.',
+        descriptor: 'Descriptor_Unit_MotRifles_CMD_TTsko_SOV',
+        category: 'inf'
+    },
+    {
+        id: 2034,
+        name: 'MOTOSTRELKI (RPG-27)',
+        descriptor: 'Descriptor_Unit_MotRifles_TTsko_SOV',
+        category: 'inf'
+    },
+    {
+        id: 2035,
+        name: 'RAZVEDKA',
+        descriptor: 'Descriptor_Unit_Scout_TTsko_SOV',
+        category: 'rec'
+    },
+    {
+        id: 2036,
+        name: 'ZU-23-2',
+        descriptor: 'Descriptor_Unit_DCA_ZU_23_2_TTsko_SOV',
+        category: 'aa'
+    },
+    {
+        id: 2037,
+        name: 'PLAMYA 30MM',
+        descriptor: 'Descriptor_Unit_HMGteam_AGS17_TTsko_SOV',
+        category: 'inf'
+    },
+    {
+        id: 2039,
+        name: 'PKM 7,62MM',
+        descriptor: 'Descriptor_Unit_HMGteam_PKM_TTsko_SOV',
+        category: 'inf'
+    },
+    {
+        id: 2040,
+        name: '2S12 120MM',
+        descriptor: 'Descriptor_Unit_Mortier_2S12_120mm_TTsko_SOV',
+        category: 'art'
+    },
+    {
+        id: 2041,
+        name: 'PULEMETCHIKI',
+        descriptor: 'Descriptor_Unit_MotRifles_HMG_TTsko_SOV',
+        category: 'inf'
+    },
+    {
+        id: 2042,
+        name: 'MOTOSTRELKI (METIS)',
+        descriptor: 'Descriptor_Unit_MotRifles_Metis_TTsko_SOV',
+        category: 'inf'
+    },
+    {
+        id: 2043,
+        name: 'RAZV. BMP-2',
+        descriptor: 'Descriptor_Unit_BMP_2_reco_SOV',
+        category: 'rec'
+    },
+    {
+        id: 2044,
+        name: 'BRDM-2 KONKURS-M',
+        descriptor: 'Descriptor_Unit_BRDM_2_Konkurs_M_SOV',
+        category: 'tank'
+    },
+    {
+        id: 2045,
+        name: 'BTR-80K',
+        descriptor: 'Descriptor_Unit_BTR_80_CMD_SOV',
+        category: 'log'
+    },
+    {
+        id: 2046,
+        name: 'KONKURS',
+        descriptor: 'Descriptor_Unit_ATteam_Konkurs_TTsko_SOV',
+        category: 'inf'
+    },
+    {
+        id: 2047,
+        name: 'NSV 12,7MM',
+        descriptor: 'Descriptor_Unit_HMGteam_NSV_TTsko_SOV',
+        category: 'inf'
+    },
+    {
+        id: 2048,
+        name: 'SPETSRAZVEDKA',
+        descriptor: 'Descriptor_Unit_Scout_Spetsnaz_SOV',
+        category: 'rec'
+    },
+    {
+        id: 2049,
+        name: 'N.G. STINGER',
+        descriptor: 'Descriptor_Unit_MANPAD_Stinger_NG_US',
+        category: 'aa'
+    },
+    {
+        id: 2050,
+        name: 'N.G. SCOUTS',
+        descriptor: 'Descriptor_Unit_Scout_NG_US',
+        category: 'rec'
+    },
+    {
+        id: 2052,
+        name: 'SPG-9',
+        descriptor: 'Descriptor_Unit_ATteam_RCL_SPG9_SOV',
+        category: 'inf'
+    },
+    {
+        id: 2053,
+        name: 'MIG-23MLD [AA2]',
+        descriptor: 'Descriptor_Unit_MiG_23MLD_SOV',
         category: 'air'
     }
 ]
