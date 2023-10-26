@@ -10888,6 +10888,847 @@
         ]
     },
     {
+        "division": "~/Descriptor_Deck_Division_SOV_27_Gds_Rifle_challenge",
+        "unitRules": [
+            {
+                "unitDescriptor": "~/Descriptor_Unit_2K12_KUB_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_2S1_Gvozdika_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 3,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_2S3M_Akatsiya_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_AT_T12_Rapira_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 6,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_ATteam_Fagot_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 9,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_ATteam_Konkurs_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 6,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_BM21_Grad_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_BM27_Uragan_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_BMP_1_CMD_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 3,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_BRDM_2_Konkurs_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 9,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_BRDM_2_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 9,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_BRDM_Strela_1_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 8,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_BRM_1_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 6,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_BTR_60_CMD_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 3,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Engineers_CMD_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 3,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Engineers_Flam_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 9,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Engineers_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 9,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Engineers_Scout_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 6,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_FireSupport_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 9,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Grenzer_DDR",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 6,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_HMGteam_AGS17_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 6,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_HMGteam_PKM_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 12,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Howz_D20_152mm_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Howz_D30_122mm_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_HvyScout_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 6,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_MANPAD_Igla_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 9,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_MTLB_CMD_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 3,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_MTLB_Shturm_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_MTLB_Strela10_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 6,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_MTLB_Vasilek_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_MTLB_supply_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 10,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_MiG_23MF_DDR",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 3,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_MiG_23P_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_MiG_27K_LGB_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Mi_24K_reco_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Mi_24VP_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Mi_24V_AA_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Mi_24V_AT_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Mi_24V_RKT_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 1,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Mi_2_reco_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 6,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Mi_8K_CMD_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Mi_8R_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 6,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Mi_8TV_s57_16_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Mi_8TV_s57_32_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Mi_8TV_s80_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Mi_8TZ_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Mortier_2S12_120mm_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_MotRifles_BTR_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 9,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_MotRifles_CMD_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 3,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_MotRifles_HMG_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 6,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_MotRifles_Metis_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 9,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_MotRifles_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 9,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Osa_9K33M3_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 6,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Scout_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 9,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Su_22_DDR",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 3,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Su_24M_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Su_24M_clu_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Su_24M_nplm_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Su_25_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Su_25_clu_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Su_25_nplm_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Su_25_rkt_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Su_27S_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_T62M1_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 12,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_T62MV_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 6,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_T62M_CMD_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 3,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_T62M_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 7,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_T80BV_CMD_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_T80BV_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 6,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_T80B_CMD_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_T80B_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 9,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_TO_55_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_UAZ_469_AGL_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 12,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_UAZ_469_SPG9_DDR",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 12,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Ural_4320_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 5,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_ZSU_23_Shilka_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            }
+        ]
+    },
+    {
         "division": "~/Descriptor_Deck_Division_SOV_27_Gds_Rifle_multi",
         "unitRules": [
             {
@@ -11292,8 +12133,8 @@
                 "numberOfUnitsInPack": 1,
                 "numberOfUnitInPackXPMultiplier": [
                     0,
+                    0,
                     1,
-                    0.5,
                     0
                 ]
             },
@@ -13205,6 +14046,17 @@
                 ]
             },
             {
+                "unitDescriptor": "~/Descriptor_Unit_BMD_1K_CMD_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    0,
+                    1,
+                    0.5
+                ]
+            },
+            {
                 "unitDescriptor": "~/Descriptor_Unit_BMD_1_CMD_SOV",
                 "availableWithoutTransport": true,
                 "numberOfUnitsInPack": 2,
@@ -13224,6 +14076,17 @@
                     1,
                     0.66,
                     0.3
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_BMD_2_CMD_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    0,
+                    1,
+                    0.5
                 ]
             },
             {
@@ -16157,6 +17020,17 @@
                 ]
             },
             {
+                "unitDescriptor": "~/Descriptor_Unit_MotRifles_RPG22_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 9,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    1,
+                    0.66,
+                    0.3
+                ]
+            },
+            {
                 "unitDescriptor": "~/Descriptor_Unit_MotRifles_SOV",
                 "availableWithoutTransport": false,
                 "numberOfUnitsInPack": 9,
@@ -16418,6 +17292,297 @@
                     1,
                     0.5,
                     0
+                ]
+            }
+        ]
+    },
+    {
+        "division": "~/Descriptor_Deck_Division_SOV_57_GMRD_challenge_Sledgehammer",
+        "unitRules": [
+            {
+                "unitDescriptor": "~/Descriptor_Unit_2S1_Gvozdika_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_AT_T12_Rapira_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_BMP_1_CMD_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_BRDM_2_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_BRDM_Strela_1_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Engineers_CMD_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Engineers_Flam_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Engineers_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_MANPAD_Igla_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_MTLB_Shturm_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Mi_24V_AT_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Mi_24V_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Mi_2_reco_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Mi_8K_CMD_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Mi_8TV_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Mi_8TV_s80_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_MotRifles_CMD_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_MotRifles_Metis_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_MotRifles_SOV",
+                "availableWithoutTransport": false,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_T62MV_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_T80B_CMD_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_T80B_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_TO_55_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_UAZ_469_CMD_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Ural_4320_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_ZSU_23_Shilka_SOV",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    1,
+                    1,
+                    1,
+                    1
                 ]
             }
         ]
@@ -18594,12 +19759,12 @@
             {
                 "unitDescriptor": "~/Descriptor_Unit_T80BV_Beast_SOV",
                 "availableWithoutTransport": true,
-                "numberOfUnitsInPack": 4,
+                "numberOfUnitsInPack": 3,
                 "numberOfUnitInPackXPMultiplier": [
                     0,
+                    0,
                     1,
-                    0.5,
-                    0.25
+                    0.66
                 ]
             },
             {
@@ -18792,6 +19957,17 @@
                     1,
                     0.66,
                     0.3
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_Challenger_1_Mk3_UK",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    1,
+                    0.5,
+                    0.25
                 ]
             },
             {
@@ -21164,6 +22340,17 @@
                 ]
             },
             {
+                "unitDescriptor": "~/Descriptor_Unit_M3A2_Bradley_CFV_US",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 4,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    1,
+                    0.5,
+                    0.25
+                ]
+            },
+            {
                 "unitDescriptor": "~/Descriptor_Unit_M577_US",
                 "availableWithoutTransport": true,
                 "numberOfUnitsInPack": 2,
@@ -22400,9 +23587,9 @@
                 "numberOfUnitsInPack": 2,
                 "numberOfUnitInPackXPMultiplier": [
                     0,
+                    0,
                     1,
-                    0.5,
-                    0
+                    0.5
                 ]
             },
             {
@@ -22467,8 +23654,8 @@
                 "numberOfUnitInPackXPMultiplier": [
                     0,
                     1,
-                    0.66,
-                    0.3
+                    0.5,
+                    0.25
                 ]
             },
             {
@@ -24644,6 +25831,17 @@
             },
             {
                 "unitDescriptor": "~/Descriptor_Unit_M2A1_Bradley_Leader_US",
+                "availableWithoutTransport": true,
+                "numberOfUnitsInPack": 2,
+                "numberOfUnitInPackXPMultiplier": [
+                    0,
+                    0,
+                    1,
+                    0.5
+                ]
+            },
+            {
+                "unitDescriptor": "~/Descriptor_Unit_M2A2_Bradley_Leader_US",
                 "availableWithoutTransport": true,
                 "numberOfUnitsInPack": 2,
                 "numberOfUnitInPackXPMultiplier": [
@@ -26830,9 +28028,9 @@
                 "numberOfUnitsInPack": 2,
                 "numberOfUnitInPackXPMultiplier": [
                     0,
+                    0,
                     1,
-                    0.5,
-                    0
+                    0.5
                 ]
             },
             {
@@ -26886,8 +28084,8 @@
                 "numberOfUnitInPackXPMultiplier": [
                     0,
                     1,
-                    0.66,
-                    0.3
+                    0.5,
+                    0.25
                 ]
             },
             {

@@ -191,7 +191,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RDA_7_Panzer_multi_MotRifles_HMG_DDR",
-                "count": 4
+                "count": 1
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RDA_7_Panzer_multi_MotSchutzen_DDR",
@@ -993,7 +993,11 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_M3A1_Bradley_CFV_US",
-                "count": 2
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_M3A2_Bradley_CFV_US",
+                "count": 1
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_11ACR_multi_M577_US",
@@ -1231,7 +1235,11 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M2A1_Bradley_Leader_US",
-                "count": 2
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M2A2_Bradley_Leader_US",
+                "count": 1
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M35_supply_US",
@@ -2224,8 +2232,12 @@
                 "count": 1
             },
             {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_MotRifles_RPG22_SOV",
+                "count": 2
+            },
+            {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_MotRifles_SOV",
-                "count": 4
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_Osa_9K33M3_SOV",
@@ -2599,7 +2611,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_MotRifles_HMG_DDR",
-                "count": 4
+                "count": 1
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_RDA_4_MSD_multi_MotSchutzen_DDR",
@@ -3034,11 +3046,19 @@
                 "count": 2
             },
             {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_BMD_1K_CMD_SOV",
+                "count": 1
+            },
+            {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_BMD_1_CMD_SOV",
                 "count": 1
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_BMD_1_Reostat_SOV",
+                "count": 1
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_BMD_2_CMD_SOV",
                 "count": 1
             },
             {
@@ -3163,7 +3183,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_29_AA2_SOV",
-                "count": 1
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_MiG_29_AA_SOV",
@@ -4719,7 +4739,11 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_Challenger_1_Mk1_UK",
-                "count": 6
+                "count": 5
+            },
+            {
+                "descriptor": "~/Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_Challenger_1_Mk3_UK",
+                "count": 2
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_DCA_Javelin_LML_UK",
@@ -5495,7 +5519,7 @@
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_MotRifles_HMG_DDR",
-                "count": 4
+                "count": 1
             },
             {
                 "descriptor": "~/Descriptor_Deck_Pack_TOE_WP_Unternehmen_Zentrum_multi_MotRifles_HMG_SOV",

@@ -6882,6 +6882,538 @@
             "id": 6151
         },
         {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_2K12_KUB_SOV",
+            "units": [
+                "Descriptor_Unit_2K12_KUB_SOV"
+            ],
+            "id": 4379
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_2S1_Gvozdika_SOV",
+            "units": [
+                "Descriptor_Unit_2S1_Gvozdika_SOV"
+            ],
+            "id": 4380
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_2S3M_Akatsiya_SOV",
+            "units": [
+                "Descriptor_Unit_2S3M_Akatsiya_SOV"
+            ],
+            "id": 4381
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_AT_T12_Rapira_SOV",
+            "units": [
+                "Descriptor_Unit_AT_T12_Rapira_SOV"
+            ],
+            "id": 4382
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_ATteam_Fagot_SOV",
+            "units": [
+                "Descriptor_Unit_ATteam_Fagot_SOV"
+            ],
+            "id": 4383
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_ATteam_Konkurs_SOV",
+            "units": [
+                "Descriptor_Unit_ATteam_Konkurs_SOV"
+            ],
+            "id": 4384
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_BM21_Grad_SOV",
+            "units": [
+                "Descriptor_Unit_BM21_Grad_SOV"
+            ],
+            "id": 4385
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_BM27_Uragan_SOV",
+            "units": [
+                "Descriptor_Unit_BM27_Uragan_SOV"
+            ],
+            "id": 4386
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_BMP_1_CMD_SOV",
+            "units": [
+                "Descriptor_Unit_BMP_1_CMD_SOV"
+            ],
+            "id": 4387
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_BRDM_2_Konkurs_SOV",
+            "units": [
+                "Descriptor_Unit_BRDM_2_Konkurs_SOV"
+            ],
+            "id": 4388
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_BRDM_2_SOV",
+            "units": [
+                "Descriptor_Unit_BRDM_2_SOV"
+            ],
+            "id": 4389
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_BRDM_Strela_1_SOV",
+            "units": [
+                "Descriptor_Unit_BRDM_Strela_1_SOV"
+            ],
+            "id": 4390
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_BRM_1_SOV",
+            "units": [
+                "Descriptor_Unit_BRM_1_SOV"
+            ],
+            "id": 4391
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_BTR_60_CMD_SOV",
+            "units": [
+                "Descriptor_Unit_BTR_60_CMD_SOV"
+            ],
+            "id": 4392
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Engineers_CMD_SOV",
+            "units": [
+                "Descriptor_Unit_Engineers_CMD_SOV"
+            ],
+            "id": 4393
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Engineers_Flam_SOV",
+            "units": [
+                "Descriptor_Unit_Engineers_Flam_SOV"
+            ],
+            "id": 4394
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Engineers_SOV",
+            "units": [
+                "Descriptor_Unit_Engineers_SOV"
+            ],
+            "id": 4395
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Engineers_Scout_SOV",
+            "units": [
+                "Descriptor_Unit_Engineers_Scout_SOV"
+            ],
+            "id": 4396
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_FireSupport_SOV",
+            "units": [
+                "Descriptor_Unit_FireSupport_SOV"
+            ],
+            "id": 4397
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Grenzer_DDR",
+            "units": [
+                "Descriptor_Unit_Grenzer_DDR"
+            ],
+            "id": 4398
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_HMGteam_AGS17_SOV",
+            "units": [
+                "Descriptor_Unit_HMGteam_AGS17_SOV"
+            ],
+            "id": 4399
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_HMGteam_PKM_SOV",
+            "units": [
+                "Descriptor_Unit_HMGteam_PKM_SOV"
+            ],
+            "id": 4400
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Howz_D20_152mm_SOV",
+            "units": [
+                "Descriptor_Unit_Howz_D20_152mm_SOV"
+            ],
+            "id": 4401
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Howz_D30_122mm_SOV",
+            "units": [
+                "Descriptor_Unit_Howz_D30_122mm_SOV"
+            ],
+            "id": 4402
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_HvyScout_SOV",
+            "units": [
+                "Descriptor_Unit_HvyScout_SOV"
+            ],
+            "id": 4403
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MANPAD_Igla_SOV",
+            "units": [
+                "Descriptor_Unit_MANPAD_Igla_SOV"
+            ],
+            "id": 4404
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MTLB_CMD_SOV",
+            "units": [
+                "Descriptor_Unit_MTLB_CMD_SOV"
+            ],
+            "id": 4405
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MTLB_Shturm_SOV",
+            "units": [
+                "Descriptor_Unit_MTLB_Shturm_SOV"
+            ],
+            "id": 4406
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MTLB_Strela10_SOV",
+            "units": [
+                "Descriptor_Unit_MTLB_Strela10_SOV"
+            ],
+            "id": 4407
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MTLB_Vasilek_SOV",
+            "units": [
+                "Descriptor_Unit_MTLB_Vasilek_SOV"
+            ],
+            "id": 4408
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MTLB_supply_SOV",
+            "units": [
+                "Descriptor_Unit_MTLB_supply_SOV"
+            ],
+            "id": 4409
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MiG_23MF_DDR",
+            "units": [
+                "Descriptor_Unit_MiG_23MF_DDR"
+            ],
+            "id": 4410
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MiG_23P_SOV",
+            "units": [
+                "Descriptor_Unit_MiG_23P_SOV"
+            ],
+            "id": 4411
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MiG_27K_LGB_SOV",
+            "units": [
+                "Descriptor_Unit_MiG_27K_LGB_SOV"
+            ],
+            "id": 4412
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_24K_reco_SOV",
+            "units": [
+                "Descriptor_Unit_Mi_24K_reco_SOV"
+            ],
+            "id": 4413
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_24VP_SOV",
+            "units": [
+                "Descriptor_Unit_Mi_24VP_SOV"
+            ],
+            "id": 4414
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_24V_AA_SOV",
+            "units": [
+                "Descriptor_Unit_Mi_24V_AA_SOV"
+            ],
+            "id": 4415
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_24V_AT_SOV",
+            "units": [
+                "Descriptor_Unit_Mi_24V_AT_SOV"
+            ],
+            "id": 4416
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_24V_RKT_SOV",
+            "units": [
+                "Descriptor_Unit_Mi_24V_RKT_SOV"
+            ],
+            "id": 4417
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_2_reco_SOV",
+            "units": [
+                "Descriptor_Unit_Mi_2_reco_SOV"
+            ],
+            "id": 4418
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_8K_CMD_SOV",
+            "units": [
+                "Descriptor_Unit_Mi_8K_CMD_SOV"
+            ],
+            "id": 4419
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_8R_SOV",
+            "units": [
+                "Descriptor_Unit_Mi_8R_SOV"
+            ],
+            "id": 4420
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_8TV_s57_16_SOV",
+            "units": [
+                "Descriptor_Unit_Mi_8TV_s57_16_SOV"
+            ],
+            "id": 4421
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_8TV_s57_32_SOV",
+            "units": [
+                "Descriptor_Unit_Mi_8TV_s57_32_SOV"
+            ],
+            "id": 4422
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_8TV_s80_SOV",
+            "units": [
+                "Descriptor_Unit_Mi_8TV_s80_SOV"
+            ],
+            "id": 4423
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mi_8TZ_SOV",
+            "units": [
+                "Descriptor_Unit_Mi_8TZ_SOV"
+            ],
+            "id": 4424
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Mortier_2S12_120mm_SOV",
+            "units": [
+                "Descriptor_Unit_Mortier_2S12_120mm_SOV"
+            ],
+            "id": 4425
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MotRifles_BTR_SOV",
+            "units": [
+                "Descriptor_Unit_MotRifles_BTR_SOV"
+            ],
+            "id": 4426
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MotRifles_CMD_SOV",
+            "units": [
+                "Descriptor_Unit_MotRifles_CMD_SOV"
+            ],
+            "id": 4427
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MotRifles_HMG_SOV",
+            "units": [
+                "Descriptor_Unit_MotRifles_HMG_SOV"
+            ],
+            "id": 4428
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MotRifles_Metis_SOV",
+            "units": [
+                "Descriptor_Unit_MotRifles_Metis_SOV"
+            ],
+            "id": 4429
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_MotRifles_SOV",
+            "units": [
+                "Descriptor_Unit_MotRifles_SOV"
+            ],
+            "id": 4430
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Osa_9K33M3_SOV",
+            "units": [
+                "Descriptor_Unit_Osa_9K33M3_SOV"
+            ],
+            "id": 4431
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Scout_SOV",
+            "units": [
+                "Descriptor_Unit_Scout_SOV"
+            ],
+            "id": 4432
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Su_22_DDR",
+            "units": [
+                "Descriptor_Unit_Su_22_DDR"
+            ],
+            "id": 4433
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Su_24M_SOV",
+            "units": [
+                "Descriptor_Unit_Su_24M_SOV"
+            ],
+            "id": 4434
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Su_24M_clu_SOV",
+            "units": [
+                "Descriptor_Unit_Su_24M_clu_SOV"
+            ],
+            "id": 4435
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Su_24M_nplm_SOV",
+            "units": [
+                "Descriptor_Unit_Su_24M_nplm_SOV"
+            ],
+            "id": 4436
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Su_25_SOV",
+            "units": [
+                "Descriptor_Unit_Su_25_SOV"
+            ],
+            "id": 4437
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Su_25_clu_SOV",
+            "units": [
+                "Descriptor_Unit_Su_25_clu_SOV"
+            ],
+            "id": 4438
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Su_25_nplm_SOV",
+            "units": [
+                "Descriptor_Unit_Su_25_nplm_SOV"
+            ],
+            "id": 4439
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Su_25_rkt_SOV",
+            "units": [
+                "Descriptor_Unit_Su_25_rkt_SOV"
+            ],
+            "id": 4440
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Su_27S_SOV",
+            "units": [
+                "Descriptor_Unit_Su_27S_SOV"
+            ],
+            "id": 4441
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_T62M1_SOV",
+            "units": [
+                "Descriptor_Unit_T62M1_SOV"
+            ],
+            "id": 4442
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_T62MV_SOV",
+            "units": [
+                "Descriptor_Unit_T62MV_SOV"
+            ],
+            "id": 4443
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_T62M_CMD_SOV",
+            "units": [
+                "Descriptor_Unit_T62M_CMD_SOV"
+            ],
+            "id": 4444
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_T62M_SOV",
+            "units": [
+                "Descriptor_Unit_T62M_SOV"
+            ],
+            "id": 4445
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_T80BV_CMD_SOV",
+            "units": [
+                "Descriptor_Unit_T80BV_CMD_SOV"
+            ],
+            "id": 4446
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_T80BV_SOV",
+            "units": [
+                "Descriptor_Unit_T80BV_SOV"
+            ],
+            "id": 4447
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_T80B_CMD_SOV",
+            "units": [
+                "Descriptor_Unit_T80B_CMD_SOV"
+            ],
+            "id": 4448
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_T80B_SOV",
+            "units": [
+                "Descriptor_Unit_T80B_SOV"
+            ],
+            "id": 4449
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_TO_55_SOV",
+            "units": [
+                "Descriptor_Unit_TO_55_SOV"
+            ],
+            "id": 6463
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_UAZ_469_AGL_SOV",
+            "units": [
+                "Descriptor_Unit_UAZ_469_AGL_SOV"
+            ],
+            "id": 4450
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_UAZ_469_SPG9_DDR",
+            "units": [
+                "Descriptor_Unit_UAZ_469_SPG9_DDR"
+            ],
+            "id": 4451
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_Ural_4320_SOV",
+            "units": [
+                "Descriptor_Unit_Ural_4320_SOV"
+            ],
+            "id": 4452
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_challenge_ZSU_23_Shilka_SOV",
+            "units": [
+                "Descriptor_Unit_ZSU_23_Shilka_SOV"
+            ],
+            "id": 4453
+        },
+        {
             "name": "Descriptor_Deck_Pack_TOE_SOV_27_Gds_Rifle_multi_2S1_Gvozdika_SOV",
             "units": [
                 "Descriptor_Unit_2S1_Gvozdika_SOV"
@@ -8345,6 +8877,13 @@
             "id": 1114
         },
         {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_BMD_1K_CMD_SOV",
+            "units": [
+                "Descriptor_Unit_BMD_1K_CMD_SOV"
+            ],
+            "id": 6843
+        },
+        {
             "name": "Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_BMD_1_CMD_SOV",
             "units": [
                 "Descriptor_Unit_BMD_1_CMD_SOV"
@@ -8357,6 +8896,13 @@
                 "Descriptor_Unit_BMD_1_Reostat_SOV"
             ],
             "id": 2310
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_BMD_2_CMD_SOV",
+            "units": [
+                "Descriptor_Unit_BMD_2_CMD_SOV"
+            ],
+            "id": 6844
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_SOV_35_AirAslt_Brig_multi_BRDM_2_CMD_SOV",
@@ -10214,6 +10760,13 @@
             "id": 758
         },
         {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_MotRifles_RPG22_SOV",
+            "units": [
+                "Descriptor_Unit_MotRifles_RPG22_SOV"
+            ],
+            "id": 6842
+        },
+        {
             "name": "Descriptor_Deck_Pack_TOE_SOV_39_Gds_Rifle_multi_MotRifles_SOV",
             "units": [
                 "Descriptor_Unit_MotRifles_SOV"
@@ -10380,6 +10933,188 @@
                 "Descriptor_Unit_ZSU_23_Shilka_SOV"
             ],
             "id": 777
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_2S1_Gvozdika_SOV",
+            "units": [
+                "Descriptor_Unit_2S1_Gvozdika_SOV"
+            ],
+            "id": 6546
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_AT_T12_Rapira_SOV",
+            "units": [
+                "Descriptor_Unit_AT_T12_Rapira_SOV"
+            ],
+            "id": 6547
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_BMP_1_CMD_SOV",
+            "units": [
+                "Descriptor_Unit_BMP_1_CMD_SOV"
+            ],
+            "id": 6548
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_BRDM_2_SOV",
+            "units": [
+                "Descriptor_Unit_BRDM_2_SOV"
+            ],
+            "id": 6549
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_BRDM_Strela_1_SOV",
+            "units": [
+                "Descriptor_Unit_BRDM_Strela_1_SOV"
+            ],
+            "id": 6550
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_Engineers_CMD_SOV",
+            "units": [
+                "Descriptor_Unit_Engineers_CMD_SOV"
+            ],
+            "id": 6551
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_Engineers_Flam_SOV",
+            "units": [
+                "Descriptor_Unit_Engineers_Flam_SOV"
+            ],
+            "id": 6552
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_Engineers_SOV",
+            "units": [
+                "Descriptor_Unit_Engineers_SOV"
+            ],
+            "id": 6553
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_MANPAD_Igla_SOV",
+            "units": [
+                "Descriptor_Unit_MANPAD_Igla_SOV"
+            ],
+            "id": 6554
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_MTLB_Shturm_SOV",
+            "units": [
+                "Descriptor_Unit_MTLB_Shturm_SOV"
+            ],
+            "id": 6555
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_Mi_24V_AT_SOV",
+            "units": [
+                "Descriptor_Unit_Mi_24V_AT_SOV"
+            ],
+            "id": 6556
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_Mi_24V_SOV",
+            "units": [
+                "Descriptor_Unit_Mi_24V_SOV"
+            ],
+            "id": 6557
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_Mi_2_reco_SOV",
+            "units": [
+                "Descriptor_Unit_Mi_2_reco_SOV"
+            ],
+            "id": 6558
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_Mi_8K_CMD_SOV",
+            "units": [
+                "Descriptor_Unit_Mi_8K_CMD_SOV"
+            ],
+            "id": 6559
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_Mi_8TV_SOV",
+            "units": [
+                "Descriptor_Unit_Mi_8TV_SOV"
+            ],
+            "id": 6560
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_Mi_8TV_s80_SOV",
+            "units": [
+                "Descriptor_Unit_Mi_8TV_s80_SOV"
+            ],
+            "id": 6561
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_MotRifles_CMD_SOV",
+            "units": [
+                "Descriptor_Unit_MotRifles_CMD_SOV"
+            ],
+            "id": 6562
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_MotRifles_Metis_SOV",
+            "units": [
+                "Descriptor_Unit_MotRifles_Metis_SOV"
+            ],
+            "id": 6563
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_MotRifles_SOV",
+            "units": [
+                "Descriptor_Unit_MotRifles_SOV"
+            ],
+            "id": 6564
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_T62MV_SOV",
+            "units": [
+                "Descriptor_Unit_T62MV_SOV"
+            ],
+            "id": 6565
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_T80B_CMD_SOV",
+            "units": [
+                "Descriptor_Unit_T80B_CMD_SOV"
+            ],
+            "id": 6566
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_T80B_SOV",
+            "units": [
+                "Descriptor_Unit_T80B_SOV"
+            ],
+            "id": 6567
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_TO_55_SOV",
+            "units": [
+                "Descriptor_Unit_TO_55_SOV"
+            ],
+            "id": 6568
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_UAZ_469_CMD_SOV",
+            "units": [
+                "Descriptor_Unit_UAZ_469_CMD_SOV"
+            ],
+            "id": 6569
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_Ural_4320_SOV",
+            "units": [
+                "Descriptor_Unit_Ural_4320_SOV"
+            ],
+            "id": 6570
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_SOV_57_GMRD_challenge_Sledgehammer_ZSU_23_Shilka_SOV",
+            "units": [
+                "Descriptor_Unit_ZSU_23_Shilka_SOV"
+            ],
+            "id": 6571
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_SOV_79_Gds_Tank_challenge_2K12_KUB_SOV",
@@ -11878,6 +12613,13 @@
                 "Descriptor_Unit_Challenger_1_Mk1_UK"
             ],
             "id": 1449
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_Challenger_1_Mk3_UK",
+            "units": [
+                "Descriptor_Unit_Challenger_1_Mk3_UK"
+            ],
+            "id": 6841
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_UK_1st_Armoured_multi_DCA_Javelin_LML_UK",
@@ -13826,6 +14568,13 @@
             "id": 677
         },
         {
+            "name": "Descriptor_Deck_Pack_TOE_US_11ACR_multi_M3A2_Bradley_CFV_US",
+            "units": [
+                "Descriptor_Unit_M3A2_Bradley_CFV_US"
+            ],
+            "id": 6840
+        },
+        {
             "name": "Descriptor_Deck_Pack_TOE_US_11ACR_multi_M577_US",
             "units": [
                 "Descriptor_Unit_M577_US"
@@ -15581,6 +16330,13 @@
                 "Descriptor_Unit_M2A1_Bradley_Leader_US"
             ],
             "id": 6839
+        },
+        {
+            "name": "Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M2A2_Bradley_Leader_US",
+            "units": [
+                "Descriptor_Unit_M2A2_Bradley_Leader_US"
+            ],
+            "id": 3869
         },
         {
             "name": "Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_M35_supply_US",

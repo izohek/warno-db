@@ -5070,6 +5070,12 @@
         "category": "art"
     },
     {
+        "descriptor": "Descriptor_Unit_BMD_1P_SOV",
+        "id": 1934,
+        "name": "BMD-1P",
+        "category": "trans"
+    },
+    {
         "descriptor": "Descriptor_Unit_Security_DDR",
         "id": 1939,
         "name": "SICHERUNGS",
@@ -5114,7 +5120,7 @@
     {
         "descriptor": "Descriptor_Unit_BMP_2D_SOV",
         "id": 1965,
-        "name": "BPM-2D",
+        "name": "BMP-2D",
         "category": "trans"
     },
     {
@@ -5146,6 +5152,12 @@
         "id": 2001,
         "name": "",
         "category": ""
+    },
+    {
+        "descriptor": "Descriptor_Unit_Challenger_1_Mk3_UK",
+        "id": 2002,
+        "name": "CHALLENGER MK.3",
+        "category": "tank"
     },
     {
         "descriptor": "Descriptor_Unit_2S23_Nona_SVK_SOV",
@@ -5188,6 +5200,12 @@
         "id": 2012,
         "name": "N.G. M2 BRADLEY IFV",
         "category": "trans"
+    },
+    {
+        "descriptor": "Descriptor_Unit_M3A2_Bradley_CFV_US",
+        "id": 2013,
+        "name": "M3A2 BRADLEY CFV",
+        "category": "rec"
     },
     {
         "descriptor": "Descriptor_Unit_MP_CMD_US",
@@ -5410,5 +5428,23 @@
         "id": 2053,
         "name": "MIG-23MLD [AA2]",
         "category": "air"
+    },
+    {
+        "descriptor": "Descriptor_Unit_BMD_1K_CMD_SOV",
+        "id": 2055,
+        "name": "BMD-1K",
+        "category": "log"
+    },
+    {
+        "descriptor": "Descriptor_Unit_BMD_2_CMD_SOV",
+        "id": 2056,
+        "name": "BMD-2K",
+        "category": "log"
+    },
+    {
+        "descriptor": "Descriptor_Unit_MotRifles_RPG22_SOV",
+        "id": 2057,
+        "name": "MOTOSTRELKI (RPG-22)",
+        "category": "inf"
     }
 ]
